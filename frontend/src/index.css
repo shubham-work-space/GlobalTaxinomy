@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Syne", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --color-ink: #07140f;
+  --color-panel: #0d2219;
+  --color-panel-2: #123226;
+  --color-line: #1f4a38;
+  --color-mist: #9eb9ad;
+  --color-foam: #e8f5ef;
+  --color-signal: #c8ff4d;
+  --color-signal-dim: #7aa62e;
+  --color-warn: #ffb454;
+  --color-danger: #ff6b6b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-mono);
+  color: var(--color-foam);
+  background: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.grid-noise {
+  background-image:
+    radial-gradient(ellipse 80% 50% at 20% -10%, rgba(200, 255, 77, 0.12), transparent 55%),
+    radial-gradient(ellipse 60% 40% at 90% 10%, rgba(31, 74, 56, 0.55), transparent 50%),
+    linear-gradient(rgba(200, 255, 77, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(200, 255, 77, 0.03) 1px, transparent 1px);
+  background-size: auto, auto, 48px 48px, 48px 48px;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.progress-fill {
+  background: linear-gradient(90deg, #7aa62e, #c8ff4d, #eaff9a, #c8ff4d);
+  background-size: 200% 100%;
+  animation: shimmer 2.4s linear infinite;
+}

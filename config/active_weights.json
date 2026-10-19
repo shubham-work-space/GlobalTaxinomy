@@ -1,0 +1,12 @@
+{
+  "weights": {
+    "label_max": 0.32,
+    "label_median": 0.12,
+    "description_pool": 0.26,
+    "skills_pool": 0.24,
+    "knowledge_pool": 0.06
+  },
+  "applied_at": "2026-10-05T09:10:21.446851+00:00",
+  "source": "optimizer",
+  "accuracy_at_1": 0.8408
+}

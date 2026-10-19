@@ -1,0 +1,649 @@
+﻿ISCO_version,major,major_label,sub_major,sub_major_label,minor,minor_label,occupation_code,preferred_title
+ISCO-88,1,"Legislators, Senior Officials and Managers",11,Legislators and Senior Officials,111,Legislators,1110,Legislators
+ISCO-08,1,Managers,11,"Chief Executives, Senior Officials and Legislators",111,Legislators and Senior Officials,1111,Legislators
+ISCO-08,1,Managers,11,"Chief Executives, Senior Officials and Legislators",111,Legislators and Senior Officials,1112,Senior Government Officials
+ISCO-08,1,Managers,11,"Chief Executives, Senior Officials and Legislators",111,Legislators and Senior Officials,1113,Traditional Chiefs and Heads of Villages
+ISCO-08,1,Managers,11,"Chief Executives, Senior Officials and Legislators",111,Legislators and Senior Officials,1114,Senior Officials of Special-interest Organizations
+ISCO-08,1,Managers,11,"Chief Executives, Senior Officials and Legislators",112,Managing Directors and Chief Executives,1120,Managing Directors and Chief Executives
+ISCO-88,1,"Legislators, Senior Officials and Managers",11,Legislators and Senior Officials,113,Traditional Chiefs and Heads of Villages,1130,Traditional chiefs and heads of villages
+ISCO-88,1,"Legislators, Senior Officials and Managers",11,Legislators and Senior Officials,114,Senior Officials of Special-Interest Organisations,1141,Senior officials of political-party organisations
+ISCO-88,1,"Legislators, Senior Officials and Managers",11,Legislators and Senior Officials,114,Senior Officials of Special-Interest Organisations,1142,"Senior officials of employers', workers' and other economic-interest organisations"
+ISCO-88,1,"Legislators, Senior Officials and Managers",11,Legislators and Senior Officials,114,Senior Officials of Special-Interest Organisations,1143,Senior officials of humanitarian and other special-interest organisations
+ISCO-88,1,"Legislators, Senior Officials and Managers",12,Corporate Managers,121,Directors and Chief Executives,1210,Directors and chief executives
+ISCO-08,1,Managers,12,Administrative and Commercial Managers,121,Business Services and Administration Managers,1211,Finance Managers
+ISCO-08,1,Managers,12,Administrative and Commercial Managers,121,Business Services and Administration Managers,1212,Human Resource Managers
+ISCO-08,1,Managers,12,Administrative and Commercial Managers,121,Business Services and Administration Managers,1213,Policy and Planning Managers
+ISCO-08,1,Managers,12,Administrative and Commercial Managers,121,Business Services and Administration Managers,1219,Business Services and Administration Managers Not Elsewhere Classified
+ISCO-08,1,Managers,12,Administrative and Commercial Managers,122,"Sales, Marketing and Development Managers",1221,Sales and Marketing Managers
+ISCO-08,1,Managers,12,Administrative and Commercial Managers,122,"Sales, Marketing and Development Managers",1222,Advertising and Public Relations Managers
+ISCO-08,1,Managers,12,Administrative and Commercial Managers,122,"Sales, Marketing and Development Managers",1223,Research and Development Managers
+ISCO-88,1,"Legislators, Senior Officials and Managers",12,Corporate Managers,122,Production and Operations Department Managers,1224,Production and operations department managers in wholesale and retail trade
+ISCO-88,1,"Legislators, Senior Officials and Managers",12,Corporate Managers,122,Production and Operations Department Managers,1225,Production and operations department managers in restaurants and hotels
+ISCO-88,1,"Legislators, Senior Officials and Managers",12,Corporate Managers,122,Production and Operations Department Managers,1226,"Production and operations department managers in transport, storage and communications"
+ISCO-88,1,"Legislators, Senior Officials and Managers",12,Corporate Managers,122,Production and Operations Department Managers,1227,Production and operations department managers in business services
+ISCO-88,1,"Legislators, Senior Officials and Managers",12,Corporate Managers,122,Production and Operations Department Managers,1228,"Production and operations department managers in personal care, cleaning and related services"
+ISCO-88,1,"Legislators, Senior Officials and Managers",12,Corporate Managers,122,Production and Operations Department Managers,1229,Production and operations department managers not elsewhere classified
+ISCO-88,1,"Legislators, Senior Officials and Managers",12,Corporate Managers,123,Other Department Managers,1231,Finance and administration department managers
+ISCO-88,1,"Legislators, Senior Officials and Managers",12,Corporate Managers,123,Other Department Managers,1232,Personnel and industrial relations department managers
+ISCO-88,1,"Legislators, Senior Officials and Managers",12,Corporate Managers,123,Other Department Managers,1233,Sales and marketing department managers
+ISCO-88,1,"Legislators, Senior Officials and Managers",12,Corporate Managers,123,Other Department Managers,1234,Advertising and public relations department managers
+ISCO-88,1,"Legislators, Senior Officials and Managers",12,Corporate Managers,123,Other Department Managers,1235,Supply and distribution department managers
+ISCO-88,1,"Legislators, Senior Officials and Managers",12,Corporate Managers,123,Other Department Managers,1236,Computing services department managers
+ISCO-88,1,"Legislators, Senior Officials and Managers",12,Corporate Managers,123,Other Department Managers,1237,Research and development department managers
+ISCO-88,1,"Legislators, Senior Officials and Managers",12,Corporate Managers,123,Other Department Managers,1239,Other department managers not elsewhere classified
+ISCO-08,1,Managers,13,Production and Specialized Services Managers,131,"Production Managers in Agriculture, Forestry and Fisheries",1311,Agricultural and Forestry Production Managers
+ISCO-08,1,Managers,13,Production and Specialized Services Managers,131,"Production Managers in Agriculture, Forestry and Fisheries",1312,Aquaculture and Fisheries Production Managers
+ISCO-88,1,"Legislators, Senior Officials and Managers",13,General Managers,131,General Managers,1313,General managers in construction
+ISCO-88,1,"Legislators, Senior Officials and Managers",13,General Managers,131,General Managers,1314,General managers in wholesale and retail trade
+ISCO-88,1,"Legislators, Senior Officials and Managers",13,General Managers,131,General Managers,1315,General managers of restaurants and hotels
+ISCO-88,1,"Legislators, Senior Officials and Managers",13,General Managers,131,General Managers,1316,"General managers in transport, storage and communications"
+ISCO-88,1,"Legislators, Senior Officials and Managers",13,General Managers,131,General Managers,1317,General managers of business services
+ISCO-88,1,"Legislators, Senior Officials and Managers",13,General Managers,131,General Managers,1318,"General managers in personal care, cleaning and related services"
+ISCO-88,1,"Legislators, Senior Officials and Managers",13,General Managers,131,General Managers,1319,General managers not elsewhere classified
+ISCO-08,1,Managers,13,Production and Specialized Services Managers,132,"Manufacturing, Mining, Construction and Distribution Managers",1321,Manufacturing Managers
+ISCO-08,1,Managers,13,Production and Specialized Services Managers,132,"Manufacturing, Mining, Construction and Distribution Managers",1322,Mining Managers
+ISCO-08,1,Managers,13,Production and Specialized Services Managers,132,"Manufacturing, Mining, Construction and Distribution Managers",1323,Construction Managers
+ISCO-08,1,Managers,13,Production and Specialized Services Managers,132,"Manufacturing, Mining, Construction and Distribution Managers",1324,"Supply, Distribution and Related Managers"
+ISCO-08,1,Managers,13,Production and Specialized Services Managers,133,Information and Communications Technology Services Managers,1330,Information and Communications Technology Services Managers
+ISCO-08,1,Managers,13,Production and Specialized Services Managers,134,Professional Services Managers,1341,Child Care Services Managers
+ISCO-08,1,Managers,13,Production and Specialized Services Managers,134,Professional Services Managers,1342,Health Services Managers
+ISCO-08,1,Managers,13,Production and Specialized Services Managers,134,Professional Services Managers,1343,Aged Care Services Managers
+ISCO-08,1,Managers,13,Production and Specialized Services Managers,134,Professional Services Managers,1344,Social Welfare Managers
+ISCO-08,1,Managers,13,Production and Specialized Services Managers,134,Professional Services Managers,1345,Education Managers
+ISCO-08,1,Managers,13,Production and Specialized Services Managers,134,Professional Services Managers,1346,Financial and Insurance Services Branch Managers
+ISCO-08,1,Managers,13,Production and Specialized Services Managers,134,Professional Services Managers,1349,Professional Services Managers Not Elsewhere Classified
+ISCO-08,1,Managers,14,"Hospitality, Retail and Other Services Managers",141,Hotel and Restaurant Managers,1411,Hotel Managers
+ISCO-08,1,Managers,14,"Hospitality, Retail and Other Services Managers",141,Hotel and Restaurant Managers,1412,Restaurant Managers
+ISCO-08,1,Managers,14,"Hospitality, Retail and Other Services Managers",142,Retail and Wholesale Trade Managers,1420,Retail and Wholesale Trade Managers
+ISCO-08,1,Managers,14,"Hospitality, Retail and Other Services Managers",143,Other Services Managers,1431,"Sports, Recreation and Cultural Centre Managers"
+ISCO-08,1,Managers,14,"Hospitality, Retail and Other Services Managers",143,Other Services Managers,1439,Services Managers Not Elsewhere Classified
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,211,Physical and Earth Science Professionals,2111,Physicists and Astronomers
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,211,Physical and Earth Science Professionals,2112,Meteorologists
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,211,Physical and Earth Science Professionals,2113,Chemists
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,211,Physical and Earth Science Professionals,2114,Geologists and Geophysicists
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,212,"Mathematicians, Actuaries and Statisticians",2120,"Mathematicians, Actuaries and Statisticians"
+ISCO-88,2,Professionals,21,"Physical, Mathematical and Engineering Science Professionals",212,"Mathematicians, Statisticians and Related Professionals",2121,Mathematicians and related professionals
+ISCO-88,2,Professionals,21,"Physical, Mathematical and Engineering Science Professionals",212,"Mathematicians, Statisticians and Related Professionals",2122,Statisticians
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,213,Life Science Professionals,2131,"Biologists, Botanists, Zoologists and Related Professionals"
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,213,Life Science Professionals,2132,"Farming, Forestry and Fisheries Advisers"
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,213,Life Science Professionals,2133,Environmental Protection Professionals
+ISCO-88,2,Professionals,21,"Physical, Mathematical and Engineering Science Professionals",213,Computing Professionals,2139,Computing professionals not elsewhere classified
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,214,Engineering Professionals (excluding Electrotechnology),2141,Industrial and Production Engineers
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,214,Engineering Professionals (excluding Electrotechnology),2142,Civil Engineers
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,214,Engineering Professionals (excluding Electrotechnology),2143,Environmental Engineers
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,214,Engineering Professionals (excluding Electrotechnology),2144,Mechanical Engineers
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,214,Engineering Professionals (excluding Electrotechnology),2145,Chemical Engineers
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,214,Engineering Professionals (excluding Electrotechnology),2146,"Mining Engineers, Metallurgists and Related Professionals"
+ISCO-88,2,Professionals,21,"Physical, Mathematical and Engineering Science Professionals",214,"Architects, Engineers and Related Professionals",2147,"Mining engineers, metallurgists and related professionals"
+ISCO-88,2,Professionals,21,"Physical, Mathematical and Engineering Science Professionals",214,"Architects, Engineers and Related Professionals",2148,Cartographers and surveyors
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,214,Engineering Professionals (excluding Electrotechnology),2149,Engineering Professionals Not Elsewhere Classified
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,215,Electrotechnology Engineers,2151,Electrical Engineers
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,215,Electrotechnology Engineers,2152,Electronics Engineers
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,215,Electrotechnology Engineers,2153,Telecommunications Engineers
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,216,"Architects, Planners, Surveyors and Designers",2161,Building Architects
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,216,"Architects, Planners, Surveyors and Designers",2162,Landscape Architects
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,216,"Architects, Planners, Surveyors and Designers",2163,Product and Garment Designers
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,216,"Architects, Planners, Surveyors and Designers",2164,Town and Traffic Planners
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,216,"Architects, Planners, Surveyors and Designers",2165,Cartographers and Surveyors
+ISCO-08,2,Professionals,21,Science and Engineering Professionals,216,"Architects, Planners, Surveyors and Designers",2166,Graphic and Multimedia Designers
+ISCO-08,2,Professionals,22,Health Professionals,221,Medical Doctors,2211,Generalist Medical Practitioners
+ISCO-08,2,Professionals,22,Health Professionals,221,Medical Doctors,2212,Specialist Medical Practitioners
+ISCO-88,2,Professionals,22,Life Science and Health Professionals,221,Life Science Professionals,2213,Agronomists and related professionals
+ISCO-08,2,Professionals,22,Health Professionals,222,Nursing and Midwifery Professionals,2221,Nursing Professionals
+ISCO-08,2,Professionals,22,Health Professionals,222,Nursing and Midwifery Professionals,2222,Midwifery Professionals
+ISCO-88,2,Professionals,22,Life Science and Health Professionals,222,Health Professionals (Except Nursing),2223,Veterinarians
+ISCO-88,2,Professionals,22,Life Science and Health Professionals,222,Health Professionals (Except Nursing),2224,Pharmacists
+ISCO-88,2,Professionals,22,Life Science and Health Professionals,222,Health Professionals (Except Nursing),2229,Health professionals (except nursing) not elsewhere classified
+ISCO-08,2,Professionals,22,Health Professionals,223,Traditional and Complementary Medicine Professionals,2230,Traditional and Complementary Medicine Professionals
+ISCO-08,2,Professionals,22,Health Professionals,224,Paramedical Practitioners,2240,Paramedical Practitioners
+ISCO-08,2,Professionals,22,Health Professionals,225,Veterinarians,2250,Veterinarians
+ISCO-08,2,Professionals,22,Health Professionals,226,Other Health Professionals,2261,Dentists
+ISCO-08,2,Professionals,22,Health Professionals,226,Other Health Professionals,2262,Pharmacists
+ISCO-08,2,Professionals,22,Health Professionals,226,Other Health Professionals,2263,Environmental and Occupational Health and Hygiene Professionals
+ISCO-08,2,Professionals,22,Health Professionals,226,Other Health Professionals,2264,Physiotherapists
+ISCO-08,2,Professionals,22,Health Professionals,226,Other Health Professionals,2265,Dieticians and Nutritionists
+ISCO-08,2,Professionals,22,Health Professionals,226,Other Health Professionals,2266,Audiologists and Speech Therapists
+ISCO-08,2,Professionals,22,Health Professionals,226,Other Health Professionals,2267,Optometrists and Ophthalmic Opticians
+ISCO-08,2,Professionals,22,Health Professionals,226,Other Health Professionals,2269,Health Professionals Not Elsewhere Classified
+ISCO-08,2,Professionals,23,Teaching Professionals,231,University and Higher Education Teachers,2310,University and Higher Education Teachers
+ISCO-08,2,Professionals,23,Teaching Professionals,232,Vocational Education Teachers,2320,Vocational Education Teachers
+ISCO-08,2,Professionals,23,Teaching Professionals,233,Secondary Education Teachers,2330,Secondary Education Teachers
+ISCO-88,2,Professionals,23,Teaching Professionals,233,Primary and Pre-Primary Education Teaching Professionals,2331,Primary education teaching professionals
+ISCO-88,2,Professionals,23,Teaching Professionals,233,Primary and Pre-Primary Education Teaching Professionals,2332,Pre-primary education teaching professionals
+ISCO-88,2,Professionals,23,Teaching Professionals,234,Special Education Teaching Professionals,2340,Special education teaching professionals
+ISCO-08,2,Professionals,23,Teaching Professionals,234,Primary School and Early Childhood Teachers,2341,Primary School Teachers
+ISCO-08,2,Professionals,23,Teaching Professionals,234,Primary School and Early Childhood Teachers,2342,Early Childhood Educators
+ISCO-08,2,Professionals,23,Teaching Professionals,235,Other Teaching Professionals,2351,Education Methods specialists
+ISCO-08,2,Professionals,23,Teaching Professionals,235,Other Teaching Professionals,2352,Special Needs Teachers
+ISCO-08,2,Professionals,23,Teaching Professionals,235,Other Teaching Professionals,2353,Other Language Teachers
+ISCO-08,2,Professionals,23,Teaching Professionals,235,Other Teaching Professionals,2354,Other Music Teachers
+ISCO-08,2,Professionals,23,Teaching Professionals,235,Other Teaching Professionals,2355,Other Arts Teachers
+ISCO-08,2,Professionals,23,Teaching Professionals,235,Other Teaching Professionals,2356,Information Technology Trainers
+ISCO-08,2,Professionals,23,Teaching Professionals,235,Other Teaching Professionals,2359,Teaching Professionals Not Elsewhere Classified
+ISCO-08,2,Professionals,24,Business and Administration Professionals,241,Finance Professionals,2411,Accountants
+ISCO-08,2,Professionals,24,Business and Administration Professionals,241,Finance Professionals,2412,Financial and Investment Advisers
+ISCO-08,2,Professionals,24,Business and Administration Professionals,241,Finance Professionals,2413,Financial Analysts
+ISCO-88,2,Professionals,24,Other Professionals,241,Business Professionals,2419,Business professionals not elsewhere classified
+ISCO-08,2,Professionals,24,Business and Administration Professionals,242,Administration Professionals,2421,Management and Organization Analysts
+ISCO-08,2,Professionals,24,Business and Administration Professionals,242,Administration Professionals,2422,Policy Administration Professionals
+ISCO-08,2,Professionals,24,Business and Administration Professionals,242,Administration Professionals,2423,Personnel and Careers Professionals
+ISCO-08,2,Professionals,24,Business and Administration Professionals,242,Administration Professionals,2424,Training and Staff Development Professionals
+ISCO-88,2,Professionals,24,Other Professionals,242,Legal Professionals,2429,Legal professionals not elsewhere classified
+ISCO-08,2,Professionals,24,Business and Administration Professionals,243,"Sales, Marketing and Public Relations Professionals",2431,Advertising and Marketing Professionals
+ISCO-08,2,Professionals,24,Business and Administration Professionals,243,"Sales, Marketing and Public Relations Professionals",2432,Public Relations Professionals
+ISCO-08,2,Professionals,24,Business and Administration Professionals,243,"Sales, Marketing and Public Relations Professionals",2433,Technical and Medical Sales Professionals (excluding ICT)
+ISCO-08,2,Professionals,24,Business and Administration Professionals,243,"Sales, Marketing and Public Relations Professionals",2434,Information and Communications Technology Sales Professionals
+ISCO-88,2,Professionals,24,Other Professionals,244,Social Science and Related Professionals,2441,Economists
+ISCO-88,2,Professionals,24,Other Professionals,244,Social Science and Related Professionals,2442,"Sociologists, anthropologists and related professionals"
+ISCO-88,2,Professionals,24,Other Professionals,244,Social Science and Related Professionals,2443,"Philosophers, historians and political scientists"
+ISCO-88,2,Professionals,24,Other Professionals,244,Social Science and Related Professionals,2444,"Philologists, translators and interpreters"
+ISCO-88,2,Professionals,24,Other Professionals,244,Social Science and Related Professionals,2445,Psychologists
+ISCO-88,2,Professionals,24,Other Professionals,244,Social Science and Related Professionals,2446,Social work professionals
+ISCO-88,2,Professionals,24,Other Professionals,245,Writers and Creative or Performing Artists,2451,"Authors, journalists and other writers"
+ISCO-88,2,Professionals,24,Other Professionals,245,Writers and Creative or Performing Artists,2452,"Sculptors, painters and related artists"
+ISCO-88,2,Professionals,24,Other Professionals,245,Writers and Creative or Performing Artists,2453,"Composers, musicians and singers"
+ISCO-88,2,Professionals,24,Other Professionals,245,Writers and Creative or Performing Artists,2454,Choreographers and dancers
+ISCO-88,2,Professionals,24,Other Professionals,245,Writers and Creative or Performing Artists,2455,"Film, stage and related actors and directors"
+ISCO-88,2,Professionals,24,Other Professionals,246,Religious Professionals,2460,Religious professionals
+ISCO-08,2,Professionals,25,Information and Communications Technology Professionals,251,Software and Applications Developers and Analysts,2511,Systems Analysts
+ISCO-08,2,Professionals,25,Information and Communications Technology Professionals,251,Software and Applications Developers and Analysts,2512,Software Developers
+ISCO-08,2,Professionals,25,Information and Communications Technology Professionals,251,Software and Applications Developers and Analysts,2513,Web and Multimedia Developers
+ISCO-08,2,Professionals,25,Information and Communications Technology Professionals,251,Software and Applications Developers and Analysts,2514,Applications Programmers
+ISCO-08,2,Professionals,25,Information and Communications Technology Professionals,251,Software and Applications Developers and Analysts,2519,Software and Applications Developers and Analysts Not Elsewhere Classified
+ISCO-08,2,Professionals,25,Information and Communications Technology Professionals,252,Database and Network Professionals,2521,Database Designers and Administrators
+ISCO-08,2,Professionals,25,Information and Communications Technology Professionals,252,Database and Network Professionals,2522,Systems Administrators
+ISCO-08,2,Professionals,25,Information and Communications Technology Professionals,252,Database and Network Professionals,2523,Computer Network Professionals
+ISCO-08,2,Professionals,25,Information and Communications Technology Professionals,252,Database and Network Professionals,2529,Database and Network Professionals Not Elsewhere Classified
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",261,Legal Professionals,2611,Lawyers
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",261,Legal Professionals,2612,Judges
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",261,Legal Professionals,2619,Legal Professionals Not Elsewhere Classified
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",262,"Librarians, Archivists and Curators",2621,Archivists and Curators
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",262,"Librarians, Archivists and Curators",2622,Librarians and Related Information Professionals
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",263,Social and Religious Professionals,2631,Economists
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",263,Social and Religious Professionals,2632,"Sociologists, Anthropologists and Related Professionals"
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",263,Social and Religious Professionals,2633,"Philosophers, Historians and Political Scientists"
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",263,Social and Religious Professionals,2634,Psychologists
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",263,Social and Religious Professionals,2635,Social Work and Counselling Professionals
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",263,Social and Religious Professionals,2636,Religious Professionals
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",264,"Authors, Journalists and Linguists",2641,Authors and Related Writers
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",264,"Authors, Journalists and Linguists",2642,Journalists
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",264,"Authors, Journalists and Linguists",2643,"Translators, Interpreters and Other Linguists"
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",265,Creative and Performing Artists,2651,Visual Artists
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",265,Creative and Performing Artists,2652,"Musicians, Singers and Composers"
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",265,Creative and Performing Artists,2653,Dancers and Choreographers
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",265,Creative and Performing Artists,2654,"Film, Stage and Related Directors and Producers"
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",265,Creative and Performing Artists,2655,Actors
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",265,Creative and Performing Artists,2656,"Announcers on Radio, Television and Other Media"
+ISCO-08,2,Professionals,26,"Legal, Social and Cultural Professionals",265,Creative and Performing Artists,2659,Creative and Performing Artists Not Elsewhere Classified
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,311,Physical and Engineering Science Technicians,3111,Chemical and Physical Science Technicians
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,311,Physical and Engineering Science Technicians,3112,Civil Engineering Technicians
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,311,Physical and Engineering Science Technicians,3113,Electrical Engineering Technicians
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,311,Physical and Engineering Science Technicians,3114,Electronics Engineering Technicians
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,311,Physical and Engineering Science Technicians,3115,Mechanical Engineering Technicians
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,311,Physical and Engineering Science Technicians,3116,Chemical Engineering Technicians
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,311,Physical and Engineering Science Technicians,3117,Mining and Metallurgical Technicians
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,311,Physical and Engineering Science Technicians,3118,Draughtspersons
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,311,Physical and Engineering Science Technicians,3119,Physical and Engineering Science Technicians Not Elsewhere Classified
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,312,"Mining, Manufacturing and Construction Supervisors",3121,Mining Supervisors
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,312,"Mining, Manufacturing and Construction Supervisors",3122,Manufacturing Supervisors
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,312,"Mining, Manufacturing and Construction Supervisors",3123,Construction Supervisors
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,313,Process Control Technicians,3131,Power Production Plant Operators
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,313,Process Control Technicians,3132,Incinerator and Water Treatment Plant Operators
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,313,Process Control Technicians,3133,Chemical Processing Plant Controllers
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,313,Process Control Technicians,3134,Petroleum and Natural Gas Refining Plant Operators
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,313,Process Control Technicians,3135,Metal Production Process Controllers
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,313,Process Control Technicians,3139,Process Control Technicians Not Elsewhere Classified
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,314,Life Science Technicians and Related Associate Professionals,3141,Life Science Technicians (excluding Medical)
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,314,Life Science Technicians and Related Associate Professionals,3142,Agricultural Technicians
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,314,Life Science Technicians and Related Associate Professionals,3143,Forestry Technicians
+ISCO-88,3,Technicians and Associate Professionals,31,Physical and Engineering Science Associate Professionals,314,Ship and Aircraft Controllers and Technicians,3144,Air traffic controllers
+ISCO-88,3,Technicians and Associate Professionals,31,Physical and Engineering Science Associate Professionals,314,Ship and Aircraft Controllers and Technicians,3145,Air traffic safety technicians
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,315,Ship and Aircraft Controllers and Technicians,3151,Ships’ Engineers
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,315,Ship and Aircraft Controllers and Technicians,3152,Ships’ Deck Officers and Pilots
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,315,Ship and Aircraft Controllers and Technicians,3153,Aircraft Pilots and Related Associate Professionals
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,315,Ship and Aircraft Controllers and Technicians,3154,Air Traffic Controllers
+ISCO-08,3,Technicians and Associate Professionals,31,Science and Engineering Associate Professionals,315,Ship and Aircraft Controllers and Technicians,3155,Air Traffic Safety Electronics Technicians
+ISCO-08,3,Technicians and Associate Professionals,32,Health Associate Professionals,321,Medical and Pharmaceutical Technicians,3211,Medical Imaging and Therapeutic Equipment Technicians
+ISCO-08,3,Technicians and Associate Professionals,32,Health Associate Professionals,321,Medical and Pharmaceutical Technicians,3212,Medical and Pathology Laboratory Technicians
+ISCO-08,3,Technicians and Associate Professionals,32,Health Associate Professionals,321,Medical and Pharmaceutical Technicians,3213,Pharmaceutical Technicians and Assistants
+ISCO-08,3,Technicians and Associate Professionals,32,Health Associate Professionals,321,Medical and Pharmaceutical Technicians,3214,Medical and Dental Prosthetic Technicians
+ISCO-08,3,Technicians and Associate Professionals,32,Health Associate Professionals,322,Nursing and Midwifery Associate Professionals,3221,Nursing Associate Professionals
+ISCO-08,3,Technicians and Associate Professionals,32,Health Associate Professionals,322,Nursing and Midwifery Associate Professionals,3222,Midwifery Associate Professionals
+ISCO-88,3,Technicians and Associate Professionals,32,Life Science and Health Associate Professionals,322,Modern Health Associate Professionals (Except Nursing),3223,Dieticians and nutritionists
+ISCO-88,3,Technicians and Associate Professionals,32,Life Science and Health Associate Professionals,322,Modern Health Associate Professionals (Except Nursing),3224,Optometrists and opticians
+ISCO-88,3,Technicians and Associate Professionals,32,Life Science and Health Associate Professionals,322,Modern Health Associate Professionals (Except Nursing),3225,Dental assistants
+ISCO-88,3,Technicians and Associate Professionals,32,Life Science and Health Associate Professionals,322,Modern Health Associate Professionals (Except Nursing),3226,Physiotherapists and related associate professionals
+ISCO-88,3,Technicians and Associate Professionals,32,Life Science and Health Associate Professionals,322,Modern Health Associate Professionals (Except Nursing),3227,Veterinary assistants
+ISCO-88,3,Technicians and Associate Professionals,32,Life Science and Health Associate Professionals,322,Modern Health Associate Professionals (Except Nursing),3228,Pharmaceutical assistants
+ISCO-88,3,Technicians and Associate Professionals,32,Life Science and Health Associate Professionals,322,Modern Health Associate Professionals (Except Nursing),3229,Modern health associate professionals (except nursing) not elsewhere classified
+ISCO-08,3,Technicians and Associate Professionals,32,Health Associate Professionals,323,Traditional and Complementary Medicine Associate Professionals,3230,Traditional and Complementary Medicine Associate Professionals
+ISCO-88,3,Technicians and Associate Professionals,32,Life Science and Health Associate Professionals,323,Nursing and Midwifery Associate Professionals,3231,Nursing associate professionals
+ISCO-88,3,Technicians and Associate Professionals,32,Life Science and Health Associate Professionals,323,Nursing and Midwifery Associate Professionals,3232,Midwifery associate professionals
+ISCO-08,3,Technicians and Associate Professionals,32,Health Associate Professionals,324,Veterinary Technicians and Assistants,3240,Veterinary Technicians and Assistants
+ISCO-88,3,Technicians and Associate Professionals,32,Life Science and Health Associate Professionals,324,Traditional Medicine Practitioners and Faith Healers,3241,Traditional medicine practitioners
+ISCO-88,3,Technicians and Associate Professionals,32,Life Science and Health Associate Professionals,324,Traditional Medicine Practitioners and Faith Healers,3242,Faith healers
+ISCO-08,3,Technicians and Associate Professionals,32,Health Associate Professionals,325,Other Health Associate Professionals,3251,Dental Assistants and Therapists
+ISCO-08,3,Technicians and Associate Professionals,32,Health Associate Professionals,325,Other Health Associate Professionals,3252,Medical Records and Health Information Technicians
+ISCO-08,3,Technicians and Associate Professionals,32,Health Associate Professionals,325,Other Health Associate Professionals,3253,Community Health Workers
+ISCO-08,3,Technicians and Associate Professionals,32,Health Associate Professionals,325,Other Health Associate Professionals,3254,Dispensing Opticians
+ISCO-08,3,Technicians and Associate Professionals,32,Health Associate Professionals,325,Other Health Associate Professionals,3255,Physiotherapy Technicians and Assistants
+ISCO-08,3,Technicians and Associate Professionals,32,Health Associate Professionals,325,Other Health Associate Professionals,3256,Medical Assistants
+ISCO-08,3,Technicians and Associate Professionals,32,Health Associate Professionals,325,Other Health Associate Professionals,3257,Environmental and Occupational Health Inspectors and Associates
+ISCO-08,3,Technicians and Associate Professionals,32,Health Associate Professionals,325,Other Health Associate Professionals,3258,Ambulance Workers
+ISCO-08,3,Technicians and Associate Professionals,32,Health Associate Professionals,325,Other Health Associate Professionals,3259,Health Associate Professionals Not Elsewhere Classified
+ISCO-88,3,Technicians and Associate Professionals,33,Teaching Associate Professionals,331,Primary Education Teaching Associate Professionals,3310,Primary education teaching associate professionals
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,331,Financial and Mathematical Associate Professionals,3311,Securities and Finance Dealers and Brokers
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,331,Financial and Mathematical Associate Professionals,3312,Credit and Loans Officers
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,331,Financial and Mathematical Associate Professionals,3313,Accounting Associate Professionals
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,331,Financial and Mathematical Associate Professionals,3314,"Statistical, Mathematical and Related Associate Professionals"
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,331,Financial and Mathematical Associate Professionals,3315,Valuers and Loss Assessors
+ISCO-88,3,Technicians and Associate Professionals,33,Teaching Associate Professionals,332,Pre-Primary Education Teaching Associate Professionals,3320,Pre-primary education teaching associate professionals
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,332,Sales and Purchasing Agents and Brokers,3321,Insurance Representatives
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,332,Sales and Purchasing Agents and Brokers,3322,Commercial Sales Representatives
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,332,Sales and Purchasing Agents and Brokers,3323,Buyers
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,332,Sales and Purchasing Agents and Brokers,3324,Trade Brokers
+ISCO-88,3,Technicians and Associate Professionals,33,Teaching Associate Professionals,333,Special Education Teaching Associate Professionals,3330,Special education teaching associate professionals
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,333,Business Services Agents,3331,Clearing and Forwarding Agents
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,333,Business Services Agents,3332,Conference and Event Planners
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,333,Business Services Agents,3333,Employment Agents and Contractors
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,333,Business Services Agents,3334,Real Estate Agents and Property Managers
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,333,Business Services Agents,3339,Business Services Agents Not Elsewhere Classified
+ISCO-88,3,Technicians and Associate Professionals,33,Teaching Associate Professionals,334,Other Teaching Associate Professionals,3340,Other teaching associate professionals
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,334,Administrative and Specialized Secretaries,3341,Office Supervisors
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,334,Administrative and Specialized Secretaries,3342,Legal Secretaries
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,334,Administrative and Specialized Secretaries,3343,Administrative and Executive Secretaries
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,334,Administrative and Specialized Secretaries,3344,Medical Secretaries
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,335,Government Regulatory Associate Professionals,3351,Customs and Border Inspectors
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,335,Government Regulatory Associate Professionals,3352,Government Tax and Excise Officials
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,335,Government Regulatory Associate Professionals,3353,Government Social Benefits Officials
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,335,Government Regulatory Associate Professionals,3354,Government Licensing Officials
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,335,Government Regulatory Associate Professionals,3355,Police Inspectors and Detectives
+ISCO-08,3,Technicians and Associate Professionals,33,Business and Administration Associate Professionals,335,Government Regulatory Associate Professionals,3359,Government Regulatory Associate Professionals Not Elsewhere Classified
+ISCO-08,3,Technicians and Associate Professionals,34,"Legal, Social, Cultural and Related Associate Professionals",341,"Legal, Social and Religious Associate Professionals",3411,Legal and Related Associate Professionals
+ISCO-08,3,Technicians and Associate Professionals,34,"Legal, Social, Cultural and Related Associate Professionals",341,"Legal, Social and Religious Associate Professionals",3412,Social Work Associate Professionals
+ISCO-08,3,Technicians and Associate Professionals,34,"Legal, Social, Cultural and Related Associate Professionals",341,"Legal, Social and Religious Associate Professionals",3413,Religious Associate Professionals
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,341,Finance and Sales Associate Professionals,3414,Travel consultants and organisers
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,341,Finance and Sales Associate Professionals,3415,Technical and commercial sales representatives
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,341,Finance and Sales Associate Professionals,3416,Buyers
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,341,Finance and Sales Associate Professionals,3417,"Appraisers, valuers and auctioneers"
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,341,Finance and Sales Associate Professionals,3419,Finance and sales associate professionals not elsewhere classified
+ISCO-08,3,Technicians and Associate Professionals,34,"Legal, Social, Cultural and Related Associate Professionals",342,Sports and Fitness Workers,3421,Athletes and Sports Players
+ISCO-08,3,Technicians and Associate Professionals,34,"Legal, Social, Cultural and Related Associate Professionals",342,Sports and Fitness Workers,3422,"Sports Coaches, Instructors and Officials"
+ISCO-08,3,Technicians and Associate Professionals,34,"Legal, Social, Cultural and Related Associate Professionals",342,Sports and Fitness Workers,3423,Fitness and Recreation Instructors and Programme Leaders
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,342,Business Services Agents and Trade Brokers,3429,Business services agents and trade brokers not elsewhere classified
+ISCO-08,3,Technicians and Associate Professionals,34,"Legal, Social, Cultural and Related Associate Professionals",343,"Artistic, Cultural and Culinary Associate Professionals",3431,Photographers
+ISCO-08,3,Technicians and Associate Professionals,34,"Legal, Social, Cultural and Related Associate Professionals",343,"Artistic, Cultural and Culinary Associate Professionals",3432,Interior Designers and Decorators
+ISCO-08,3,Technicians and Associate Professionals,34,"Legal, Social, Cultural and Related Associate Professionals",343,"Artistic, Cultural and Culinary Associate Professionals",3433,"Gallery, Museum and Library Technicians"
+ISCO-08,3,Technicians and Associate Professionals,34,"Legal, Social, Cultural and Related Associate Professionals",343,"Artistic, Cultural and Culinary Associate Professionals",3434,Chefs
+ISCO-08,3,Technicians and Associate Professionals,34,"Legal, Social, Cultural and Related Associate Professionals",343,"Artistic, Cultural and Culinary Associate Professionals",3435,Other Artistic and Cultural Associate Professionals
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,343,Administrative Associate Professionals,3439,Administrative associate professionals not elsewhere classified
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,344,"Customs, Tax and Related Government Associate Professionals",3441,Customs and border inspectors
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,344,"Customs, Tax and Related Government Associate Professionals",3442,Government tax and excise officials
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,344,"Customs, Tax and Related Government Associate Professionals",3443,Government social benefits officials
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,344,"Customs, Tax and Related Government Associate Professionals",3444,Government licensing officials
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,344,"Customs, Tax and Related Government Associate Professionals",3449,"Customs, tax and related government associate professionals not elsewhere classified"
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,345,Police Inspectors and Detectives,3450,Police inspectors and detectives
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,346,Social Work Associate Professionals,3460,Social work associate professionals
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,347,"Artistic, Entertainment and Sports Associate Professionals",3471,Decorators and commercial designers
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,347,"Artistic, Entertainment and Sports Associate Professionals",3472,"Radio, television and other announcers"
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,347,"Artistic, Entertainment and Sports Associate Professionals",3473,"Street, night-club and related musicians, singers and dancers"
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,347,"Artistic, Entertainment and Sports Associate Professionals",3474,"Clowns, magicians, acrobats and related associate professionals"
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,347,"Artistic, Entertainment and Sports Associate Professionals",3475,"Athletes, sportspersons and related associate professionals"
+ISCO-88,3,Technicians and Associate Professionals,34,Other Associate Professionals,348,Religious Associate Professionals,3480,Religious associate professionals
+ISCO-08,3,Technicians and Associate Professionals,35,Information and Communications Technicians,351,Information and Communications Technology Operations and User Support Technicians,3511,Information and Communications Technology Operations Technicians
+ISCO-08,3,Technicians and Associate Professionals,35,Information and Communications Technicians,351,Information and Communications Technology Operations and User Support Technicians,3512,Information and Communications Technology User Support Technicians
+ISCO-08,3,Technicians and Associate Professionals,35,Information and Communications Technicians,351,Information and Communications Technology Operations and User Support Technicians,3513,Computer Network and Systems Technicians
+ISCO-08,3,Technicians and Associate Professionals,35,Information and Communications Technicians,351,Information and Communications Technology Operations and User Support Technicians,3514,Web Technicians
+ISCO-08,3,Technicians and Associate Professionals,35,Information and Communications Technicians,352,Telecommunications and Broadcasting Technicians,3521,Broadcasting and Audiovisual Technicians
+ISCO-08,3,Technicians and Associate Professionals,35,Information and Communications Technicians,352,Telecommunications and Broadcasting Technicians,3522,Telecommunications Engineering Technicians
+ISCO-08,4,Clerical Support Workers,41,General and Keyboard Clerks,411,General Office Clerks,4110,General Office Clerks
+ISCO-88,4,Clerks,41,Office Clerks,411,Secretaries and Keyboard-Operating Clerks,4111,Stenographers and typists
+ISCO-88,4,Clerks,41,Office Clerks,411,Secretaries and Keyboard-Operating Clerks,4112,Word-processor and related operators
+ISCO-88,4,Clerks,41,Office Clerks,411,Secretaries and Keyboard-Operating Clerks,4113,Data entry operators
+ISCO-88,4,Clerks,41,Office Clerks,411,Secretaries and Keyboard-Operating Clerks,4114,Calculating-machine operators
+ISCO-88,4,Clerks,41,Office Clerks,411,Secretaries and Keyboard-Operating Clerks,4115,Secretaries
+ISCO-08,4,Clerical Support Workers,41,General and Keyboard Clerks,412,Secretaries (general),4120,Secretaries (general)
+ISCO-88,4,Clerks,41,Office Clerks,412,Numerical Clerks,4121,Accounting and bookkeeping clerks
+ISCO-88,4,Clerks,41,Office Clerks,412,Numerical Clerks,4122,Statistical and finance clerks
+ISCO-08,4,Clerical Support Workers,41,General and Keyboard Clerks,413,Keyboard Operators,4131,Typists and Word Processing Operators
+ISCO-08,4,Clerical Support Workers,41,General and Keyboard Clerks,413,Keyboard Operators,4132,Data Entry Clerks
+ISCO-88,4,Clerks,41,Office Clerks,413,Material-Recording and Transport Clerks,4133,Transport clerks
+ISCO-88,4,Clerks,41,Office Clerks,414,"Library, Mail and Related Clerks",4141,Library and filing clerks
+ISCO-88,4,Clerks,41,Office Clerks,414,"Library, Mail and Related Clerks",4142,Mail carriers and sorting clerks
+ISCO-88,4,Clerks,41,Office Clerks,414,"Library, Mail and Related Clerks",4143,"Coding, proof-reading and related clerks"
+ISCO-88,4,Clerks,41,Office Clerks,414,"Library, Mail and Related Clerks",4144,Scribes and related workers
+ISCO-88,4,Clerks,41,Office Clerks,419,Other Office Clerks,4190,Other office clerks
+ISCO-08,4,Clerical Support Workers,42,Customer Services Clerks,421,"Tellers, Money Collectors and Related Clerks",4211,Bank Tellers and Related Clerks
+ISCO-08,4,Clerical Support Workers,42,Customer Services Clerks,421,"Tellers, Money Collectors and Related Clerks",4212,"Bookmakers, Croupiers and Related Gaming Workers"
+ISCO-08,4,Clerical Support Workers,42,Customer Services Clerks,421,"Tellers, Money Collectors and Related Clerks",4213,Pawnbrokers and Money-lenders
+ISCO-08,4,Clerical Support Workers,42,Customer Services Clerks,421,"Tellers, Money Collectors and Related Clerks",4214,Debt Collectors and Related Workers
+ISCO-88,4,Clerks,42,Customer Services Clerks,421,"Cashiers, Tellers and Related Clerks",4215,Debt-collectors and related workers
+ISCO-08,4,Clerical Support Workers,42,Customer Services Clerks,422,Client Information Workers,4221,Travel Consultants and Clerks
+ISCO-08,4,Clerical Support Workers,42,Customer Services Clerks,422,Client Information Workers,4222,Contact Centre Information Clerks
+ISCO-08,4,Clerical Support Workers,42,Customer Services Clerks,422,Client Information Workers,4223,Telephone Switchboard Operators
+ISCO-08,4,Clerical Support Workers,42,Customer Services Clerks,422,Client Information Workers,4224,Hotel Receptionists
+ISCO-08,4,Clerical Support Workers,42,Customer Services Clerks,422,Client Information Workers,4225,Inquiry Clerks
+ISCO-08,4,Clerical Support Workers,42,Customer Services Clerks,422,Client Information Workers,4226,Receptionists (general)
+ISCO-08,4,Clerical Support Workers,42,Customer Services Clerks,422,Client Information Workers,4227,Survey and Market Research Interviewers
+ISCO-08,4,Clerical Support Workers,42,Customer Services Clerks,422,Client Information Workers,4229,Client Information Workers Not Elsewhere Classified
+ISCO-08,4,Clerical Support Workers,43,Numerical and Material Recording Clerks,431,Numerical Clerks,4311,Accounting and Bookkeeping Clerks
+ISCO-08,4,Clerical Support Workers,43,Numerical and Material Recording Clerks,431,Numerical Clerks,4312,"Statistical, Finance and Insurance Clerks"
+ISCO-08,4,Clerical Support Workers,43,Numerical and Material Recording Clerks,431,Numerical Clerks,4313,Payroll Clerks
+ISCO-08,4,Clerical Support Workers,43,Numerical and Material Recording Clerks,432,Material Recording and Transport Clerks,4321,Stock Clerks
+ISCO-08,4,Clerical Support Workers,43,Numerical and Material Recording Clerks,432,Material Recording and Transport Clerks,4322,Production Clerks
+ISCO-08,4,Clerical Support Workers,43,Numerical and Material Recording Clerks,432,Material Recording and Transport Clerks,4323,Transport Clerks
+ISCO-08,4,Clerical Support Workers,44,Other Clerical Support Workers,441,Other Clerical Support Workers,4411,Library Clerks
+ISCO-08,4,Clerical Support Workers,44,Other Clerical Support Workers,441,Other Clerical Support Workers,4412,Mail Carriers and Sorting Clerks
+ISCO-08,4,Clerical Support Workers,44,Other Clerical Support Workers,441,Other Clerical Support Workers,4413,"Coding, Proofreading and Related Clerks"
+ISCO-08,4,Clerical Support Workers,44,Other Clerical Support Workers,441,Other Clerical Support Workers,4414,Scribes and Related Workers
+ISCO-08,4,Clerical Support Workers,44,Other Clerical Support Workers,441,Other Clerical Support Workers,4415,Filing and Copying Clerks
+ISCO-08,4,Clerical Support Workers,44,Other Clerical Support Workers,441,Other Clerical Support Workers,4416,Personnel Clerks
+ISCO-08,4,Clerical Support Workers,44,Other Clerical Support Workers,441,Other Clerical Support Workers,4419,Clerical Support Workers Not Elsewhere Classified
+ISCO-08,5,Services And Sales Workers,51,Personal Services Workers,511,"Travel Attendants, Conductors and Guides",5111,Travel Attendants and Travel Stewards
+ISCO-08,5,Services And Sales Workers,51,Personal Services Workers,511,"Travel Attendants, Conductors and Guides",5112,Transport Conductors
+ISCO-08,5,Services And Sales Workers,51,Personal Services Workers,511,"Travel Attendants, Conductors and Guides",5113,Travel Guides
+ISCO-08,5,Services And Sales Workers,51,Personal Services Workers,512,Cooks,5120,Cooks
+ISCO-88,5,Service Workers and Shop and Market Sales Workers,51,Personal and Protective Services Workers,512,Housekeeping and Restaurant Services Workers,5121,Housekeepers and related workers
+ISCO-88,5,Service Workers and Shop and Market Sales Workers,51,Personal and Protective Services Workers,512,Housekeeping and Restaurant Services Workers,5122,Cooks
+ISCO-88,5,Service Workers and Shop and Market Sales Workers,51,Personal and Protective Services Workers,512,Housekeeping and Restaurant Services Workers,5123,"Waiters, waitresses and bartenders"
+ISCO-08,5,Services And Sales Workers,51,Personal Services Workers,513,Waiters and Bartenders,5131,Waiters
+ISCO-08,5,Services And Sales Workers,51,Personal Services Workers,513,Waiters and Bartenders,5132,Bartenders
+ISCO-88,5,Service Workers and Shop and Market Sales Workers,51,Personal and Protective Services Workers,513,Personal Care and Related Workers,5133,Home-based personal care workers
+ISCO-88,5,Service Workers and Shop and Market Sales Workers,51,Personal and Protective Services Workers,513,Personal Care and Related Workers,5139,Personal care and related workers not elsewhere classified
+ISCO-08,5,Services And Sales Workers,51,Personal Services Workers,514,"Hairdressers, Beauticians and Related Workers",5141,Hairdressers
+ISCO-08,5,Services And Sales Workers,51,Personal Services Workers,514,"Hairdressers, Beauticians and Related Workers",5142,Beauticians and Related Workers
+ISCO-88,5,Service Workers and Shop and Market Sales Workers,51,Personal and Protective Services Workers,514,Other Personal Services Workers,5143,Undertakers and embalmers
+ISCO-88,5,Service Workers and Shop and Market Sales Workers,51,Personal and Protective Services Workers,514,Other Personal Services Workers,5149,Other personal services workers not elsewhere classified
+ISCO-08,5,Services And Sales Workers,51,Personal Services Workers,515,Building and Housekeeping Supervisors,5151,"Cleaning and Housekeeping Supervisors in Offices, Hotels and Other Establishments"
+ISCO-08,5,Services And Sales Workers,51,Personal Services Workers,515,Building and Housekeeping Supervisors,5152,Domestic Housekeepers
+ISCO-08,5,Services And Sales Workers,51,Personal Services Workers,515,Building and Housekeeping Supervisors,5153,Building Caretakers
+ISCO-08,5,Services And Sales Workers,51,Personal Services Workers,516,Other Personal Services Workers,5161,"Astrologers, Fortune-tellers and Related Workers"
+ISCO-08,5,Services And Sales Workers,51,Personal Services Workers,516,Other Personal Services Workers,5162,Companions and Valets
+ISCO-08,5,Services And Sales Workers,51,Personal Services Workers,516,Other Personal Services Workers,5163,Undertakers and Embalmers
+ISCO-08,5,Services And Sales Workers,51,Personal Services Workers,516,Other Personal Services Workers,5164,Pet Groomers and Animal Care Workers
+ISCO-08,5,Services And Sales Workers,51,Personal Services Workers,516,Other Personal Services Workers,5165,Driving Instructors
+ISCO-08,5,Services And Sales Workers,51,Personal Services Workers,516,Other Personal Services Workers,5169,Personal Services Workers Not Elsewhere Classified
+ISCO-88,5,Service Workers and Shop and Market Sales Workers,52,"Models, Salespersons and Demonstrators",521,Fashion and Other Models,5210,Fashion and other models
+ISCO-08,5,Services And Sales Workers,52,Sales Workers,521,Street and Market Salespersons,5211,Stall and Market Salespersons
+ISCO-08,5,Services And Sales Workers,52,Sales Workers,521,Street and Market Salespersons,5212,Street Food Salespersons
+ISCO-88,5,Service Workers and Shop and Market Sales Workers,52,"Models, Salespersons and Demonstrators",522,Shop Salespersons and Demonstrators,5220,Shop salespersons and demonstrators
+ISCO-08,5,Services And Sales Workers,52,Sales Workers,522,Shop Salespersons,5221,Shopkeepers
+ISCO-08,5,Services And Sales Workers,52,Sales Workers,522,Shop Salespersons,5222,Shop Supervisors
+ISCO-08,5,Services And Sales Workers,52,Sales Workers,522,Shop Salespersons,5223,Shop Sales Assistants
+ISCO-08,5,Services And Sales Workers,52,Sales Workers,523,Cashiers and Ticket Clerks,5230,Cashiers and Ticket Clerks
+ISCO-08,5,Services And Sales Workers,52,Sales Workers,524,Other Sales Workers,5241,Fashion and Other Models
+ISCO-08,5,Services And Sales Workers,52,Sales Workers,524,Other Sales Workers,5242,Sales Demonstrators
+ISCO-08,5,Services And Sales Workers,52,Sales Workers,524,Other Sales Workers,5243,Door-to-door Salespersons
+ISCO-08,5,Services And Sales Workers,52,Sales Workers,524,Other Sales Workers,5244,Contact Centre Salespersons
+ISCO-08,5,Services And Sales Workers,52,Sales Workers,524,Other Sales Workers,5245,Service Station Attendants
+ISCO-08,5,Services And Sales Workers,52,Sales Workers,524,Other Sales Workers,5246,Food Service Counter Attendants
+ISCO-08,5,Services And Sales Workers,52,Sales Workers,524,Other Sales Workers,5249,Sales Workers Not Elsewhere Classified
+ISCO-08,5,Services And Sales Workers,53,Personal Care Workers,531,Child Care Workers and Teachers’ Aides,5311,Child Care Workers
+ISCO-08,5,Services And Sales Workers,53,Personal Care Workers,531,Child Care Workers and Teachers’ Aides,5312,Teachers’ Aides
+ISCO-08,5,Services And Sales Workers,53,Personal Care Workers,532,Personal Care Workers in Health Services,5321,Health Care Assistants
+ISCO-08,5,Services And Sales Workers,53,Personal Care Workers,532,Personal Care Workers in Health Services,5322,Home-based Personal Care Workers
+ISCO-08,5,Services And Sales Workers,53,Personal Care Workers,532,Personal Care Workers in Health Services,5329,Personal Care Workers in Health Services Not Elsewhere Classified
+ISCO-08,5,Services And Sales Workers,54,Protective Services Workers,541,Protective Services Workers,5411,Firefighters
+ISCO-08,5,Services And Sales Workers,54,Protective Services Workers,541,Protective Services Workers,5412,Police Officers
+ISCO-08,5,Services And Sales Workers,54,Protective Services Workers,541,Protective Services Workers,5413,Prison Guards
+ISCO-08,5,Services And Sales Workers,54,Protective Services Workers,541,Protective Services Workers,5414,Security Guards
+ISCO-08,5,Services And Sales Workers,54,Protective Services Workers,541,Protective Services Workers,5419,Protective Services Workers Not Elsewhere Classified
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",61,Market-oriented Skilled Agricultural Workers,611,Market Gardeners and Crop Growers,6111,Field Crop and Vegetable Growers
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",61,Market-oriented Skilled Agricultural Workers,611,Market Gardeners and Crop Growers,6112,Tree and Shrub Crop Growers
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",61,Market-oriented Skilled Agricultural Workers,611,Market Gardeners and Crop Growers,6113,Gardeners; Horticultural and Nursery Growers
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",61,Market-oriented Skilled Agricultural Workers,611,Market Gardeners and Crop Growers,6114,Mixed Crop Growers
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",61,Market-oriented Skilled Agricultural Workers,612,Animal Producers,6121,Livestock and Dairy Producers
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",61,Market-oriented Skilled Agricultural Workers,612,Animal Producers,6122,Poultry Producers
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",61,Market-oriented Skilled Agricultural Workers,612,Animal Producers,6123,Apiarists and Sericulturists
+ISCO-88,6,Skilled Agricultural and Fishery Workers,61,Market-Oriented Skilled Agricultural and Fishery Workers,612,Market-Oriented Animal Producers and Related Workers,6124,Mixed-animal producers
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",61,Market-oriented Skilled Agricultural Workers,612,Animal Producers,6129,Animal Producers Not Elsewhere Classified
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",61,Market-oriented Skilled Agricultural Workers,613,Mixed Crop and Animal Producers,6130,Mixed Crop and Animal Producers
+ISCO-88,6,Skilled Agricultural and Fishery Workers,61,Market-Oriented Skilled Agricultural and Fishery Workers,614,Forestry and Related Workers,6141,Forestry workers and loggers
+ISCO-88,6,Skilled Agricultural and Fishery Workers,61,Market-Oriented Skilled Agricultural and Fishery Workers,614,Forestry and Related Workers,6142,Charcoal burners and related workers
+ISCO-88,6,Skilled Agricultural and Fishery Workers,61,Market-Oriented Skilled Agricultural and Fishery Workers,615,"Fishery Workers, Hunters and Trappers",6151,Aquatic-life cultivation workers
+ISCO-88,6,Skilled Agricultural and Fishery Workers,61,Market-Oriented Skilled Agricultural and Fishery Workers,615,"Fishery Workers, Hunters and Trappers",6152,Inland and coastal waters fishery workers
+ISCO-88,6,Skilled Agricultural and Fishery Workers,61,Market-Oriented Skilled Agricultural and Fishery Workers,615,"Fishery Workers, Hunters and Trappers",6153,Deep-sea fishery workers
+ISCO-88,6,Skilled Agricultural and Fishery Workers,61,Market-Oriented Skilled Agricultural and Fishery Workers,615,"Fishery Workers, Hunters and Trappers",6154,Hunters and trappers
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",62,"Market-oriented Skilled Forestry, Fishery and Hunting Workers",621,Forestry and Related Workers,6210,Forestry and Related Workers
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",62,"Market-oriented Skilled Forestry, Fishery and Hunting Workers",622,"Fishery Workers, Hunters and Trappers",6221,Aquaculture Workers
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",62,"Market-oriented Skilled Forestry, Fishery and Hunting Workers",622,"Fishery Workers, Hunters and Trappers",6222,Inland and Coastal Waters Fishery Workers
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",62,"Market-oriented Skilled Forestry, Fishery and Hunting Workers",622,"Fishery Workers, Hunters and Trappers",6223,Deep-sea Fishery Workers
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",62,"Market-oriented Skilled Forestry, Fishery and Hunting Workers",622,"Fishery Workers, Hunters and Trappers",6224,Hunters and Trappers
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",63,"Subsistence Farmers, Fishers, Hunters and Gatherers",631,Subsistence Crop Farmers,6310,Subsistence Crop Farmers
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",63,"Subsistence Farmers, Fishers, Hunters and Gatherers",632,Subsistence Livestock Farmers,6320,Subsistence Livestock Farmers
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",63,"Subsistence Farmers, Fishers, Hunters and Gatherers",633,Subsistence Mixed Crop and Livestock Farmers,6330,Subsistence Mixed Crop and Livestock Farmers
+ISCO-08,6,"Skilled Agricultural, Forestry and Fishery Workers",63,"Subsistence Farmers, Fishers, Hunters and Gatherers",634,"Subsistence Fishers, Hunters, Trappers and Gatherers",6340,"Subsistence Fishers, Hunters, Trappers and Gatherers"
+ISCO-08,7,Craft and Related Trades Workers,71,Building and Related Trades Workers (excluding Electricians),711,Building Frame and Related Trades Workers,7111,House Builders
+ISCO-08,7,Craft and Related Trades Workers,71,Building and Related Trades Workers (excluding Electricians),711,Building Frame and Related Trades Workers,7112,Bricklayers and Related Workers
+ISCO-08,7,Craft and Related Trades Workers,71,Building and Related Trades Workers (excluding Electricians),711,Building Frame and Related Trades Workers,7113,"Stonemasons, Stone Cutters, Splitters and Carvers"
+ISCO-08,7,Craft and Related Trades Workers,71,Building and Related Trades Workers (excluding Electricians),711,Building Frame and Related Trades Workers,7114,"Concrete Placers, Concrete Finishers and Related Workers"
+ISCO-08,7,Craft and Related Trades Workers,71,Building and Related Trades Workers (excluding Electricians),711,Building Frame and Related Trades Workers,7115,Carpenters and Joiners
+ISCO-08,7,Craft and Related Trades Workers,71,Building and Related Trades Workers (excluding Electricians),711,Building Frame and Related Trades Workers,7119,Building Frame and Related Trades Workers Not Elsewhere Classified
+ISCO-08,7,Craft and Related Trades Workers,71,Building and Related Trades Workers (excluding Electricians),712,Building Finishers and Related Trades Workers,7121,Roofers
+ISCO-08,7,Craft and Related Trades Workers,71,Building and Related Trades Workers (excluding Electricians),712,Building Finishers and Related Trades Workers,7122,Floor Layers and Tile Setters
+ISCO-08,7,Craft and Related Trades Workers,71,Building and Related Trades Workers (excluding Electricians),712,Building Finishers and Related Trades Workers,7123,Plasterers
+ISCO-08,7,Craft and Related Trades Workers,71,Building and Related Trades Workers (excluding Electricians),712,Building Finishers and Related Trades Workers,7124,Insulation Workers
+ISCO-08,7,Craft and Related Trades Workers,71,Building and Related Trades Workers (excluding Electricians),712,Building Finishers and Related Trades Workers,7125,Glaziers
+ISCO-08,7,Craft and Related Trades Workers,71,Building and Related Trades Workers (excluding Electricians),712,Building Finishers and Related Trades Workers,7126,Plumbers and Pipe Fitters
+ISCO-08,7,Craft and Related Trades Workers,71,Building and Related Trades Workers (excluding Electricians),712,Building Finishers and Related Trades Workers,7127,Air Conditioning and Refrigeration Mechanics
+ISCO-88,7,Craft and Related Trades Workers,71,Extraction and Building Trades Workers,712,Building Frame and Related Trades Workers,7129,Building frame and related trades workers not elsewhere classified
+ISCO-08,7,Craft and Related Trades Workers,71,Building and Related Trades Workers (excluding Electricians),713,"Painters, Building Structure Cleaners and Related Trades Workers",7131,Painters and Related Workers
+ISCO-08,7,Craft and Related Trades Workers,71,Building and Related Trades Workers (excluding Electricians),713,"Painters, Building Structure Cleaners and Related Trades Workers",7132,Spray Painters and Varnishers
+ISCO-08,7,Craft and Related Trades Workers,71,Building and Related Trades Workers (excluding Electricians),713,"Painters, Building Structure Cleaners and Related Trades Workers",7133,Building Structure Cleaners
+ISCO-88,7,Craft and Related Trades Workers,71,Extraction and Building Trades Workers,713,Building Finishers and Related Trades Workers,7134,Insulation workers
+ISCO-88,7,Craft and Related Trades Workers,71,Extraction and Building Trades Workers,713,Building Finishers and Related Trades Workers,7135,Glaziers
+ISCO-88,7,Craft and Related Trades Workers,71,Extraction and Building Trades Workers,713,Building Finishers and Related Trades Workers,7136,Plumbers and pipe fitters
+ISCO-88,7,Craft and Related Trades Workers,71,Extraction and Building Trades Workers,713,Building Finishers and Related Trades Workers,7137,Building and related electricians
+ISCO-88,7,Craft and Related Trades Workers,71,Extraction and Building Trades Workers,714,"Painters, Building Structure Cleaners and Related Trades Workers",7141,Painters and related workers
+ISCO-88,7,Craft and Related Trades Workers,71,Extraction and Building Trades Workers,714,"Painters, Building Structure Cleaners and Related Trades Workers",7142,Varnishers and related painters
+ISCO-88,7,Craft and Related Trades Workers,71,Extraction and Building Trades Workers,714,"Painters, Building Structure Cleaners and Related Trades Workers",7143,Building structure cleaners
+ISCO-08,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",721,"Sheet and Structural Metal Workers, Moulders and Welders, and Related Workers",7211,Metal Moulders and Coremakers
+ISCO-08,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",721,"Sheet and Structural Metal Workers, Moulders and Welders, and Related Workers",7212,Welders and Flame Cutters
+ISCO-08,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",721,"Sheet and Structural Metal Workers, Moulders and Welders, and Related Workers",7213,Sheet Metal Workers
+ISCO-08,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",721,"Sheet and Structural Metal Workers, Moulders and Welders, and Related Workers",7214,Structural Metal Preparers and Erectors
+ISCO-08,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",721,"Sheet and Structural Metal Workers, Moulders and Welders, and Related Workers",7215,Riggers and Cable Splicers
+ISCO-88,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",721,"Metal Moulders, Welders, Sheet-Metal Workers, Structural- Metal Preparers, and Related Trades Workers",7216,Underwater workers
+ISCO-08,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",722,"Blacksmiths, Toolmakers and Related Trades Workers",7221,"Blacksmiths, Hammersmiths and Forging Press Workers"
+ISCO-08,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",722,"Blacksmiths, Toolmakers and Related Trades Workers",7222,Toolmakers and Related Workers
+ISCO-08,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",722,"Blacksmiths, Toolmakers and Related Trades Workers",7223,Metal Working Machine Tool Setters and Operators
+ISCO-08,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",722,"Blacksmiths, Toolmakers and Related Trades Workers",7224,"Metal Polishers, Wheel Grinders and Tool Sharpeners"
+ISCO-08,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",723,Machinery Mechanics and Repairers,7231,Motor Vehicle Mechanics and Repairers
+ISCO-08,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",723,Machinery Mechanics and Repairers,7232,Aircraft Engine Mechanics and Repairers
+ISCO-08,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",723,Machinery Mechanics and Repairers,7233,Agricultural and Industrial Machinery Mechanics and Repairers
+ISCO-08,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",723,Machinery Mechanics and Repairers,7234,Bicycle and Related Repairers
+ISCO-88,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",724,Electrical and Electronic Equipment Mechanics and Fitters,7241,Electrical mechanics and fitters
+ISCO-88,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",724,Electrical and Electronic Equipment Mechanics and Fitters,7242,Electronics fitters
+ISCO-88,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",724,Electrical and Electronic Equipment Mechanics and Fitters,7243,Electronics mechanics and servicers
+ISCO-88,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",724,Electrical and Electronic Equipment Mechanics and Fitters,7244,Telegraph and telephone installers and servicers
+ISCO-88,7,Craft and Related Trades Workers,72,"Metal, Machinery and Related Trades Workers",724,Electrical and Electronic Equipment Mechanics and Fitters,7245,"Electrical line installers, repairers and cable jointers"
+ISCO-08,7,Craft and Related Trades Workers,73,Handicraft and Printing Workers,731,Handicraft Workers,7311,Precision-instrument Makers and Repairers
+ISCO-08,7,Craft and Related Trades Workers,73,Handicraft and Printing Workers,731,Handicraft Workers,7312,Musical Instrument Makers and Tuners
+ISCO-08,7,Craft and Related Trades Workers,73,Handicraft and Printing Workers,731,Handicraft Workers,7313,Jewellery and Precious Metal Workers
+ISCO-08,7,Craft and Related Trades Workers,73,Handicraft and Printing Workers,731,Handicraft Workers,7314,Potters and Related Workers
+ISCO-08,7,Craft and Related Trades Workers,73,Handicraft and Printing Workers,731,Handicraft Workers,7315,"Glass Makers, Cutters, Grinders and Finishers"
+ISCO-08,7,Craft and Related Trades Workers,73,Handicraft and Printing Workers,731,Handicraft Workers,7316,"Signwriters, Decorative Painters, Engravers and Etchers"
+ISCO-08,7,Craft and Related Trades Workers,73,Handicraft and Printing Workers,731,Handicraft Workers,7317,"Handicraft Workers in Wood, Basketry and Related Materials"
+ISCO-08,7,Craft and Related Trades Workers,73,Handicraft and Printing Workers,731,Handicraft Workers,7318,"Handicraft Workers in Textile, Leather and Related Materials"
+ISCO-08,7,Craft and Related Trades Workers,73,Handicraft and Printing Workers,731,Handicraft Workers,7319,Handicraft Workers Not Elsewhere Classified
+ISCO-08,7,Craft and Related Trades Workers,73,Handicraft and Printing Workers,732,Printing Trades Workers,7321,Pre-press Technicians
+ISCO-08,7,Craft and Related Trades Workers,73,Handicraft and Printing Workers,732,Printing Trades Workers,7322,Printers
+ISCO-08,7,Craft and Related Trades Workers,73,Handicraft and Printing Workers,732,Printing Trades Workers,7323,Print Finishing and Binding Workers
+ISCO-88,7,Craft and Related Trades Workers,73,"Precision, Handicraft, Printing and Related Trades Workers",732,"Potters, Glass-Makers and Related Trades Workers",7324,"Glass, ceramics and related decorative painters"
+ISCO-88,7,Craft and Related Trades Workers,73,"Precision, Handicraft, Printing and Related Trades Workers",733,"Handicraft Workers in Wood,textile, Leather and Related Materials",7331,Handicraft workers in wood and related materials
+ISCO-88,7,Craft and Related Trades Workers,73,"Precision, Handicraft, Printing and Related Trades Workers",733,"Handicraft Workers in Wood,textile, Leather and Related Materials",7332,"Handicraft workers in textile, leather and related materials"
+ISCO-88,7,Craft and Related Trades Workers,73,"Precision, Handicraft, Printing and Related Trades Workers",734,Printing and Related Trades Workers,7341,"Compositors, typesetters and related workers"
+ISCO-88,7,Craft and Related Trades Workers,73,"Precision, Handicraft, Printing and Related Trades Workers",734,Printing and Related Trades Workers,7342,Stereotypers and electrotypers
+ISCO-88,7,Craft and Related Trades Workers,73,"Precision, Handicraft, Printing and Related Trades Workers",734,Printing and Related Trades Workers,7343,Printing engravers and etchers
+ISCO-88,7,Craft and Related Trades Workers,73,"Precision, Handicraft, Printing and Related Trades Workers",734,Printing and Related Trades Workers,7344,Photographic and related workers
+ISCO-88,7,Craft and Related Trades Workers,73,"Precision, Handicraft, Printing and Related Trades Workers",734,Printing and Related Trades Workers,7345,Bookbinders and related workers
+ISCO-88,7,Craft and Related Trades Workers,73,"Precision, Handicraft, Printing and Related Trades Workers",734,Printing and Related Trades Workers,7346,"Silk-screen, block and textile printers"
+ISCO-08,7,Craft and Related Trades Workers,74,Electrical and Electronics Trades Workers,741,Electrical Equipment Installers and Repairers,7411,Building and Related Electricians
+ISCO-08,7,Craft and Related Trades Workers,74,Electrical and Electronics Trades Workers,741,Electrical Equipment Installers and Repairers,7412,Electrical Mechanics and Fitters
+ISCO-08,7,Craft and Related Trades Workers,74,Electrical and Electronics Trades Workers,741,Electrical Equipment Installers and Repairers,7413,Electrical Line Installers and Repairers
+ISCO-88,7,Craft and Related Trades Workers,74,Other Craft and Related Trades Workers,741,Food Processing and Related Trades Workers,7414,"Fruit, vegetable and related preservers"
+ISCO-88,7,Craft and Related Trades Workers,74,Other Craft and Related Trades Workers,741,Food Processing and Related Trades Workers,7415,Food and beverage tasters and graders
+ISCO-88,7,Craft and Related Trades Workers,74,Other Craft and Related Trades Workers,741,Food Processing and Related Trades Workers,7416,Tobacco preparers and tobacco products makers
+ISCO-08,7,Craft and Related Trades Workers,74,Electrical and Electronics Trades Workers,742,Electronics and Telecommunications Installers and Repairers,7421,Electronics Mechanics and Servicers
+ISCO-08,7,Craft and Related Trades Workers,74,Electrical and Electronics Trades Workers,742,Electronics and Telecommunications Installers and Repairers,7422,Information and Communications Technology Installers and Servicers
+ISCO-88,7,Craft and Related Trades Workers,74,Other Craft and Related Trades Workers,742,"Wood Treaters, Cabinet-Makers and Related Trades Workers",7423,Woodworking machine setters and setter-operators
+ISCO-88,7,Craft and Related Trades Workers,74,Other Craft and Related Trades Workers,742,"Wood Treaters, Cabinet-Makers and Related Trades Workers",7424,"Basketry weavers, brush makers and related workers"
+ISCO-88,7,Craft and Related Trades Workers,74,Other Craft and Related Trades Workers,743,"Textile, Garment and Related Trades Workers",7431,Fibre preparers
+ISCO-88,7,Craft and Related Trades Workers,74,Other Craft and Related Trades Workers,743,"Textile, Garment and Related Trades Workers",7432,"Weavers, knitters and related workers"
+ISCO-88,7,Craft and Related Trades Workers,74,Other Craft and Related Trades Workers,743,"Textile, Garment and Related Trades Workers",7433,"Tailors, dressmakers and hatters"
+ISCO-88,7,Craft and Related Trades Workers,74,Other Craft and Related Trades Workers,743,"Textile, Garment and Related Trades Workers",7434,Furriers and related workers
+ISCO-88,7,Craft and Related Trades Workers,74,Other Craft and Related Trades Workers,743,"Textile, Garment and Related Trades Workers",7435,"Textile, leather and related pattern-makers and cutters"
+ISCO-88,7,Craft and Related Trades Workers,74,Other Craft and Related Trades Workers,743,"Textile, Garment and Related Trades Workers",7436,"Sewers, embroiderers and related workers"
+ISCO-88,7,Craft and Related Trades Workers,74,Other Craft and Related Trades Workers,743,"Textile, Garment and Related Trades Workers",7437,Upholsterers and related workers
+ISCO-88,7,Craft and Related Trades Workers,74,Other Craft and Related Trades Workers,744,"Pelt, Leather and Shoemaking Trades Workers",7441,"Pelt dressers, tanners and fellmongers"
+ISCO-88,7,Craft and Related Trades Workers,74,Other Craft and Related Trades Workers,744,"Pelt, Leather and Shoemaking Trades Workers",7442,Shoe-makers and related workers
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",751,Food Processing and Related Trades Workers,7511,"Butchers, Fishmongers and Related Food Preparers"
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",751,Food Processing and Related Trades Workers,7512,"Bakers, Pastry-cooks and Confectionery Makers"
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",751,Food Processing and Related Trades Workers,7513,Dairy Products Makers
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",751,Food Processing and Related Trades Workers,7514,"Fruit, Vegetable and Related Preservers"
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",751,Food Processing and Related Trades Workers,7515,Food and Beverage Tasters and Graders
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",751,Food Processing and Related Trades Workers,7516,Tobacco Preparers and Tobacco Products Makers
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",752,"Wood Treaters, Cabinet-makers and Related Trades Workers",7521,Wood Treaters
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",752,"Wood Treaters, Cabinet-makers and Related Trades Workers",7522,Cabinet-makers and Related Workers
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",752,"Wood Treaters, Cabinet-makers and Related Trades Workers",7523,Woodworking Machine Tool Setters and Operators
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",753,Garment and Related Trades Workers,7531,"Tailors, Dressmakers, Furriers and Hatters"
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",753,Garment and Related Trades Workers,7532,Garment and Related Patternmakers and Cutters
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",753,Garment and Related Trades Workers,7533,"Sewing, Embroidery and Related Workers"
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",753,Garment and Related Trades Workers,7534,Upholsterers and Related Workers
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",753,Garment and Related Trades Workers,7535,"Pelt Dressers, Tanners and Fellmongers"
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",753,Garment and Related Trades Workers,7536,Shoemakers and Related Workers
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",754,Other Craft and Related Workers,7541,Underwater Divers
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",754,Other Craft and Related Workers,7542,Shotfirers and Blasters
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",754,Other Craft and Related Workers,7543,Product Graders and Testers (excluding Foods and Beverages)
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",754,Other Craft and Related Workers,7544,Fumigators and Other Pest and Weed Controllers
+ISCO-08,7,Craft and Related Trades Workers,75,"Food Processing, Woodworking, Garment and Other Craft and Related Trades Workers",754,Other Craft and Related Workers,7549,Craft and Related Workers Not Elsewhere Classified
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,811,Mining and Mineral Processing Plant Operators,8111,Miners and Quarriers
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,811,Mining and Mineral Processing Plant Operators,8112,Mineral and Stone Processing Plant Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,811,Mining and Mineral Processing Plant Operators,8113,Well Drillers and Borers and Related Workers
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,811,Mining and Mineral Processing Plant Operators,8114,"Cement, Stone and Other Mineral Products Machine Operators"
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,812,Metal Processing and Finishing Plant Operators,8121,Metal Processing Plant Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,812,Metal Processing and Finishing Plant Operators,8122,"Metal Finishing, Plating and Coating Machine Operators"
+ISCO-88,8,Plant and Machine Operators and Assemblers,81,Stationary-Plant and Related Operators,812,Metal-Processing-Plant Operators,8123,Metal-heat-treating-plant operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,81,Stationary-Plant and Related Operators,812,Metal-Processing-Plant Operators,8124,Metal drawers and extruders
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,813,Chemical and Photographic Products Plant and Machine Operators,8131,Chemical Products Plant and Machine Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,813,Chemical and Photographic Products Plant and Machine Operators,8132,Photographic Products Machine Operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,81,Stationary-Plant and Related Operators,813,"Glass, Ceramics and Related Plant Operators",8139,"Glass, ceramics and related plant operators not elsewhere classified"
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,814,"Rubber, Plastic and Paper Products Machine Operators",8141,Rubber Products Machine Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,814,"Rubber, Plastic and Paper Products Machine Operators",8142,Plastic Products Machine Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,814,"Rubber, Plastic and Paper Products Machine Operators",8143,Paper Products Machine Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,815,"Textile, Fur and Leather Products Machine Operators",8151,"Fibre Preparing, Spinning and Winding Machine Operators"
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,815,"Textile, Fur and Leather Products Machine Operators",8152,Weaving and Knitting Machine Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,815,"Textile, Fur and Leather Products Machine Operators",8153,Sewing Machine Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,815,"Textile, Fur and Leather Products Machine Operators",8154,"Bleaching, Dyeing and Fabric Cleaning Machine Operators"
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,815,"Textile, Fur and Leather Products Machine Operators",8155,Fur and Leather Preparing Machine Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,815,"Textile, Fur and Leather Products Machine Operators",8156,Shoemaking and Related Machine Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,815,"Textile, Fur and Leather Products Machine Operators",8157,Laundry Machine Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,815,"Textile, Fur and Leather Products Machine Operators",8159,"Textile, Fur and Leather Products Machine Operators Not Elsewhere Classified"
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,816,Food and Related Products Machine Operators,8160,Food and Related Products Machine Operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,81,Stationary-Plant and Related Operators,816,Power-Production and Related Plant Operators,8161,Power-production plant operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,81,Stationary-Plant and Related Operators,816,Power-Production and Related Plant Operators,8162,Steam-engine and boiler operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,81,Stationary-Plant and Related Operators,816,Power-Production and Related Plant Operators,8163,"Incinerator, water-treatment and related plant operators"
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,817,Wood Processing and Papermaking Plant Operators,8171,Pulp and Papermaking Plant Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,817,Wood Processing and Papermaking Plant Operators,8172,Wood Processing Plant Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,818,Other Stationary Plant and Machine Operators,8181,Glass and Ceramics Plant Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,818,Other Stationary Plant and Machine Operators,8182,Steam Engine and Boiler Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,818,Other Stationary Plant and Machine Operators,8183,"Packing, Bottling and Labelling Machine Operators"
+ISCO-08,8,Plant and Machine Operators and Assemblers,81,Stationary Plant and Machine Operators,818,Other Stationary Plant and Machine Operators,8189,Stationary Plant and Machine Operators Not Elsewhere Classified
+ISCO-08,8,Plant and Machine Operators and Assemblers,82,Assemblers,821,Assemblers,8211,Mechanical Machinery Assemblers
+ISCO-08,8,Plant and Machine Operators and Assemblers,82,Assemblers,821,Assemblers,8212,Electrical and Electronic Equipment Assemblers
+ISCO-08,8,Plant and Machine Operators and Assemblers,82,Assemblers,821,Assemblers,8219,Assemblers Not Elsewhere Classified
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,822,Chemical-Products Machine Operators,8221,Pharmaceutical- and toiletry-products machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,822,Chemical-Products Machine Operators,8222,Ammunition- and explosive-products machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,822,Chemical-Products Machine Operators,8223,"Metal finishing-, plating- and coating-machine operators"
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,822,Chemical-Products Machine Operators,8224,Photographic-products machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,822,Chemical-Products Machine Operators,8229,Chemical-products machine operators not elsewhere classified
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,823,Rubber- And Plastic-Products Machine Operators,8231,Rubber-products machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,823,Rubber- And Plastic-Products Machine Operators,8232,Plastic-products machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,824,Wood-Products Machine Operators,8240,Wood-products machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,825,"Printing-, Binding- And Paper-Products Machine Operators",8251,Printing-machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,825,"Printing-, Binding- And Paper-Products Machine Operators",8252,Bookbinding-machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,825,"Printing-, Binding- And Paper-Products Machine Operators",8253,Paper-products machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,826,"Textile-, Fur- And Leather-Products Machine Operators",8261,"Fibre-preparing-, spinning- and winding-machine operators"
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,826,"Textile-, Fur- And Leather-Products Machine Operators",8262,Weaving- and knitting-machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,826,"Textile-, Fur- And Leather-Products Machine Operators",8263,Sewing-machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,826,"Textile-, Fur- And Leather-Products Machine Operators",8264,"Bleaching-, dyeing- and cleaning-machine operators"
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,826,"Textile-, Fur- And Leather-Products Machine Operators",8265,Fur and leather-preparing-machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,826,"Textile-, Fur- And Leather-Products Machine Operators",8266,Shoemaking- and related machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,826,"Textile-, Fur- And Leather-Products Machine Operators",8269,"Textile-, fur- and leather-products machine operators not elsewhere classified"
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,827,Food and Related Products Machine Operators,8271,Meat- and fish-processing-machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,827,Food and Related Products Machine Operators,8272,Dairy-products machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,827,Food and Related Products Machine Operators,8273,Grain- and spice-milling-machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,827,Food and Related Products Machine Operators,8274,"Baked-goods, cereal and chocolate-products machine operators"
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,827,Food and Related Products Machine Operators,8275,"Fruit-, vegetable- and nut-processing-machine operators"
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,827,Food and Related Products Machine Operators,8276,Sugar production machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,827,Food and Related Products Machine Operators,8277,"Tea-, coffee-, and cocoa-processing-machine operators"
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,827,Food and Related Products Machine Operators,8278,"Brewers, wine and other beverage machine operators"
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,827,Food and Related Products Machine Operators,8279,Tobacco production machine operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,828,Assemblers,8281,Mechanical-machinery assemblers
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,828,Assemblers,8282,Electrical-equipment assemblers
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,828,Assemblers,8283,Electronic-equipment assemblers
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,828,Assemblers,8284,"Metal-, rubber- and plastic-products assemblers"
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,828,Assemblers,8285,Wood and related products assemblers
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,828,Assemblers,8286,"Paperboard, textile and related products assemblers"
+ISCO-88,8,Plant and Machine Operators and Assemblers,82,Machine Operators and Assemblers,829,Other Machine Operators and Assemblers,8290,Other machine operators and assemblers
+ISCO-08,8,Plant and Machine Operators and Assemblers,83,Drivers and Mobile Plant Operators,831,Locomotive Engine Drivers and Related Workers,8311,Locomotive Engine Drivers
+ISCO-08,8,Plant and Machine Operators and Assemblers,83,Drivers and Mobile Plant Operators,831,Locomotive Engine Drivers and Related Workers,8312,"Railway Brake, Signal and Switch Operators"
+ISCO-08,8,Plant and Machine Operators and Assemblers,83,Drivers and Mobile Plant Operators,832,"Car, Van and Motorcycle Drivers",8321,Motorcycle Drivers
+ISCO-08,8,Plant and Machine Operators and Assemblers,83,Drivers and Mobile Plant Operators,832,"Car, Van and Motorcycle Drivers",8322,"Car, Taxi and Van Drivers"
+ISCO-88,8,Plant and Machine Operators and Assemblers,83,Drivers and Mobile-Plant Operators,832,Motor-Vehicle Drivers,8323,Bus and tram drivers
+ISCO-88,8,Plant and Machine Operators and Assemblers,83,Drivers and Mobile-Plant Operators,832,Motor-Vehicle Drivers,8324,Heavy-truck and lorry drivers
+ISCO-08,8,Plant and Machine Operators and Assemblers,83,Drivers and Mobile Plant Operators,833,Heavy Truck and Bus Drivers,8331,Bus and Tram Drivers
+ISCO-08,8,Plant and Machine Operators and Assemblers,83,Drivers and Mobile Plant Operators,833,Heavy Truck and Bus Drivers,8332,Heavy Truck and Lorry Drivers
+ISCO-88,8,Plant and Machine Operators and Assemblers,83,Drivers and Mobile-Plant Operators,833,Agricultural and Other Mobile-Plant Operators,8333,"Crane, hoist and related plant operators"
+ISCO-88,8,Plant and Machine Operators and Assemblers,83,Drivers and Mobile-Plant Operators,833,Agricultural and Other Mobile-Plant Operators,8334,Lifting-truck operators
+ISCO-88,8,Plant and Machine Operators and Assemblers,83,Drivers and Mobile-Plant Operators,834,Ships' Deck Crews and Related Workers,8340,Ships' deck crews and related workers
+ISCO-08,8,Plant and Machine Operators and Assemblers,83,Drivers and Mobile Plant Operators,834,Mobile Plant Operators,8341,Mobile Farm and Forestry Plant Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,83,Drivers and Mobile Plant Operators,834,Mobile Plant Operators,8342,Earthmoving and Related Plant Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,83,Drivers and Mobile Plant Operators,834,Mobile Plant Operators,8343,"Crane, Hoist and Related Plant Operators"
+ISCO-08,8,Plant and Machine Operators and Assemblers,83,Drivers and Mobile Plant Operators,834,Mobile Plant Operators,8344,Lifting Truck Operators
+ISCO-08,8,Plant and Machine Operators and Assemblers,83,Drivers and Mobile Plant Operators,835,Ships’ Deck Crews and Related Workers,8350,Ships’ Deck Crews and Related Workers
+ISCO-08,9,Elementary Occupations,91,Cleaners and Helpers,911,"Domestic, Hotel and Office Cleaners and Helpers",9111,Domestic Cleaners and Helpers
+ISCO-08,9,Elementary Occupations,91,Cleaners and Helpers,911,"Domestic, Hotel and Office Cleaners and Helpers",9112,"Cleaners and Helpers in Offices, Hotels and Other Establishments"
+ISCO-88,9,Elementary Occupations,91,Sales and Services Elementary Occupations,911,Street Vendors and Related Workers,9113,Door-to-door and telephone salespersons
+ISCO-88,9,Elementary Occupations,91,Sales and Services Elementary Occupations,912,Shoe Cleaning and Other Street Services Elementary Occupations,9120,Shoe cleaning and other street services elementary occupations
+ISCO-08,9,Elementary Occupations,91,Cleaners and Helpers,912,"Vehicle, Window, Laundry and Other Hand Cleaning Workers",9121,Hand Launderers and Pressers
+ISCO-08,9,Elementary Occupations,91,Cleaners and Helpers,912,"Vehicle, Window, Laundry and Other Hand Cleaning Workers",9122,Vehicle Cleaners
+ISCO-08,9,Elementary Occupations,91,Cleaners and Helpers,912,"Vehicle, Window, Laundry and Other Hand Cleaning Workers",9123,Window Cleaners
+ISCO-08,9,Elementary Occupations,91,Cleaners and Helpers,912,"Vehicle, Window, Laundry and Other Hand Cleaning Workers",9129,Other Cleaning Workers
+ISCO-88,9,Elementary Occupations,91,Sales and Services Elementary Occupations,913,"Domestic and Related Helpers, Cleaners and Launderers",9131,Domestic helpers and cleaners
+ISCO-88,9,Elementary Occupations,91,Sales and Services Elementary Occupations,913,"Domestic and Related Helpers, Cleaners and Launderers",9132,"Helpers and cleaners in offices, hotels and other establishments"
+ISCO-88,9,Elementary Occupations,91,Sales and Services Elementary Occupations,913,"Domestic and Related Helpers, Cleaners and Launderers",9133,Hand-launderers and pressers
+ISCO-88,9,Elementary Occupations,91,Sales and Services Elementary Occupations,914,"Building Caretakers, Window and Related Cleaners",9141,Building caretakers
+ISCO-88,9,Elementary Occupations,91,Sales and Services Elementary Occupations,914,"Building Caretakers, Window and Related Cleaners",9142,"Vehicle, window and related cleaners"
+ISCO-88,9,Elementary Occupations,91,Sales and Services Elementary Occupations,915,"Messengers, Porters, Doorkeepers and Related Workers",9151,"Messengers, package and luggage porters and deliverers"
+ISCO-88,9,Elementary Occupations,91,Sales and Services Elementary Occupations,915,"Messengers, Porters, Doorkeepers and Related Workers",9152,"Doorkeepers, watchpersons and related workers"
+ISCO-88,9,Elementary Occupations,91,Sales and Services Elementary Occupations,915,"Messengers, Porters, Doorkeepers and Related Workers",9153,"Vending-machine money collectors, meter readers and related workers"
+ISCO-88,9,Elementary Occupations,91,Sales and Services Elementary Occupations,916,Garbage Collectors and Related Labourers,9161,Garbage collectors
+ISCO-88,9,Elementary Occupations,91,Sales and Services Elementary Occupations,916,Garbage Collectors and Related Labourers,9162,Sweepers and related labourers
+ISCO-08,9,Elementary Occupations,92,"Agricultural, Forestry and Fishery Labourers",921,"Agricultural, Forestry and Fishery Labourers",9211,Crop Farm Labourers
+ISCO-08,9,Elementary Occupations,92,"Agricultural, Forestry and Fishery Labourers",921,"Agricultural, Forestry and Fishery Labourers",9212,Livestock Farm Labourers
+ISCO-08,9,Elementary Occupations,92,"Agricultural, Forestry and Fishery Labourers",921,"Agricultural, Forestry and Fishery Labourers",9213,Mixed Crop and Livestock Farm Labourers
+ISCO-08,9,Elementary Occupations,92,"Agricultural, Forestry and Fishery Labourers",921,"Agricultural, Forestry and Fishery Labourers",9214,Garden and Horticultural Labourers
+ISCO-08,9,Elementary Occupations,92,"Agricultural, Forestry and Fishery Labourers",921,"Agricultural, Forestry and Fishery Labourers",9215,Forestry Labourers
+ISCO-08,9,Elementary Occupations,92,"Agricultural, Forestry and Fishery Labourers",921,"Agricultural, Forestry and Fishery Labourers",9216,Fishery and Aquaculture Labourers
+ISCO-08,9,Elementary Occupations,93,"Labourers in Mining, Construction, Manufacturing and Transport",931,Mining and Construction Labourers,9311,Mining and Quarrying Labourers
+ISCO-08,9,Elementary Occupations,93,"Labourers in Mining, Construction, Manufacturing and Transport",931,Mining and Construction Labourers,9312,Civil Engineering Labourers
+ISCO-08,9,Elementary Occupations,93,"Labourers in Mining, Construction, Manufacturing and Transport",931,Mining and Construction Labourers,9313,Building Construction Labourers
+ISCO-08,9,Elementary Occupations,93,"Labourers in Mining, Construction, Manufacturing and Transport",932,Manufacturing Labourers,9321,Hand Packers
+ISCO-88,9,Elementary Occupations,93,"Labourers in Mining, Construction, Manufacturing and Transport",932,Manufacturing Labourers,9322,Hand packers and other manufacturing labourers
+ISCO-08,9,Elementary Occupations,93,"Labourers in Mining, Construction, Manufacturing and Transport",932,Manufacturing Labourers,9329,Manufacturing Labourers Not Elsewhere Classified
+ISCO-08,9,Elementary Occupations,93,"Labourers in Mining, Construction, Manufacturing and Transport",933,Transport and Storage Labourers,9331,Hand and Pedal Vehicle Drivers
+ISCO-08,9,Elementary Occupations,93,"Labourers in Mining, Construction, Manufacturing and Transport",933,Transport and Storage Labourers,9332,Drivers of Animal-drawn Vehicles and Machinery
+ISCO-08,9,Elementary Occupations,93,"Labourers in Mining, Construction, Manufacturing and Transport",933,Transport and Storage Labourers,9333,Freight Handlers
+ISCO-08,9,Elementary Occupations,93,"Labourers in Mining, Construction, Manufacturing and Transport",933,Transport and Storage Labourers,9334,Shelf Fillers
+ISCO-08,9,Elementary Occupations,94,Food Preparation Assistants,941,Food Preparation Assistants,9411,Fast Food Preparers
+ISCO-08,9,Elementary Occupations,94,Food Preparation Assistants,941,Food Preparation Assistants,9412,Kitchen Helpers
+ISCO-08,9,Elementary Occupations,95,Street and Related Sales and Services Workers,951,Street and Related Services Workers,9510,Street and Related Services Workers
+ISCO-08,9,Elementary Occupations,95,Street and Related Sales and Services Workers,952,Street Vendors (excluding Food),9520,Street Vendors (excluding Food)
+ISCO-08,9,Elementary Occupations,96,Refuse Workers and Other Elementary Workers,961,Refuse Workers,9611,Garbage and Recycling Collectors
+ISCO-08,9,Elementary Occupations,96,Refuse Workers and Other Elementary Workers,961,Refuse Workers,9612,Refuse Sorters
+ISCO-08,9,Elementary Occupations,96,Refuse Workers and Other Elementary Workers,961,Refuse Workers,9613,Sweepers and Related Labourers
+ISCO-08,9,Elementary Occupations,96,Refuse Workers and Other Elementary Workers,962,Other Elementary Workers,9621,"Messengers, Package Deliverers and Luggage Porters"
+ISCO-08,9,Elementary Occupations,96,Refuse Workers and Other Elementary Workers,962,Other Elementary Workers,9622,Odd-job Persons
+ISCO-08,9,Elementary Occupations,96,Refuse Workers and Other Elementary Workers,962,Other Elementary Workers,9623,Meter Readers and Vending-machine Collectors
+ISCO-08,9,Elementary Occupations,96,Refuse Workers and Other Elementary Workers,962,Other Elementary Workers,9624,Water and Firewood Collectors
+ISCO-08,9,Elementary Occupations,96,Refuse Workers and Other Elementary Workers,962,Other Elementary Workers,9629,Elementary Workers Not Elsewhere Classified

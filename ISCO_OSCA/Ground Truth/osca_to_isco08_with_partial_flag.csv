@@ -1,0 +1,1445 @@
+source_taxonomy,source_code,source_title,target_taxonomy,target_code,target_title,partial_flag,has_partial
+OSCA,111131,Corporate Services Manager,ISCO-08,1211,Finance managers,p,1
+OSCA,111131,Corporate Services Manager,ISCO-08,1219,Business services and administration managers not elsewhere classified,p,1
+OSCA,111231,Finance Manager,ISCO-08,1211,Finance managers,p,1
+OSCA,111331,Human Resources Manager,ISCO-08,1212,Human resource managers,p,1
+OSCA,111431,Policy and Planning Manager,ISCO-08,1213,Policy and planning managers,p,1
+,,,,,,,
+OSCA,111631,Quality Assurance Manager,ISCO-08,1213,Policy and planning managers,p,1
+OSCA,111631,Quality Assurance Manager,ISCO-08,2421,Management and organisation analysts,p,1
+OSCA,111632,Regulatory Affairs Manager,ISCO-08,1213,Policy and planning managers,p,1
+OSCA,111632,Regulatory Affairs Manager,ISCO-08,2421,Management and organisation analysts,p,1
+OSCA,111633,Work Health and Safety Manager,ISCO-08,1212,Human resource managers,p,1
+OSCA,112131,Advertising Manager,ISCO-08,1222,Advertising and public relations managers,p,1
+OSCA,112132,Business Development Manager,ISCO-08,1221,Sales and marketing managers,p,1
+OSCA,112133,Sales and Marketing Manager,ISCO-08,1221,Sales and marketing managers,p,1
+OSCA,112231,Communications Manager (Public Relations),ISCO-08,1222,Advertising and public relations managers,p,1
+OSCA,113131,Chief Information Officer,ISCO-08,1330,Information and communications technology service managers,p,1
+OSCA,113132,Chief Information Security Officer,ISCO-08,1330,Information and communications technology service managers,p,1
+OSCA,113231,ICT Operations Manager,ISCO-08,1330,Information and communications technology service managers,p,1
+OSCA,113232,ICT Project Manager,ISCO-08,1330,Information and communications technology service managers,p,1
+OSCA,113233,ICT Service Delivery Manager,ISCO-08,1330,Information and communications technology service managers,p,1
+OSCA,113299,ICT Managers nec,ISCO-08,1330,Information and communications technology service managers,p,1
+OSCA,121131,Chief Executive or Managing Director,ISCO-08,1112,Senior government officials,p,1
+OSCA,121131,Chief Executive or Managing Director,ISCO-08,1114,Senior officials of special-interest organizations,p,1
+OSCA,121131,Chief Executive or Managing Director,ISCO-08,1120,Managing directors and chief executives,p,1
+OSCA,121231,Corporate General Manager,ISCO-08,1112,Senior government officials,p,1
+OSCA,121231,Corporate General Manager,ISCO-08,1114,Senior officials of special-interest organizations,p,1
+OSCA,121231,Corporate General Manager,ISCO-08,1120,Managing directors and chief executives,p,1
+OSCA,121232,Defence Force Senior Officer,ISCO-08,110,Commissioned armed forces officers,p,1
+OSCA,121331,Local Government Legislator,ISCO-08,1111,Legislators,p,1
+OSCA,121332,Member of Parliament,ISCO-08,1111,Legislators,p,1
+OSCA,121399,Legislators nec,ISCO-08,1111,Legislators,p,1
+OSCA,131131,Construction Project Manager,ISCO-08,1323,Construction managers,p,1
+OSCA,131231,Engineering Manager,ISCO-08,1349,Professional services managers not elsewhere classified,p,1
+OSCA,131331,Project Builder,ISCO-08,1323,Construction managers,p,1
+OSCA,131331,Project Builder,ISCO-08,7111,House builders,p,1
+OSCA,131431,Property Developer,ISCO-08,1323,Construction managers,p,1
+OSCA,131931,Surveying Manager,ISCO-08,1349,Professional services managers not elsewhere classified,p,1
+OSCA,131999,Construction and Engineering Managers nec,ISCO-08,1349,Professional services managers not elsewhere classified,p,1
+OSCA,132131,Manufacturer,ISCO-08,1321,Manufacturing managers,p,1
+OSCA,132231,Forest Manager,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,132232,Production Manager (Manufacturing),ISCO-08,1321,Manufacturing managers,p,1
+OSCA,132232,Production Manager (Manufacturing),ISCO-08,3122,Manufacturing supervisors,,1
+,,,,,,,
+OSCA,133131,Importer or Exporter,ISCO-08,1324,"Supply, distribution and related managers",p,1
+OSCA,133132,Wholesaler,ISCO-08,1420,Retail and wholesale trade managers,p,1
+OSCA,133231,Procurement Manager,ISCO-08,1324,"Supply, distribution and related managers",p,1
+OSCA,133331,Supply and Distribution Manager,ISCO-08,1324,"Supply, distribution and related managers",p,1
+OSCA,141131,Assistant School Principal,ISCO-08,1345,Education managers,p,1
+OSCA,141132,School Principal,ISCO-08,1345,Education managers,p,1
+,,,,,,,
+OSCA,141331,Aged Care Manager,ISCO-08,1343,Aged care service managers,p,1
+OSCA,141332,Director of Nursing / Midwifery,ISCO-08,1342,Health service managers,p,1
+OSCA,141333,Medical Administrator,ISCO-08,1342,Health service managers,p,1
+OSCA,141334,Paramedic Manager,ISCO-08,1342,Health service managers,p,1
+OSCA,141335,Welfare Centre Manager,ISCO-08,1344,Social welfare managers,p,1
+OSCA,141399,Health and Welfare Service Managers nec,ISCO-08,1342,Health service managers,p,1
+OSCA,141399,Health and Welfare Service Managers nec,ISCO-08,1343,Aged care service managers,p,1
+OSCA,141399,Health and Welfare Service Managers nec,ISCO-08,1344,Social welfare managers,p,1
+OSCA,141431,Faculty Manager,ISCO-08,1345,Education managers,p,1
+OSCA,141432,Regional Education Manager,ISCO-08,1345,Education managers,p,1
+OSCA,141499,Education Managers nec,ISCO-08,1345,Education managers,p,1
+OSCA,149131,Arts Administrator or Manager,ISCO-08,1349,Professional services managers not elsewhere classified,p,1
+OSCA,149132,Library Services Manager,ISCO-08,1349,Professional services managers not elsewhere classified,p,1
+OSCA,149133,Sports Administrator,ISCO-08,1349,Professional services managers not elsewhere classified,p,1
+OSCA,149199,"Arts, Culture and Sports Administrators nec",ISCO-08,1349,Professional services managers not elsewhere classified,p,1
+OSCA,149199,"Arts, Culture and Sports Administrators nec",ISCO-08,2636,Religious professionals,p,1
+OSCA,149231,Commissioned Defence Force Officer,ISCO-08,110,Commissioned armed forces officers,p,1
+OSCA,149232,Commissioned Fire Officer,ISCO-08,1349,Professional services managers not elsewhere classified,p,1
+OSCA,149233,Commissioned Police Officer,ISCO-08,1349,Professional services managers not elsewhere classified,p,1
+OSCA,149331,Environmental Manager,ISCO-08,1349,Professional services managers not elsewhere classified,p,1
+OSCA,149332,Exploration Manager,ISCO-08,1349,Professional services managers not elsewhere classified,p,1
+OSCA,149333,Laboratory Manager,ISCO-08,1349,Professional services managers not elsewhere classified,p,1
+OSCA,149399,Scientific and Environmental Managers nec,ISCO-08,1349,Professional services managers not elsewhere classified,p,1
+,,,,,,,
+OSCA,149931,Airport Manager,ISCO-08,1349,Professional services managers not elsewhere classified,p,1
+OSCA,149932,Correctional Facility Manager,ISCO-08,1349,Professional services managers not elsewhere classified,p,1
+OSCA,149933,Emergency Management Officer,ISCO-08,1349,Professional services managers not elsewhere classified,p,1
+OSCA,149999,Specialist Managers nec,ISCO-08,1112,Senior government officials,p,1
+OSCA,149999,Specialist Managers nec,ISCO-08,1349,Professional services managers not elsewhere classified,p,1
+OSCA,151131,Cotton Grower,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,151131,Cotton Grower,ISCO-08,6111,Field crop and vegetable growers,p,1
+OSCA,151132,"Grain, Oilseed, Pulse or Pasture Grower",ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,151132,"Grain, Oilseed, Pulse or Pasture Grower",ISCO-08,6111,Field crop and vegetable growers,p,1
+OSCA,151133,Sugar Cane Grower,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,151133,Sugar Cane Grower,ISCO-08,6111,Field crop and vegetable growers,p,1
+OSCA,151199,Broadacre Crop Growers nec,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,151199,Broadacre Crop Growers nec,ISCO-08,6111,Field crop and vegetable growers,p,1
+OSCA,151199,Broadacre Crop Growers nec,ISCO-08,6114,Mixed crop growers,p,1
+OSCA,151231,Flower Grower,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,151231,Flower Grower,ISCO-08,6113,"Gardeners, horticultural and nursery growers",p,1
+OSCA,151232,Fruit Grower,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,151232,Fruit Grower,ISCO-08,6112,Tree and shrub crop growers,p,1
+OSCA,151233,Nut Grower,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,151233,Nut Grower,ISCO-08,6112,Tree and shrub crop growers,p,1
+OSCA,151234,Production Nursery Grower,ISCO-08,6113,"Gardeners, horticultural and nursery growers",p,1
+OSCA,151235,Turf Grower,ISCO-08,6113,"Gardeners, horticultural and nursery growers",p,1
+OSCA,151236,Vegetable Grower,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,151236,Vegetable Grower,ISCO-08,6111,Field crop and vegetable growers,p,1
+OSCA,151237,Wine Grape Grower,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,151237,Wine Grape Grower,ISCO-08,6112,Tree and shrub crop growers,p,1
+OSCA,151299,Horticultural Crop Growers nec,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,151299,Horticultural Crop Growers nec,ISCO-08,6112,Tree and shrub crop growers,p,1
+OSCA,151299,Horticultural Crop Growers nec,ISCO-08,6113,"Gardeners, horticultural and nursery growers",p,1
+OSCA,151299,Horticultural Crop Growers nec,ISCO-08,6114,Mixed crop growers,p,1
+OSCA,151331,Aquaculture Farmer,ISCO-08,1312,Aquaculture and fisheries production managers,,1
+OSCA,151331,Aquaculture Farmer,ISCO-08,6221,Aquaculture workers,p,1
+OSCA,151332,Broadacre Crop and Livestock Farmer,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,151332,Broadacre Crop and Livestock Farmer,ISCO-08,6130,Mixed crop and animal producers,p,1
+OSCA,151399,Mixed Production and Aquaculture Farmers nec,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,151399,Mixed Production and Aquaculture Farmers nec,ISCO-08,6114,Mixed crop growers,p,1
+OSCA,151399,Mixed Production and Aquaculture Farmers nec,ISCO-08,6130,Mixed crop and animal producers,p,1
+OSCA,152131,Beef Cattle Farmer,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,152131,Beef Cattle Farmer,ISCO-08,6121,Livestock and dairy producers,p,1
+OSCA,152231,Dairy Cattle Farmer,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,152231,Dairy Cattle Farmer,ISCO-08,6121,Livestock and dairy producers,p,1
+OSCA,152331,Mixed Cattle and Sheep Farmer,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,152331,Mixed Cattle and Sheep Farmer,ISCO-08,6121,Livestock and dairy producers,p,1
+OSCA,152431,Sheep Farmer,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,152431,Sheep Farmer,ISCO-08,6121,Livestock and dairy producers,p,1
+OSCA,152931,Apiarist,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,152931,Apiarist,ISCO-08,6123,Apiarists and sericulturists,p,1
+OSCA,152932,Goat Farmer,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,152932,Goat Farmer,ISCO-08,6121,Livestock and dairy producers,p,1
+OSCA,152933,Horse Breeder,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,152933,Horse Breeder,ISCO-08,6121,Livestock and dairy producers,p,1
+OSCA,152934,Pig Farmer,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,152934,Pig Farmer,ISCO-08,6121,Livestock and dairy producers,p,1
+OSCA,152935,Poultry Farmer,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,152935,Poultry Farmer,ISCO-08,6122,Poultry producers,p,1
+OSCA,152999,Livestock Farmers nec,ISCO-08,1311,Agricultural and forestry production managers,p,1
+OSCA,152999,Livestock Farmers nec,ISCO-08,6121,Livestock and dairy producers,p,1
+OSCA,152999,Livestock Farmers nec,ISCO-08,6123,Apiarists and sericulturists,p,1
+OSCA,152999,Livestock Farmers nec,ISCO-08,6129,Animal producers not elsewhere classified,p,1
+OSCA,161131,Accommodation Service Manager,ISCO-08,1411,Hotel managers,p,1
+OSCA,161231,Cafe or Restaurant Manager,ISCO-08,1412,Restaurant managers,p,1
+OSCA,161231,Cafe or Restaurant Manager,ISCO-08,5221,Shopkeepers,p,1
+OSCA,161232,Catering Manager,ISCO-08,1412,Restaurant managers,p,1
+OSCA,161331,Amusement Centre Manager,ISCO-08,1431,"Sports, recreation and cultural centre managers",p,1
+OSCA,161332,Betting Agency Manager,ISCO-08,1420,Retail and wholesale trade managers,p,1
+OSCA,161332,Betting Agency Manager,ISCO-08,5221,Shopkeepers,p,1
+OSCA,161333,Cinema or Theatre Manager,ISCO-08,1431,"Sports, recreation and cultural centre managers",p,1
+OSCA,161334,Fitness Centre Manager,ISCO-08,1431,"Sports, recreation and cultural centre managers",p,1
+OSCA,161335,Sports Centre Manager,ISCO-08,1431,"Sports, recreation and cultural centre managers",p,1
+OSCA,161399,"Entertainment, Fitness and Sports Venue Managers nec",ISCO-08,1439,Services managers not elsewhere classified,p,1
+OSCA,161431,Hotel or Motel Manager,ISCO-08,1411,Hotel managers,p,1
+OSCA,161531,Licensed Club Manager,ISCO-08,1439,Services managers not elsewhere classified,p,1
+OSCA,161631,Senior Chef,ISCO-08,3434,Chefs,p,1
+OSCA,161931,Caravan Park and Camping Ground Manager,ISCO-08,1439,Services managers not elsewhere classified,p,1
+OSCA,161932,Hosted Accommodation Operator,ISCO-08,5152,Domestic housekeepers,p,1
+OSCA,161933,Travel Agency Manager,ISCO-08,1439,Services managers not elsewhere classified,p,1
+OSCA,161999,"Hospitality, Tourism and Venue Managers nec",ISCO-08,1411,Hotel managers,p,1
+OSCA,161999,"Hospitality, Tourism and Venue Managers nec",ISCO-08,1439,Services managers not elsewhere classified,p,1
+OSCA,162131,Retail Manager (General),ISCO-08,1420,Retail and wholesale trade managers,p,1
+OSCA,162131,Retail Manager (General),ISCO-08,5221,Shopkeepers,p,1
+OSCA,162132,Antique Dealer,ISCO-08,1420,Retail and wholesale trade managers,p,1
+OSCA,162132,Antique Dealer,ISCO-08,5221,Shopkeepers,p,1
+OSCA,162133,Post Office Manager,ISCO-08,1420,Retail and wholesale trade managers,p,1
+OSCA,162133,Post Office Manager,ISCO-08,5221,Shopkeepers,p,1
+,,,,,,,
+OSCA,171231,Office Manager,ISCO-08,3341,Office supervisors,p,1
+OSCA,171232,Payroll Manager,ISCO-08,4313,Payroll clerks,p,1
+OSCA,171331,Health Practice Manager,ISCO-08,1342,Health service managers,p,1
+OSCA,171331,Health Practice Manager,ISCO-08,3344,Medical secretaries,p,1
+OSCA,171332,Legal Practice Manager,ISCO-08,3342,Legal secretaries,p,1
+OSCA,171333,Veterinary Practice Manager,ISCO-08,3341,Office supervisors,p,1
+OSCA,171399,Practice Managers nec,ISCO-08,3341,Office supervisors,p,1
+OSCA,171431,Real Estate Agency Principal,ISCO-08,3334,Real estate agents and property managers,p,1
+OSCA,172131,Call or Contact Centre Manager,ISCO-08,1439,Services managers not elsewhere classified,p,1
+OSCA,172132,Customer Service Manager,ISCO-08,1219,Business services and administration managers not elsewhere classified,p,1
+OSCA,172132,Customer Service Manager,ISCO-08,1439,Services managers not elsewhere classified,p,1
+,,,,,,,
+OSCA,172331,Facilities Manager,ISCO-08,1219,Business services and administration managers not elsewhere classified,p,1
+OSCA,172331,Facilities Manager,ISCO-08,1439,Services managers not elsewhere classified,p,1
+OSCA,172431,Hair or Beauty Salon Manager,ISCO-08,1420,Retail and wholesale trade managers,p,1
+OSCA,172431,Hair or Beauty Salon Manager,ISCO-08,5221,Shopkeepers,p,1
+OSCA,172499,"Hair, Body and Beauty Service Managers nec",ISCO-08,1439,Services managers not elsewhere classified,p,1
+OSCA,172531,Fleet Manager,ISCO-08,1324,"Supply, distribution and related managers",p,1
+OSCA,172532,Railway Station Manager,ISCO-08,1324,"Supply, distribution and related managers",p,1
+OSCA,172533,Transport Company Manager,ISCO-08,1324,"Supply, distribution and related managers",p,1
+OSCA,172931,Boarding Kennel or Cattery Operator,ISCO-08,1439,Services managers not elsewhere classified,p,1
+OSCA,172932,Equipment Hire Manager,ISCO-08,1439,Services managers not elsewhere classified,p,1
+OSCA,172933,Retirement Village Manager,ISCO-08,1343,Aged care service managers,p,1
+OSCA,172934,Security Manager (Non-ICT),ISCO-08,1219,Business services and administration managers not elsewhere classified,p,1
+OSCA,172999,Service Managers nec,ISCO-08,1439,Services managers not elsewhere classified,p,1
+OSCA,211131,Accountant (General),ISCO-08,2411,Accountants,p,1
+OSCA,211132,Corporate Treasurer,ISCO-08,1211,Finance managers,p,1
+OSCA,211133,Forensic Accountant,ISCO-08,2411,Accountants,p,1
+OSCA,211134,Management Accountant,ISCO-08,2411,Accountants,p,1
+OSCA,211135,Taxation Accountant,ISCO-08,2411,Accountants,p,1
+OSCA,211231,External Auditor,ISCO-08,2411,Accountants,p,1
+OSCA,211232,Internal Auditor,ISCO-08,2411,Accountants,p,1
+OSCA,212131,Financial Adviser,ISCO-08,2412,Financial and investment advisers,p,1
+OSCA,212231,Financial Market Dealer,ISCO-08,3311,Securities and finance dealers and brokers,p,1
+OSCA,212232,Stockbroker,ISCO-08,3311,Securities and finance dealers and brokers,p,1
+OSCA,212331,Capital Markets Specialist,ISCO-08,3311,Securities and finance dealers and brokers,p,1
+OSCA,212332,Investment Analyst,ISCO-08,2413,Financial analysts,p,1
+OSCA,212332,Investment Analyst,ISCO-08,3311,Securities and finance dealers and brokers,p,1
+OSCA,212333,Investment Manager,ISCO-08,2412,Financial and investment advisers,p,1
+OSCA,212931,Credit Risk Manager,ISCO-08,2413,Financial analysts,p,1
+OSCA,212931,Credit Risk Manager,ISCO-08,3311,Securities and finance dealers and brokers,p,1
+OSCA,212999,Financial Services and Investment Specialists nec,ISCO-08,2413,Financial analysts,p,1
+OSCA,212999,Financial Services and Investment Specialists nec,ISCO-08,3311,Securities and finance dealers and brokers,p,1
+OSCA,221131,Advertising Specialist,ISCO-08,2431,Advertising and marketing professionals,p,1
+OSCA,221131,Advertising Specialist,ISCO-08,2654,"Film, stage and related directors and producers",p,1
+OSCA,221231,Communications Officer (Public Relations),ISCO-08,2432,Public relations professionals,p,1
+OSCA,221331,Electorate Officer,ISCO-08,2422,Policy administration professionals,p,1
+OSCA,221332,Liaison Officer,ISCO-08,2432,Public relations professionals,p,1
+OSCA,221332,Liaison Officer,ISCO-08,3339,Business service agents not elsewhere classified,p,1
+OSCA,221332,Liaison Officer,ISCO-08,3412,Social work associate professionals,p,1
+OSCA,221431,ICT Business Development Manager,ISCO-08,2434,Information and communication technology sales professionals,p,1
+OSCA,221531,Content Creator (Marketing),ISCO-08,2431,Advertising and marketing professionals,p,1
+OSCA,221532,Digital Marketing Analyst,ISCO-08,2431,Advertising and marketing professionals,p,1
+OSCA,221533,Market Research Analyst,ISCO-08,2431,Advertising and marketing professionals,p,1
+OSCA,221534,Marketing Specialist,ISCO-08,2431,Advertising and marketing professionals,p,1
+OSCA,221631,ICT Account Manager,ISCO-08,2434,Information and communication technology sales professionals,p,1
+OSCA,221632,ICT Sales Representative,ISCO-08,2434,Information and communication technology sales professionals,p,1
+OSCA,221633,Sales Representative (Industrial Products),ISCO-08,2433,Technical and medical sales professionals (excluding ICT),p,1
+OSCA,221634,Sales Representative (Medical and Pharmaceutical Products),ISCO-08,2433,Technical and medical sales professionals (excluding ICT),p,1
+OSCA,221699,Technical Sales Representatives nec,ISCO-08,2433,Technical and medical sales professionals (excluding ICT),p,1
+OSCA,222131,Human Resources Adviser,ISCO-08,2423,Personnel and career professionals,p,1
+OSCA,222132,Workplace Relations Adviser,ISCO-08,2423,Personnel and career professionals,p,1
+OSCA,222231,Recruitment Consultant,ISCO-08,2423,Personnel and career professionals,p,1
+OSCA,222231,Recruitment Consultant,ISCO-08,3333,Employment agents and contractors,p,1
+OSCA,222231,Recruitment Consultant,ISCO-08,3339,Business service agents not elsewhere classified,p,1
+OSCA,222331,Rehabilitation Consultant,ISCO-08,2263,Environmental and occupational health and hygiene professionals,p,1
+OSCA,222332,Work Health and Safety Adviser,ISCO-08,2263,Environmental and occupational health and hygiene professionals,p,1
+,,,,,,,
+,,,,,,,
+OSCA,223131,Actuary,ISCO-08,2120,"Mathematicians, actuaries and statisticians",p,1
+OSCA,223132,Mathematician,ISCO-08,2120,"Mathematicians, actuaries and statisticians",p,1
+OSCA,223133,Statistician,ISCO-08,2120,"Mathematicians, actuaries and statisticians",p,1
+OSCA,223231,Data Analyst,ISCO-08,2120,"Mathematicians, actuaries and statisticians",p,1
+OSCA,223232,Data Architect,ISCO-08,2120,"Mathematicians, actuaries and statisticians",p,1
+OSCA,223233,Data Engineer,ISCO-08,2120,"Mathematicians, actuaries and statisticians",p,1
+OSCA,223234,Data Scientist,ISCO-08,2120,"Mathematicians, actuaries and statisticians",p,1
+OSCA,223331,Intelligence Analyst,ISCO-08,2422,Policy administration professionals,p,1
+OSCA,223332,Policy Analyst,ISCO-08,2422,Policy administration professionals,p,1
+OSCA,223431,Enterprise Architect,ISCO-08,2421,Management and organisation analysts,p,1
+OSCA,223432,Management Consultant,ISCO-08,2421,Management and organisation analysts,p,1
+OSCA,223433,Organisation and Methods Analyst,ISCO-08,2421,Management and organisation analysts,p,1
+OSCA,223434,Supply Chain Analyst,ISCO-08,2421,Management and organisation analysts,p,1
+OSCA,223531,Asset Manager (Property),ISCO-08,3339,Business service agents not elsewhere classified,p,1
+OSCA,223532,Valuer,ISCO-08,3315,Valuers and loss assessors,p,1
+OSCA,223931,Company Secretary,ISCO-08,1211,Finance managers,p,1
+OSCA,223932,Cost Controller,ISCO-08,3339,Business service agents not elsewhere classified,p,1
+OSCA,223933,Health Information Manager,ISCO-08,3252,Medical records and health information technicians,p,1
+OSCA,223934,Patents Examiner,ISCO-08,3359,Government regulatory associate professionals not elsewhere classified,p,1
+OSCA,223935,Records or Information Manager,ISCO-08,2621,Archivists and curators,p,1
+OSCA,223935,Records or Information Manager,ISCO-08,2622,Librarians and related information professionals,p,1
+OSCA,223999,Information and Organisation Professionals nec,ISCO-08,2622,Librarians and related information professionals,p,1
+OSCA,223999,Information and Organisation Professionals nec,ISCO-08,3339,Business service agents not elsewhere classified,p,1
+OSCA,223999,Information and Organisation Professionals nec,ISCO-08,3412,Social work associate professionals,p,1
+OSCA,231131,Actor,ISCO-08,2655,Actors,p,1
+OSCA,231132,Circus Performer or Trainer,ISCO-08,2659,Creative and performing artists not elsewhere classified,p,1
+OSCA,231133,Content Creator (Social Media),ISCO-08,2659,Creative and performing artists not elsewhere classified,p,1
+,,,,,,,
+OSCA,231135,Entertainer or Variety Performer,ISCO-08,2652,"Musicians, singers and composers",p,1
+OSCA,231135,Entertainer or Variety Performer,ISCO-08,2659,Creative and performing artists not elsewhere classified,p,1
+OSCA,231199,"Actors, Dancers and Other Entertainers nec",ISCO-08,2655,Actors,p,1
+OSCA,231199,"Actors, Dancers and Other Entertainers nec",ISCO-08,2659,Creative and performing artists not elsewhere classified,p,1
+OSCA,231199,"Actors, Dancers and Other Entertainers nec",ISCO-08,3435,Artistic and cultural associate professionals not elsewhere classified,p,1
+OSCA,231231,Author,ISCO-08,2641,Authors and related writers,p,1
+OSCA,231232,Book or Script Editor,ISCO-08,2641,Authors and related writers,p,1
+OSCA,231331,Copywriter,ISCO-08,2431,Advertising and marketing professionals,p,1
+OSCA,231331,Copywriter,ISCO-08,2432,Public relations professionals,p,1
+OSCA,231332,Journalist,ISCO-08,2642,Journalists,p,1
+OSCA,231333,Print or Digital Content Editor,ISCO-08,2642,Journalists,p,1
+OSCA,231333,Print or Digital Content Editor,ISCO-08,4413,"Coding, proof-reading and related clerks",p,1
+OSCA,231334,Technical Writer,ISCO-08,2641,Authors and related writers,p,1
+OSCA,231399,Journalists and Other Writers nec,ISCO-08,2641,Authors and related writers,p,1
+OSCA,231399,Journalists and Other Writers nec,ISCO-08,2642,Journalists,p,1
+OSCA,231431,Artistic Director,ISCO-08,2654,"Film, stage and related directors and producers",p,1
+OSCA,231432,Audio or Live Performance Director,ISCO-08,2654,"Film, stage and related directors and producers",p,1
+OSCA,231433,Cinematographer,ISCO-08,2654,"Film, stage and related directors and producers",p,1
+OSCA,231434,Film and Video Editor,ISCO-08,2654,"Film, stage and related directors and producers",p,1
+OSCA,231435,Production Manager (Screen or Live Performance),ISCO-08,2654,"Film, stage and related directors and producers",p,1
+OSCA,231435,Production Manager (Screen or Live Performance),ISCO-08,3435,Artistic and cultural associate professionals not elsewhere classified,p,1
+OSCA,231436,Screen Director,ISCO-08,2654,"Film, stage and related directors and producers",p,1
+OSCA,231437,Screen or Live Performance Designer,ISCO-08,2654,"Film, stage and related directors and producers",p,1
+OSCA,231438,Technical Director,ISCO-08,2654,"Film, stage and related directors and producers",p,1
+OSCA,231499,Media Directors and Designers nec,ISCO-08,2654,"Film, stage and related directors and producers",p,1
+OSCA,231531,Audio Producer,ISCO-08,2654,"Film, stage and related directors and producers",p,1
+OSCA,231532,Live Performance Producer,ISCO-08,2654,"Film, stage and related directors and producers",p,1
+OSCA,231533,Screen Producer,ISCO-08,2654,"Film, stage and related directors and producers",p,1
+OSCA,231631,Composer,ISCO-08,2652,"Musicians, singers and composers",p,1
+OSCA,231632,Music Director,ISCO-08,2652,"Musicians, singers and composers",p,1
+OSCA,231633,Musician (Instrumental),ISCO-08,2652,"Musicians, singers and composers",p,1
+OSCA,231634,Singer,ISCO-08,2652,"Musicians, singers and composers",p,1
+OSCA,231699,Music Professionals nec,ISCO-08,2652,"Musicians, singers and composers",p,1
+OSCA,231699,Music Professionals nec,ISCO-08,2659,Creative and performing artists not elsewhere classified,p,1
+OSCA,231731,Painter (Visual Arts),ISCO-08,2651,Visual artists,p,1
+OSCA,231732,Potter or Ceramic Artist,ISCO-08,2651,Visual artists,p,1
+OSCA,231732,Potter or Ceramic Artist,ISCO-08,7314,Potters and related workers,,1
+OSCA,231733,Sculptor,ISCO-08,2651,Visual artists,p,1
+OSCA,231799,Visual Arts and Crafts Professionals nec,ISCO-08,7317,"Handicraft workers in wood, basketry and related materials",p,1
+OSCA,231799,Visual Arts and Crafts Professionals nec,ISCO-08,7318,"Handicraft workers in textile, leather and related materials",,1
+OSCA,231799,Visual Arts and Crafts Professionals nec,ISCO-08,7319,Handicraft workers not elsewhere classified,,1
+OSCA,231931,Community Arts Worker,ISCO-08,2635,Social work and counselling professionals,p,1
+,,,,,,,
+OSCA,232131,Librarian,ISCO-08,2622,Librarians and related information professionals,p,1
+OSCA,232231,Religious Leader,ISCO-08,2636,Religious professionals,p,1
+OSCA,232231,Religious Leader,ISCO-08,3413,Religious associate professionals,p,1
+OSCA,232331,Archaeologist,ISCO-08,2632,"Sociologists, anthropologists and related professionals",p,1
+OSCA,232332,Archivist,ISCO-08,2621,Archivists and curators,p,1
+,,,,,,,
+OSCA,232334,Gallery or Museum Curator,ISCO-08,2621,Archivists and curators,p,1
+OSCA,232335,Heritage Consultant,ISCO-08,2632,"Sociologists, anthropologists and related professionals",p,1
+OSCA,232335,Heritage Consultant,ISCO-08,2633,"Philosophers, historians and political scientists",p,1
+OSCA,232336,Historian,ISCO-08,2633,"Philosophers, historians and political scientists",p,1
+OSCA,232399,Social Science and Related Professionals nec,ISCO-08,2632,"Sociologists, anthropologists and related professionals",p,1
+OSCA,232399,Social Science and Related Professionals nec,ISCO-08,2633,"Philosophers, historians and political scientists",p,1
+OSCA,232399,Social Science and Related Professionals nec,ISCO-08,2643,"Translators, interpreters and other linguists",p,1
+OSCA,241131,Architect,ISCO-08,2161,Building architects,p,1
+OSCA,241132,Landscape Architect,ISCO-08,2162,Landscape architects,p,1
+OSCA,241133,Urban Designer,ISCO-08,2162,Landscape architects,p,1
+OSCA,241231,Cartographer,ISCO-08,2165,Cartographers and surveyors,p,1
+OSCA,241232,Engineering Surveyor,ISCO-08,2165,Cartographers and surveyors,p,1
+OSCA,241233,Geospatial Specialist,ISCO-08,2165,Cartographers and surveyors,p,1
+OSCA,241234,Land Surveyor,ISCO-08,2165,Cartographers and surveyors,p,1
+OSCA,241235,Mine Surveyor,ISCO-08,2165,Cartographers and surveyors,p,1
+OSCA,241299,Geospatial Information Professionals and Surveyors nec,ISCO-08,2165,Cartographers and surveyors,p,1
+,,,,,,,
+OSCA,241931,Building Surveyor,ISCO-08,3112,Civil engineering technicians,p,1
+OSCA,241932,Quantity Surveyor,ISCO-08,2149,Engineering professionals not elsewhere classified,p,1
+OSCA,242131,Multimedia Designer,ISCO-08,2166,Graphic and multimedia designers,p,1
+OSCA,242132,UI / UX Designer,ISCO-08,2166,Graphic and multimedia designers,p,1
+OSCA,242133,Web Designer,ISCO-08,2166,Graphic and multimedia designers,p,1
+OSCA,242231,Fashion Designer,ISCO-08,2163,Product and garment designers,p,1
+OSCA,242232,Industrial Designer,ISCO-08,2163,Product and garment designers,p,1
+OSCA,242233,Jewellery Designer,ISCO-08,2163,Product and garment designers,p,1
+OSCA,242234,Textile Designer,ISCO-08,2163,Product and garment designers,p,1
+OSCA,242331,Animator or Visual Effects Artist,ISCO-08,2166,Graphic and multimedia designers,p,1
+OSCA,242332,Graphic Designer,ISCO-08,2166,Graphic and multimedia designers,p,1
+OSCA,242333,Illustrator,ISCO-08,2166,Graphic and multimedia designers,p,1
+OSCA,242333,Illustrator,ISCO-08,2651,Visual artists,p,1
+OSCA,242431,Interior Designer,ISCO-08,2161,Building architects,p,1
+OSCA,242431,Interior Designer,ISCO-08,3432,Interior designers and decorators,p,1
+OSCA,243131,Chemical Engineer,ISCO-08,2145,Chemical engineers,p,1
+OSCA,243132,Extractive Metallurgist,ISCO-08,2146,"Mining engineers, metallurgists and related professionals",p,1
+OSCA,243133,Materials Engineer,ISCO-08,2146,"Mining engineers, metallurgists and related professionals",p,1
+OSCA,243133,Materials Engineer,ISCO-08,2149,Engineering professionals not elsewhere classified,p,1
+OSCA,243231,Civil Engineer,ISCO-08,2142,Civil engineers,p,1
+OSCA,243232,Geotechnical Engineer,ISCO-08,2142,Civil engineers,p,1
+OSCA,243233,Rail Engineer,ISCO-08,2142,Civil engineers,p,1
+OSCA,243234,Structural Engineer,ISCO-08,2142,Civil engineers,p,1
+OSCA,243235,Transport Engineer,ISCO-08,2142,Civil engineers,p,1
+OSCA,243236,Water Engineer,ISCO-08,2142,Civil engineers,p,1
+OSCA,243331,Electrical Engineer,ISCO-08,2151,Electrical engineers,p,1
+OSCA,243332,Rail Signalling Engineer,ISCO-08,2151,Electrical engineers,p,1
+OSCA,243431,Electronics Engineer,ISCO-08,2152,Electronics engineers,p,1
+OSCA,243531,Industrial Engineer,ISCO-08,2141,Industrial and production engineers,p,1
+OSCA,243531,Industrial Engineer,ISCO-08,2149,Engineering professionals not elsewhere classified,p,1
+OSCA,243532,Mechanical Engineer,ISCO-08,2144,Mechanical engineers,p,1
+OSCA,243533,Production or Plant Engineer,ISCO-08,2141,Industrial and production engineers,p,1
+OSCA,243631,Mining Engineer (excluding Petroleum),ISCO-08,2146,"Mining engineers, metallurgists and related professionals",p,1
+OSCA,243632,Petroleum Engineer,ISCO-08,2146,"Mining engineers, metallurgists and related professionals",p,1
+OSCA,243931,Acoustic Engineer,ISCO-08,2149,Engineering professionals not elsewhere classified,p,1
+OSCA,243932,Aerospace Engineer,ISCO-08,2144,Mechanical engineers,p,1
+OSCA,243933,Biomedical Engineer,ISCO-08,2149,Engineering professionals not elsewhere classified,p,1
+OSCA,243934,Engineering Technologist,ISCO-08,2141,Industrial and production engineers,p,1
+OSCA,243934,Engineering Technologist,ISCO-08,2142,Civil engineers,p,1
+OSCA,243934,Engineering Technologist,ISCO-08,2144,Mechanical engineers,p,1
+OSCA,243934,Engineering Technologist,ISCO-08,2145,Chemical engineers,p,1
+OSCA,243934,Engineering Technologist,ISCO-08,2146,"Mining engineers, metallurgists and related professionals",p,1
+OSCA,243934,Engineering Technologist,ISCO-08,2149,Engineering professionals not elsewhere classified,p,1
+OSCA,243934,Engineering Technologist,ISCO-08,2151,Electrical engineers,p,1
+OSCA,243934,Engineering Technologist,ISCO-08,2152,Electronics engineers,p,1
+,,,,,,,
+OSCA,243936,Fire Safety Engineer,ISCO-08,2149,Engineering professionals not elsewhere classified,p,1
+OSCA,243937,Mechatronics Engineer,ISCO-08,2149,Engineering professionals not elsewhere classified,p,1
+OSCA,243938,Naval Architect,ISCO-08,2144,Mechanical engineers,p,1
+OSCA,243999,Engineering Professionals nec,ISCO-08,2149,Engineering professionals not elsewhere classified,p,1
+OSCA,244131,Agricultural Consultant,ISCO-08,2132,"Farming, forestry and fisheries advisers",p,1
+OSCA,244132,Agricultural Research Scientist,ISCO-08,2132,"Farming, forestry and fisheries advisers",p,1
+OSCA,244133,Agronomist,ISCO-08,2131,"Biologists, botanists, zoologists and related professionals",p,1
+OSCA,244133,Agronomist,ISCO-08,2132,"Farming, forestry and fisheries advisers",p,1
+OSCA,244133,Agronomist,ISCO-08,2433,Technical and medical sales professionals (excluding ICT),p,1
+OSCA,244134,Aquaculture or Fisheries Scientist,ISCO-08,2131,"Biologists, botanists, zoologists and related professionals",p,1
+OSCA,244134,Aquaculture or Fisheries Scientist,ISCO-08,2132,"Farming, forestry and fisheries advisers",p,1
+OSCA,244135,Forester,ISCO-08,2132,"Farming, forestry and fisheries advisers",p,1
+,,,,,,,
+OSCA,244232,Food Technologist,ISCO-08,2145,Chemical engineers,p,1
+OSCA,244233,Winemaker,ISCO-08,2145,Chemical engineers,p,1
+OSCA,244331,Aboriginal and Torres Strait Islander Land and Sea Ranger,ISCO-08,2133,Environmental protection professionals,p,1
+OSCA,244331,Aboriginal and Torres Strait Islander Land and Sea Ranger,ISCO-08,5419,Protective services workers not elsewhere classified,p,1
+OSCA,244332,Conservation Officer,ISCO-08,2133,Environmental protection professionals,p,1
+OSCA,244333,Ecologist,ISCO-08,2133,Environmental protection professionals,p,1
+OSCA,244334,Park Ranger,ISCO-08,2133,Environmental protection professionals,p,1
+OSCA,244334,Park Ranger,ISCO-08,5419,Protective services workers not elsewhere classified,p,1
+OSCA,244431,Environmental Consultant,ISCO-08,2133,Environmental protection professionals,p,1
+OSCA,244432,Environmental Research Scientist,ISCO-08,2133,Environmental protection professionals,p,1
+OSCA,244499,Environmental Consultants and Scientists nec,ISCO-08,2132,"Farming, forestry and fisheries advisers",p,1
+OSCA,244499,Environmental Consultants and Scientists nec,ISCO-08,2133,Environmental protection professionals,p,1
+OSCA,244531,Geologist,ISCO-08,2114,Geologists and geophysicists,p,1
+OSCA,244532,Geophysicist,ISCO-08,2114,Geologists and geophysicists,p,1
+OSCA,244533,Hydrologist,ISCO-08,2114,Geologists and geophysicists,p,1
+OSCA,244631,Biotechnologist,ISCO-08,2131,"Biologists, botanists, zoologists and related professionals",p,1
+OSCA,244632,Botanist,ISCO-08,2131,"Biologists, botanists, zoologists and related professionals",p,1
+OSCA,244633,Entomologist,ISCO-08,2131,"Biologists, botanists, zoologists and related professionals",p,1
+OSCA,244634,Marine Biologist,ISCO-08,2131,"Biologists, botanists, zoologists and related professionals",p,1
+OSCA,244635,Microbiologist,ISCO-08,2131,"Biologists, botanists, zoologists and related professionals",p,1
+OSCA,244636,Zoologist,ISCO-08,2131,"Biologists, botanists, zoologists and related professionals",p,1
+OSCA,244699,Life Scientists nec,ISCO-08,2131,"Biologists, botanists, zoologists and related professionals",p,1
+OSCA,244731,Medical Laboratory Scientist,ISCO-08,2131,"Biologists, botanists, zoologists and related professionals",p,1
+OSCA,244731,Medical Laboratory Scientist,ISCO-08,3212,Medical and pathology laboratory technicians,p,1
+OSCA,244732,Medical Physicist,ISCO-08,2111,Physicists and astronomers,p,1
+OSCA,244931,Conservator,ISCO-08,2621,Archivists and curators,p,1
+,,,,,,,
+OSCA,244933,Physicist,ISCO-08,2111,Physicists and astronomers,p,1
+OSCA,244999,Natural and Physical Science Professionals nec,ISCO-08,2269,Health professionals not elsewhere classified,p,1
+,,,,,,,
+OSCA,251231,Primary School Teacher,ISCO-08,2341,Primary school teachers,p,1
+OSCA,251331,Secondary School Teacher,ISCO-08,2330,Secondary education teachers,p,1
+OSCA,251431,Special Education Teacher,ISCO-08,2352,Special needs teachers,p,1
+OSCA,251432,Specialist Teacher (Vision Impairment),ISCO-08,2352,Special needs teachers,p,1
+OSCA,251433,Teacher of the Deaf,ISCO-08,2352,Special needs teachers,p,1
+OSCA,251931,Teacher Librarian,ISCO-08,2330,Secondary education teachers,p,1
+OSCA,251931,Teacher Librarian,ISCO-08,2341,Primary school teachers,p,1
+OSCA,252131,University Lecturer,ISCO-08,2310,University and higher education teachers,p,1
+OSCA,252132,University Tutor,ISCO-08,2310,University and higher education teachers,p,1
+OSCA,252231,Vocational Education Teacher,ISCO-08,2310,University and higher education teachers,p,1
+OSCA,252231,Vocational Education Teacher,ISCO-08,2320,Vocational education teachers,p,1
+OSCA,259131,Academic Tutor (Private Tuition),ISCO-08,2353,Other language teachers,p,1
+OSCA,259131,Academic Tutor (Private Tuition),ISCO-08,2359,Teaching professionals not elsewhere classified,p,1
+OSCA,259231,Art Teacher (Private Tuition),ISCO-08,2355,Other arts teachers,p,1
+OSCA,259232,Dance Teacher (Private Tuition),ISCO-08,2355,Other arts teachers,p,1
+OSCA,259233,Speech and Drama Teacher (Private Tuition),ISCO-08,2355,Other arts teachers,p,1
+OSCA,259299,Arts and Personal Enrichment Teachers (Private Tuition) nec,ISCO-08,2353,Other language teachers,p,1
+OSCA,259299,Arts and Personal Enrichment Teachers (Private Tuition) nec,ISCO-08,2359,Teaching professionals not elsewhere classified,p,1
+OSCA,259331,Education Adviser,ISCO-08,2351,Education methods specialists,p,1
+OSCA,259332,Education Reviewer,ISCO-08,2351,Education methods specialists,p,1
+,,,,,,,
+OSCA,259531,Teacher of English to Speakers of Other Languages,ISCO-08,2353,Other language teachers,p,1
+OSCA,259931,Adult Literacy / Numeracy Teacher,ISCO-08,2320,Vocational education teachers,p,1
+OSCA,259932,Careers Adviser,ISCO-08,2423,Personnel and career professionals,p,1
+OSCA,259933,Student Services Adviser,ISCO-08,2635,Social work and counselling professionals,p,1
+OSCA,259999,Education Professionals nec,ISCO-08,2352,Special needs teachers,p,1
+OSCA,259999,Education Professionals nec,ISCO-08,2359,Teaching professionals not elsewhere classified,p,1
+OSCA,261131,Counsellor (General),ISCO-08,2635,Social work and counselling professionals,p,1
+OSCA,261132,Alcohol and Other Drugs Counsellor,ISCO-08,2635,Social work and counselling professionals,p,1
+OSCA,261133,Family and Relationship Counsellor,ISCO-08,2635,Social work and counselling professionals,p,1
+OSCA,261134,Psychotherapist,ISCO-08,2634,Psychologists,p,1
+OSCA,261135,Rehabilitation Counsellor,ISCO-08,2635,Social work and counselling professionals,p,1
+OSCA,261136,School Counsellor,ISCO-08,2359,Teaching professionals not elsewhere classified,p,1
+OSCA,261231,Psychologist,ISCO-08,2634,Psychologists,p,1
+OSCA,261331,Social Worker,ISCO-08,2635,Social work and counselling professionals,p,1
+OSCA,261931,Arts Therapist,ISCO-08,2269,Health professionals not elsewhere classified,p,1
+OSCA,261932,Behaviour Support Practitioner,ISCO-08,2635,Social work and counselling professionals,p,1
+OSCA,261933,Music Therapist,ISCO-08,2269,Health professionals not elsewhere classified,p,1
+OSCA,261999,"Allied Health Counselling, Psychology, Social Work and Creative Therapy Professionals nec",ISCO-08,2230,Traditional and complementary medicine professionals,p,1
+OSCA,261999,"Allied Health Counselling, Psychology, Social Work and Creative Therapy Professionals nec",ISCO-08,2269,Health professionals not elsewhere classified,p,1
+OSCA,262131,Chiropractor,ISCO-08,2269,Health professionals not elsewhere classified,p,1
+OSCA,262231,Exercise Physiologist,ISCO-08,2269,Health professionals not elsewhere classified,p,1
+OSCA,262232,Exercise and Sports Scientist,ISCO-08,2269,Health professionals not elsewhere classified,p,1
+OSCA,262331,Occupational Therapist,ISCO-08,2269,Health professionals not elsewhere classified,p,1
+,,,,,,,
+OSCA,262531,Podiatrist,ISCO-08,2269,Health professionals not elsewhere classified,p,1
+OSCA,262631,Speech Pathologist,ISCO-08,2266,Audiologists and speech therapists,p,1
+OSCA,262931,Orthotist / Prosthetist,ISCO-08,3214,Medical and dental prosthetic technicians,p,1
+OSCA,262932,Osteopath,ISCO-08,2269,Health professionals not elsewhere classified,p,1
+OSCA,262999,Allied Health Physical and Sensory Therapy Professionals nec,ISCO-08,2269,Health professionals not elsewhere classified,p,1
+OSCA,263131,Nuclear Medicine Technologist,ISCO-08,3211,Medical imaging and therapeutic equipment technicians,p,1
+OSCA,263132,Radiation Therapist,ISCO-08,3211,Medical imaging and therapeutic equipment technicians,p,1
+OSCA,263133,Radiographer,ISCO-08,3211,Medical imaging and therapeutic equipment technicians,p,1
+OSCA,263231,Dietitian,ISCO-08,2265,Dieticians and nutritionists,p,1
+OSCA,263232,Nutritionist,ISCO-08,2265,Dieticians and nutritionists,p,1
+OSCA,263331,Optometrist,ISCO-08,2267,Optometrists and ophthalmic opticians,p,1
+OSCA,263431,Community Pharmacist,ISCO-08,2262,Pharmacists,p,1
+OSCA,263432,Hospital Pharmacist,ISCO-08,2262,Pharmacists,p,1
+OSCA,263531,Sonographer,ISCO-08,3211,Medical imaging and therapeutic equipment technicians,p,1
+OSCA,263931,Audiologist,ISCO-08,2266,Audiologists and speech therapists,p,1
+OSCA,263932,Cardiac Physiologist,ISCO-08,3211,Medical imaging and therapeutic equipment technicians,p,1
+OSCA,263932,Cardiac Physiologist,ISCO-08,3259,Health associate professionals not elsewhere classified,p,1
+OSCA,263933,Diabetes Educator,ISCO-08,3253,Community health workers,p,1
+OSCA,263934,Neurophysiology Scientist,ISCO-08,2269,Health professionals not elsewhere classified,p,1
+OSCA,263935,Orthoptist,ISCO-08,2267,Optometrists and ophthalmic opticians,p,1
+OSCA,263936,Respiratory or Sleep Scientist,ISCO-08,2269,Health professionals not elsewhere classified,p,1
+OSCA,263999,Allied Health Science Professionals nec,ISCO-08,2269,Health professionals not elsewhere classified,p,1
+OSCA,264131,Anaesthetist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264231,General Practitioner,ISCO-08,2211,Generalist medical practitioners,p,1
+OSCA,264331,General Medicine Physician,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264332,Cardiologist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264333,Endocrinologist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264334,Gastroenterologist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264335,Geriatrician,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264336,Haematologist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264337,Intensive Care Specialist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264338,Medical Oncologist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264341,Nephrologist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264342,Neurologist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264343,Paediatrician,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264344,Public Health Physician,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264345,Respiratory Physician,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264346,Rheumatologist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264399,Physicians nec,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264431,Psychiatrist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264531,Resident Medical Officer,ISCO-08,2211,Generalist medical practitioners,p,1
+OSCA,264631,General Surgeon,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264632,Cardiothoracic Surgeon,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264633,Neurosurgeon,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264634,Orthopaedic Surgeon,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264635,Otolaryngologist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264636,Paediatric Surgeon,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264637,Plastic and Reconstructive Surgeon,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264638,Urologist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264641,Vascular Surgeon,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264931,Dermatologist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264932,Emergency Medicine Specialist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264933,Obstetrician and Gynaecologist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264934,Ophthalmologist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264935,Pathologist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264936,Radiation Oncologist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264937,Radiologist,ISCO-08,2212,Specialist medical practitioners,p,1
+OSCA,264999,Medical Practitioners nec,ISCO-08,2212,Specialist medical practitioners,p,1
+,,,,,,,
+OSCA,265231,Nurse Educator,ISCO-08,2221,Nursing professionals,p,1
+OSCA,265232,Nurse Researcher,ISCO-08,2221,Nursing professionals,p,1
+OSCA,265331,Nursing / Midwifery Unit Manager,ISCO-08,2221,Nursing professionals,p,1
+OSCA,265431,Nurse Practitioner,ISCO-08,2221,Nursing professionals,p,1
+OSCA,265432,Registered Nurse (Acute Care),ISCO-08,2221,Nursing professionals,p,1
+OSCA,265433,Registered Nurse (Aged Care),ISCO-08,2221,Nursing professionals,p,1
+OSCA,265434,Registered Nurse (Mental Health),ISCO-08,2221,Nursing professionals,p,1
+OSCA,265435,Registered Nurse (Primary Health Care),ISCO-08,2221,Nursing professionals,p,1
+OSCA,265499,Registered Nurses nec,ISCO-08,2221,Nursing professionals,p,1
+OSCA,269131,Dental Hygienist,ISCO-08,3251,Dental assistants and therapists,p,1
+OSCA,269132,Dental Prosthetist,ISCO-08,3214,Medical and dental prosthetic technicians,p,1
+OSCA,269133,Oral Health Therapist or Dental Therapist,ISCO-08,3251,Dental assistants and therapists,p,1
+OSCA,269231,Dental Specialist,ISCO-08,2261,Dentists,p,1
+OSCA,269232,Dentist,ISCO-08,2261,Dentists,p,1
+OSCA,269331,Environmental Health Officer,ISCO-08,2263,Environmental and occupational health and hygiene professionals,p,1
+OSCA,269331,Environmental Health Officer,ISCO-08,3257,Environmental and occupational health inspectors and associates,p,1
+OSCA,269332,Health Promotion Officer,ISCO-08,3253,Community health workers,p,1
+OSCA,269431,Critical Care Paramedic,ISCO-08,2240,Paramedical practitioners,,1
+OSCA,269431,Critical Care Paramedic,ISCO-08,3258,Ambulance workers,p,1
+OSCA,269432,Paramedic,ISCO-08,3258,Ambulance workers,p,1
+,,,,,,,
+OSCA,269532,Veterinary Technologist,ISCO-08,3240,Veterinary technicians and assistants,p,1
+OSCA,269931,Acupuncturist,ISCO-08,2230,Traditional and complementary medicine professionals,p,1
+OSCA,269932,Chinese Medicine Practitioner,ISCO-08,2230,Traditional and complementary medicine professionals,p,1
+OSCA,269933,Naturopath,ISCO-08,2230,Traditional and complementary medicine professionals,p,1
+OSCA,269999,Health Professionals nec,ISCO-08,2230,Traditional and complementary medicine professionals,p,1
+OSCA,269999,Health Professionals nec,ISCO-08,2269,Health professionals not elsewhere classified,p,1
+OSCA,269999,Health Professionals nec,ISCO-08,3230,Traditional and complementary medicine associate professionals,p,1
+OSCA,271131,Cyber Governance Risk and Compliance Specialist,ISCO-08,2529,Database and network professionals not elsewhere classified,p,1
+OSCA,271132,Cyber Security Advice and Assessment Specialist,ISCO-08,2529,Database and network professionals not elsewhere classified,p,1
+OSCA,271133,Cyber Security Analyst,ISCO-08,2529,Database and network professionals not elsewhere classified,p,1
+OSCA,271134,Cyber Security Architect,ISCO-08,2529,Database and network professionals not elsewhere classified,p,1
+OSCA,271135,Cyber Security Engineer,ISCO-08,2512,Software developers,p,1
+OSCA,271136,Cyber Security Operations Coordinator,ISCO-08,2529,Database and network professionals not elsewhere classified,p,1
+OSCA,271137,Penetration Tester,ISCO-08,2519,Software and applications developers and analysts not elsewhere classified,p,1
+,,,,,,,
+OSCA,271232,Systems Administrator,ISCO-08,2522,Systems administrators,p,1
+OSCA,272131,ICT Network and Systems Engineer,ISCO-08,2523,Computer network professionals,p,1
+OSCA,272132,Network Administrator,ISCO-08,2522,Systems administrators,p,1
+OSCA,272133,Network Architect,ISCO-08,2523,Computer network professionals,p,1
+OSCA,272231,ICT Quality Assurance Engineer,ISCO-08,2519,Software and applications developers and analysts not elsewhere classified,p,1
+OSCA,272232,ICT Support Engineer,ISCO-08,2519,Software and applications developers and analysts not elsewhere classified,p,1
+OSCA,272233,ICT Test Analyst,ISCO-08,2519,Software and applications developers and analysts not elsewhere classified,p,1
+,,,,,,,
+OSCA,273131,Digital Game Developer,ISCO-08,2513,Web and multimedia developers,p,1
+OSCA,273132,Web Developer,ISCO-08,2513,Web and multimedia developers,p,1
+OSCA,273231,Cloud Architect,ISCO-08,2511,Systems analysts,p,1
+OSCA,273232,ICT Business Analyst,ISCO-08,2511,Systems analysts,p,1
+OSCA,273233,Solution Architect,ISCO-08,2511,Systems analysts,p,1
+OSCA,273234,Systems Analyst,ISCO-08,2511,Systems analysts,p,1
+OSCA,273331,Cloud Engineer,ISCO-08,2512,Software developers,p,1
+OSCA,273332,DevOps Engineer,ISCO-08,2512,Software developers,p,1
+OSCA,273333,Software Engineer,ISCO-08,2512,Software developers,p,1
+OSCA,273333,Software Engineer,ISCO-08,2514,Applications programmers,,1
+OSCA,281131,Barrister,ISCO-08,2611,Lawyers,p,1
+OSCA,281231,Family Dispute Resolution Practitioner,ISCO-08,2619,Legal professionals not elsewhere classified,p,1
+OSCA,281232,Intellectual Property Lawyer,ISCO-08,2611,Lawyers,p,1
+OSCA,281233,Judge,ISCO-08,2612,Judges,p,1
+OSCA,281234,Judge's Associate,ISCO-08,2619,Legal professionals not elsewhere classified,p,1
+OSCA,281235,Magistrate,ISCO-08,2612,Judges,p,1
+OSCA,281236,Migration Agent,ISCO-08,2619,Legal professionals not elsewhere classified,p,1
+OSCA,281237,Police Prosecutor,ISCO-08,2611,Lawyers,p,1
+OSCA,281238,Tribunal Member,ISCO-08,2619,Legal professionals not elsewhere classified,p,1
+OSCA,281299,Judicial and Other Legal Professionals nec,ISCO-08,2619,Legal professionals not elsewhere classified,p,1
+OSCA,281331,Solicitor,ISCO-08,2611,Lawyers,p,1
+OSCA,299131,Aeroplane Pilot,ISCO-08,3153,Aircraft pilots and related associate professionals,p,1
+,,,,,,,
+OSCA,299133,Flight Instructor,ISCO-08,3153,Aircraft pilots and related associate professionals,p,1
+OSCA,299134,Helicopter Pilot,ISCO-08,3153,Aircraft pilots and related associate professionals,p,1
+OSCA,299199,Air Transport Professionals nec,ISCO-08,3153,Aircraft pilots and related associate professionals,p,1
+OSCA,299231,Specialist Police Officer,ISCO-08,3355,Police inspectors and detectives,,1
+OSCA,299231,Specialist Police Officer,ISCO-08,5412,Police officers,p,1
+OSCA,311131,Agricultural and Agritech Technician,ISCO-08,3142,Agricultural technicians,p,1
+OSCA,311132,Animal Husbandry Technician,ISCO-08,3142,Agricultural technicians,p,1
+OSCA,311133,Aquaculture or Fisheries Technician,ISCO-08,3142,Agricultural technicians,p,1
+OSCA,311134,Biosecurity Officer,ISCO-08,3351,Customs and border inspectors,p,1
+OSCA,311134,Biosecurity Officer,ISCO-08,3359,Government regulatory associate professionals not elsewhere classified,p,1
+OSCA,311135,Fisheries Officer,ISCO-08,3359,Government regulatory associate professionals not elsewhere classified,p,1
+OSCA,311136,Irrigation Designer,ISCO-08,3142,Agricultural technicians,p,1
+OSCA,311137,Meat Inspector,ISCO-08,3257,Environmental and occupational health inspectors and associates,p,1
+OSCA,311138,Primary Products Quality Assurance Officer,ISCO-08,3257,Environmental and occupational health inspectors and associates,p,1
+OSCA,311199,Agricultural Technicians and Inspection Officers nec,ISCO-08,3257,Environmental and occupational health inspectors and associates,p,1
+OSCA,311199,Agricultural Technicians and Inspection Officers nec,ISCO-08,3359,Government regulatory associate professionals not elsewhere classified,p,1
+OSCA,311231,Anaesthetic Technician,ISCO-08,3259,Health associate professionals not elsewhere classified,p,1
+OSCA,311232,Dental Technician,ISCO-08,3214,Medical and dental prosthetic technicians,p,1
+OSCA,311233,Medical Laboratory Technician,ISCO-08,3212,Medical and pathology laboratory technicians,p,1
+OSCA,311234,Operating Theatre Technician,ISCO-08,3259,Health associate professionals not elsewhere classified,p,1
+OSCA,311235,Respiratory Technician,ISCO-08,3214,Medical and dental prosthetic technicians,p,1
+OSCA,311299,Medical and Dental Technicians nec,ISCO-08,3214,Medical and dental prosthetic technicians,p,1
+OSCA,311299,Medical and Dental Technicians nec,ISCO-08,3256,Medical assistants,,1
+OSCA,311299,Medical and Dental Technicians nec,ISCO-08,3259,Health associate professionals not elsewhere classified,p,1
+OSCA,311331,Community Pharmacy Technician,ISCO-08,3213,Pharmaceutical technicians and assistants,p,1
+OSCA,311332,Hospital Pharmacy Technician,ISCO-08,3213,Pharmaceutical technicians and assistants,p,1
+OSCA,311431,Phlebotomist,ISCO-08,5329,Personal care workers in health services not elsewhere classified,p,1
+OSCA,311531,Chemical Technician,ISCO-08,3111,Chemical and physical science technicians,p,1
+OSCA,311532,Earth Science Technician,ISCO-08,3111,Chemical and physical science technicians,p,1
+OSCA,311533,Geospatial Technician,ISCO-08,3112,Civil engineering technicians,p,1
+OSCA,311533,Geospatial Technician,ISCO-08,3118,Draughtspersons,p,1
+OSCA,311534,Hydrographer,ISCO-08,3111,Chemical and physical science technicians,p,1
+,,,,,,,
+,,,,,,,
+OSCA,311536,School Laboratory Technician,ISCO-08,3111,Chemical and physical science technicians,p,1
+OSCA,311599,Science Technicians nec,ISCO-08,3111,Chemical and physical science technicians,p,1
+OSCA,311599,Science Technicians nec,ISCO-08,3119,Physical and engineering science technicians not elsewhere classified,p,1
+OSCA,312131,Architectural Technician,ISCO-08,3118,Draughtspersons,p,1
+OSCA,312132,Building Designer,ISCO-08,3118,Draughtspersons,p,1
+OSCA,312133,Detailer Drafter,ISCO-08,3118,Draughtspersons,p,1
+OSCA,312134,Landscape Designer,ISCO-08,2162,Landscape architects,p,1
+OSCA,312135,Surveying Technician,ISCO-08,3112,Civil engineering technicians,p,1
+OSCA,312135,Surveying Technician,ISCO-08,3118,Draughtspersons,p,1
+OSCA,312199,Building and Landscape Designers and Technicians nec,ISCO-08,3118,Draughtspersons,p,1
+OSCA,312199,Building and Landscape Designers and Technicians nec,ISCO-08,3119,Physical and engineering science technicians not elsewhere classified,p,1
+OSCA,312231,Building Inspector,ISCO-08,3112,Civil engineering technicians,p,1
+OSCA,312232,Energy Assessor,ISCO-08,3119,Physical and engineering science technicians not elsewhere classified,p,1
+OSCA,312233,Plumbing Inspector,ISCO-08,3359,Government regulatory associate professionals not elsewhere classified,p,1
+OSCA,312234,Safety Inspector,ISCO-08,2149,Engineering professionals not elsewhere classified,p,1
+OSCA,312234,Safety Inspector,ISCO-08,3117,Mining and metallurgical technicians,p,1
+OSCA,312234,Safety Inspector,ISCO-08,3257,Environmental and occupational health inspectors and associates,p,1
+OSCA,312331,Construction Estimator,ISCO-08,3112,Civil engineering technicians,p,1
+OSCA,312431,Civil Construction Leading Hand,ISCO-08,3123,Construction supervisors,p,1
+OSCA,312432,Construction Site Supervisor,ISCO-08,3123,Construction supervisors,p,1
+OSCA,313131,Civil Engineering Draftsperson,ISCO-08,3118,Draughtspersons,p,1
+OSCA,313132,Civil Engineering Technician,ISCO-08,3112,Civil engineering technicians,p,1
+OSCA,313231,Electrical Engineering Draftsperson,ISCO-08,3118,Draughtspersons,p,1
+,,,,,,,
+OSCA,313331,Maintenance Planner,ISCO-08,4322,Production clerks,p,1
+,,,,,,,
+OSCA,313432,Marine Pilot,ISCO-08,3152,Ships' deck officers and pilots,p,1
+OSCA,313433,Marine Surveyor,ISCO-08,3115,Mechanical engineering technicians,p,1
+OSCA,313434,Master Fisher,ISCO-08,6222,Inland and coastal waters fishery workers,p,1
+OSCA,313434,Master Fisher,ISCO-08,6223,Deep-sea fishery workers,p,1
+OSCA,313435,Ship's Master,ISCO-08,3152,Ships' deck officers and pilots,p,1
+OSCA,313436,Ship's Officer,ISCO-08,3152,Ships' deck officers and pilots,p,1
+OSCA,313499,"Marine Transport Masters, Officers and Technicians nec",ISCO-08,3152,Ships' deck officers and pilots,p,1
+,,,,,,,
+OSCA,313931,Biomedical Technician,ISCO-08,3119,Physical and engineering science technicians not elsewhere classified,p,1
+OSCA,313932,Electronic Engineering Technician,ISCO-08,3114,Electronics engineering technicians,,1
+OSCA,313932,Electronic Engineering Technician,ISCO-08,3155,Air traffic safety electronics technicians,p,1
+OSCA,313933,Mechanical Engineering Draftsperson,ISCO-08,3118,Draughtspersons,p,1
+OSCA,313934,Mechanical Engineering Technician,ISCO-08,3115,Mechanical engineering technicians,p,1
+OSCA,313935,Metallurgical or Materials Technician,ISCO-08,3117,Mining and metallurgical technicians,p,1
+OSCA,313935,Metallurgical or Materials Technician,ISCO-08,3119,Physical and engineering science technicians not elsewhere classified,p,1
+OSCA,313936,Non-destructive Testing Technician,ISCO-08,3117,Mining and metallurgical technicians,p,1
+OSCA,313936,Non-destructive Testing Technician,ISCO-08,3119,Physical and engineering science technicians not elsewhere classified,p,1
+OSCA,313937,Other Draftsperson,ISCO-08,3118,Draughtspersons,p,1
+OSCA,313999,Engineering Technicians nec,ISCO-08,3116,Chemical engineering technicians,,1
+OSCA,313999,Engineering Technicians nec,ISCO-08,3119,Physical and engineering science technicians not elsewhere classified,p,1
+OSCA,314131,ICT Hardware Technician,ISCO-08,7422,Information and communications technology installers and servicers,p,1
+OSCA,314132,Radiocommunications Technician,ISCO-08,3155,Air traffic safety electronics technicians,p,1
+OSCA,314132,Radiocommunications Technician,ISCO-08,3522,Telecommunications engineering technicians,p,1
+OSCA,314133,Telecommunications Field Engineer,ISCO-08,3522,Telecommunications engineering technicians,p,1
+OSCA,314134,Telecommunications Network Designer,ISCO-08,3522,Telecommunications engineering technicians,p,1
+OSCA,314135,Telecommunications Technical Officer or Technologist,ISCO-08,3522,Telecommunications engineering technicians,p,1
+,,,,,,,
+OSCA,314199,ICT and Telecommunications Technicians nec,ISCO-08,3511,Information and communications technology operations technicians,,1
+OSCA,314199,ICT and Telecommunications Technicians nec,ISCO-08,7422,Information and communications technology installers and servicers,p,1
+,,,,,,,
+,,,,,,,
+OSCA,321131,Chef,ISCO-08,3434,Chefs,p,1
+OSCA,322131,Baker,ISCO-08,7512,"Bakers, pastry-cooks and confectionery makers",p,1
+OSCA,322231,Butcher or Smallgoods Maker,ISCO-08,7511,"Butchers, fishmongers and related food preparers",p,1
+,,,,,,,
+OSCA,322431,Pastrycook,ISCO-08,7512,"Bakers, pastry-cooks and confectionery makers",p,1
+OSCA,331131,Metal Fabricator,ISCO-08,7212,Welders and flamecutters,p,1
+OSCA,331131,Metal Fabricator,ISCO-08,7213,Sheet metal workers,p,1
+OSCA,331131,Metal Fabricator,ISCO-08,7214,Structural metal preparers and erectors,p,1
+OSCA,331132,Pressure Welder,ISCO-08,7212,Welders and flamecutters,p,1
+OSCA,331133,Welder (First Class),ISCO-08,7212,Welders and flamecutters,p,1
+OSCA,331931,Blacksmith,ISCO-08,7221,"Blacksmiths, hammersmiths and forging press workers",p,1
+OSCA,331932,Electroplater,ISCO-08,8122,"Metal finishing, plating and coating machine operators",p,1
+OSCA,331933,Farrier,ISCO-08,7221,"Blacksmiths, hammersmiths and forging press workers",p,1
+,,,,,,,
+OSCA,331935,Metal Polisher,ISCO-08,7224,"Metal polishers, wheel grinders and tool sharpeners",p,1
+OSCA,331936,Sheetmetal Worker,ISCO-08,7213,Sheet metal workers,p,1
+OSCA,332131,Aircraft Maintenance Technician (Avionics),ISCO-08,7421,Electronics mechanics and servicers,p,1
+OSCA,332132,Aircraft Maintenance Technician (Mechanical),ISCO-08,7232,Aircraft engine mechanics and repairers,p,1
+OSCA,332133,Aircraft Maintenance Technician (Structures),ISCO-08,7213,Sheet metal workers,p,1
+OSCA,332134,Licensed Aircraft Maintenance Engineer,ISCO-08,7232,Aircraft engine mechanics and repairers,p,1
+OSCA,332134,Licensed Aircraft Maintenance Engineer,ISCO-08,7421,Electronics mechanics and servicers,p,1
+OSCA,332231,Fitter (General),ISCO-08,7223,Metal working machine tool setters and operators,p,1
+OSCA,332231,Fitter (General),ISCO-08,7233,Agricultural and industrial machinery mechanics and repairers,p,1
+OSCA,332232,Fitter and Turner,ISCO-08,7223,Metal working machine tool setters and operators,p,1
+OSCA,332233,Fitter-Welder,ISCO-08,7212,Welders and flamecutters,p,1
+OSCA,332234,Metal Machinist (First Class),ISCO-08,7223,Metal working machine tool setters and operators,p,1
+OSCA,332299,Metal Fitters and Machinists nec,ISCO-08,7233,Agricultural and industrial machinery mechanics and repairers,p,1
+OSCA,332331,Engineering Patternmaker,ISCO-08,7222,Toolmakers and related workers,p,1
+OSCA,332332,Engraver,ISCO-08,7316,"Sign writers, decorative painters, engravers and etchers",p,1
+OSCA,332333,Gunsmith,ISCO-08,7222,Toolmakers and related workers,p,1
+OSCA,332334,Locksmith,ISCO-08,7222,Toolmakers and related workers,p,1
+OSCA,332335,Precision Instrument Maker and Repairer,ISCO-08,7311,Precision-instrument makers and repairers,p,1
+OSCA,332336,Saw Technician,ISCO-08,7222,Toolmakers and related workers,p,1
+OSCA,332336,Saw Technician,ISCO-08,7224,"Metal polishers, wheel grinders and tool sharpeners",p,1
+OSCA,332337,Toolmaker,ISCO-08,7222,Toolmakers and related workers,p,1
+OSCA,332338,Watch and Clock Maker and Repairer,ISCO-08,7311,Precision-instrument makers and repairers,p,1
+OSCA,341131,Dog Handler or Trainer,ISCO-08,5164,Pet groomers and animal care workers,p,1
+OSCA,341132,Horse Trainer,ISCO-08,5164,Pet groomers and animal care workers,p,1
+OSCA,341133,Track Rider,ISCO-08,6121,Livestock and dairy producers,p,1
+OSCA,341134,Zookeeper,ISCO-08,5164,Pet groomers and animal care workers,p,1
+OSCA,341199,Animal Trainers and Zookeepers nec,ISCO-08,5164,Pet groomers and animal care workers,p,1
+OSCA,341231,Veterinary Nurse,ISCO-08,3240,Veterinary technicians and assistants,p,1
+OSCA,341231,Veterinary Nurse,ISCO-08,5164,Pet groomers and animal care workers,p,1
+OSCA,342131,Gardener (General),ISCO-08,6113,"Gardeners, horticultural and nursery growers",p,1
+OSCA,342231,Arborist,ISCO-08,6113,"Gardeners, horticultural and nursery growers",p,1
+OSCA,342232,Tree Worker,ISCO-08,6113,"Gardeners, horticultural and nursery growers",p,1
+OSCA,342331,Florist,ISCO-08,7549,Craft and related workers not elsewhere classified,p,1
+OSCA,342431,Irrigation Technician,ISCO-08,6113,"Gardeners, horticultural and nursery growers",p,1
+OSCA,342432,Landscape Gardener,ISCO-08,6113,"Gardeners, horticultural and nursery growers",p,1
+OSCA,342531,Sports Turf Manager,ISCO-08,6113,"Gardeners, horticultural and nursery growers",p,1
+OSCA,342532,Sports Turf Trades Worker,ISCO-08,6113,"Gardeners, horticultural and nursery growers",p,1
+OSCA,342931,Nurseryperson,ISCO-08,6113,"Gardeners, horticultural and nursery growers",p,1
+OSCA,343131,Aquaculture Supervisor,ISCO-08,6221,Aquaculture workers,p,1
+OSCA,343132,Fishing Leading Hand,ISCO-08,6222,Inland and coastal waters fishery workers,p,1
+OSCA,343132,Fishing Leading Hand,ISCO-08,6223,Deep-sea fishery workers,p,1
+OSCA,343133,Forestry Operations Supervisor,ISCO-08,6210,Forestry and related workers,p,1
+OSCA,343134,Horticultural Supervisor or Specialist,ISCO-08,6111,Field crop and vegetable growers,p,1
+OSCA,343134,Horticultural Supervisor or Specialist,ISCO-08,6112,Tree and shrub crop growers,p,1
+OSCA,343134,Horticultural Supervisor or Specialist,ISCO-08,6113,"Gardeners, horticultural and nursery growers",p,1
+OSCA,343134,Horticultural Supervisor or Specialist,ISCO-08,6114,Mixed crop growers,p,1
+OSCA,343135,Senior Broadacre Crop and Livestock Farm Worker,ISCO-08,6130,Mixed crop and animal producers,p,1
+OSCA,343136,Senior Broadacre Crop Farm Worker,ISCO-08,6111,Field crop and vegetable growers,p,1
+OSCA,343137,Vineyard Supervisor,ISCO-08,6112,Tree and shrub crop growers,p,1
+OSCA,343199,"Senior Aquaculture, Crop and Forestry Workers nec",ISCO-08,6111,Field crop and vegetable growers,p,1
+OSCA,343199,"Senior Aquaculture, Crop and Forestry Workers nec",ISCO-08,6112,Tree and shrub crop growers,p,1
+OSCA,343199,"Senior Aquaculture, Crop and Forestry Workers nec",ISCO-08,6114,Mixed crop growers,p,1
+OSCA,343231,Senior Beef Cattle Station Worker,ISCO-08,6121,Livestock and dairy producers,p,1
+OSCA,343232,Senior Cattle and Sheep Farm Worker,ISCO-08,6121,Livestock and dairy producers,p,1
+OSCA,343233,Senior Dairy Cattle Farm Worker,ISCO-08,6121,Livestock and dairy producers,p,1
+OSCA,343234,Senior Horse Stable or Stud Worker,ISCO-08,6121,Livestock and dairy producers,p,1
+OSCA,343235,Senior Piggery Stockperson,ISCO-08,6121,Livestock and dairy producers,p,1
+OSCA,343236,Senior Sheep Farm Worker,ISCO-08,6121,Livestock and dairy producers,p,1
+OSCA,343299,Senior Livestock Farm Workers nec,ISCO-08,6121,Livestock and dairy producers,p,1
+OSCA,343299,Senior Livestock Farm Workers nec,ISCO-08,6122,Poultry producers,p,1
+OSCA,343299,Senior Livestock Farm Workers nec,ISCO-08,6129,Animal producers not elsewhere classified,p,1
+OSCA,343331,Shearer,ISCO-08,6121,Livestock and dairy producers,p,1
+OSCA,343332,Wool Classer,ISCO-08,7543,Product graders and testers (excluding foods and beverages),p,1
+OSCA,351131,Automotive Technician (General),ISCO-08,7231,Motor vehicle mechanics and repairers,p,1
+OSCA,351231,Automotive Electrician,ISCO-08,7412,Electrical mechanics and fitters,p,1
+OSCA,351331,Panelbeater,ISCO-08,7213,Sheet metal workers,p,1
+OSCA,351431,Agricultural Mechanic,ISCO-08,7233,Agricultural and industrial machinery mechanics and repairers,p,1
+OSCA,351432,Bicycle Technician,ISCO-08,7234,Bicycle and related workers,p,1
+OSCA,351433,Diesel Technician,ISCO-08,7231,Motor vehicle mechanics and repairers,p,1
+OSCA,351434,Electric Vehicle Technician,ISCO-08,7412,Electrical mechanics and fitters,p,1
+OSCA,351435,Marine Technician,ISCO-08,7231,Motor vehicle mechanics and repairers,p,1
+OSCA,351436,Motorcycle Technician,ISCO-08,7231,Motor vehicle mechanics and repairers,p,1
+OSCA,351437,Small Engine Technician,ISCO-08,7231,Motor vehicle mechanics and repairers,p,1
+OSCA,351531,Vehicle Body Builder,ISCO-08,7213,Sheet metal workers,p,1
+OSCA,351532,Vehicle Trimmer,ISCO-08,7534,Upholsterers and related workers,p,1
+OSCA,351631,Vehicle Painter,ISCO-08,7132,Spray painters and varnishers,p,1
+OSCA,361131,Floor Finisher,ISCO-08,7114,"Concrete placers, concrete finishers and related workers",p,1
+OSCA,361131,Floor Finisher,ISCO-08,7122,Floor layers and tile setters,p,1
+OSCA,361131,Floor Finisher,ISCO-08,9313,Building construction labourers,p,1
+,,,,,,,
+OSCA,362131,Glazier,ISCO-08,7125,Glaziers,p,1
+OSCA,362231,Plasterer (Wall and Ceiling),ISCO-08,7123,Plasterers,p,1
+OSCA,362232,Renderer (Solid Plaster),ISCO-08,7123,Plasterers,p,1
+OSCA,362331,Roof Tiler,ISCO-08,7121,Roofers,p,1
+OSCA,362431,Wall and Floor Tiler,ISCO-08,7122,Floor layers and tile setters,p,1
+OSCA,363131,Plumber (General),ISCO-08,7126,Plumbers and pipe fitters,p,1
+OSCA,363231,Gasfitter,ISCO-08,7126,Plumbers and pipe fitters,p,1
+OSCA,363331,Roof Plumber,ISCO-08,7121,Roofers,p,1
+OSCA,363331,Roof Plumber,ISCO-08,7126,Plumbers and pipe fitters,p,1
+OSCA,363931,Drainer,ISCO-08,7126,Plumbers and pipe fitters,p,1
+OSCA,363932,Fire Protection Plumber,ISCO-08,7126,Plumbers and pipe fitters,p,1
+OSCA,363933,Mechanical Services Plumber,ISCO-08,7126,Plumbers and pipe fitters,p,1
+OSCA,369131,Cabinet Maker,ISCO-08,7522,Cabinet-makers and related workers,p,1
+OSCA,369931,Shopfitter,ISCO-08,7115,Carpenters and joiners,p,1
+OSCA,369932,Swimming Pool and Spa Builder,ISCO-08,7119,Building frame and related trades workers not elsewhere classified,p,1
+OSCA,369933,Waterproofer,ISCO-08,7124,Insulation workers,p,1
+,,,,,,,
+,,,,,,,
+OSCA,371231,Concreter,ISCO-08,7114,"Concrete placers, concrete finishers and related workers",p,1
+OSCA,372131,Carpenter and Joiner,ISCO-08,7115,Carpenters and joiners,p,1
+OSCA,372132,Carpenter,ISCO-08,7115,Carpenters and joiners,p,1
+OSCA,372133,Joiner,ISCO-08,7115,Carpenters and joiners,p,1
+,,,,,,,
+OSCA,381231,Electrician (General),ISCO-08,7411,Building and related electricians,p,1
+OSCA,381231,Electrician (General),ISCO-08,7412,Electrical mechanics and fitters,p,1
+OSCA,381232,Electrical Fitter,ISCO-08,7412,Electrical mechanics and fitters,p,1
+OSCA,381233,Industrial Electrician,ISCO-08,7411,Building and related electricians,p,1
+OSCA,381233,Industrial Electrician,ISCO-08,7412,Electrical mechanics and fitters,p,1
+OSCA,381234,Lift Mechanic,ISCO-08,7412,Electrical mechanics and fitters,p,1
+,,,,,,,
+OSCA,382231,Communications Operator,ISCO-08,3521,Broadcasting and audio-visual technicians,p,1
+OSCA,382232,Electronic Equipment Trades Worker,ISCO-08,7421,Electronics mechanics and servicers,p,1
+OSCA,382233,Electronic Instrument Technician,ISCO-08,7421,Electronics mechanics and servicers,p,1
+OSCA,382234,Office Equipment Technician,ISCO-08,7421,Electronics mechanics and servicers,p,1
+OSCA,382331,Cabler (Data and Telecommunications),ISCO-08,7422,Information and communications technology installers and servicers,p,1
+OSCA,382332,Telecommunications Cable Technician,ISCO-08,7422,Information and communications technology installers and servicers,p,1
+OSCA,382333,Telecommunications Linesworker,ISCO-08,7422,Information and communications technology installers and servicers,p,1
+OSCA,382334,Telecommunications Technician,ISCO-08,7422,Information and communications technology installers and servicers,p,1
+OSCA,391131,Gallery or Museum Technician,ISCO-08,3433,"Gallery, museum and library technicians",p,1
+OSCA,391132,Library Technician,ISCO-08,3433,"Gallery, museum and library technicians",p,1
+OSCA,391231,Audio Engineer,ISCO-08,3521,Broadcasting and audio-visual technicians,p,1
+OSCA,391232,Broadcast Technician,ISCO-08,3521,Broadcasting and audio-visual technicians,p,1
+OSCA,391233,"Camera Operator (Film, Television or Video)",ISCO-08,3521,Broadcasting and audio-visual technicians,p,1
+OSCA,391234,Lighting Technician,ISCO-08,3435,Artistic and cultural associate professionals not elsewhere classified,p,1
+OSCA,391299,Performing Arts Technicians nec,ISCO-08,3435,Artistic and cultural associate professionals not elsewhere classified,p,1
+OSCA,391299,Performing Arts Technicians nec,ISCO-08,3521,Broadcasting and audio-visual technicians,p,1
+OSCA,391331,Photographer,ISCO-08,3431,Photographers,p,1
+,,,,,,,
+,,,,,,,
+OSCA,391433,Printing Machinist,ISCO-08,7322,Printers,p,1
+OSCA,391434,Screen Printer,ISCO-08,7322,Printers,p,1
+OSCA,391531,Signwriter,ISCO-08,7316,"Sign writers, decorative painters, engravers and etchers",p,1
+OSCA,391931,Interior Decorator,ISCO-08,3432,Interior designers and decorators,p,1
+,,,,,,,
+,,,,,,,
+OSCA,392131,Barber,ISCO-08,5141,Hairdressers,p,1
+OSCA,392132,Hairdresser,ISCO-08,5141,Hairdressers,p,1
+,,,,,,,
+OSCA,399132,Gas or Petroleum Production Technician,ISCO-08,3131,Power production plant operators,p,1
+OSCA,399132,Gas or Petroleum Production Technician,ISCO-08,3134,Petroleum and natural gas refining plant operators,,1
+OSCA,399133,Power Generation Plant Operator,ISCO-08,3131,Power production plant operators,p,1
+OSCA,399231,Driller,ISCO-08,8111,Miners and quarriers,p,1
+OSCA,399231,Driller,ISCO-08,8113,Well drillers and borers and related workers,,1
+OSCA,399331,Pest Control Technician,ISCO-08,7544,Fumigators and other pest and weed controllers,p,1
+OSCA,399431,Apparel Cutter,ISCO-08,7532,Garment and related patternmakers and cutters,p,1
+OSCA,399432,Canvas Goods Fabricator,ISCO-08,7533,"Sewing, embroidery and related workers",p,1
+,,,,,,,
+OSCA,399434,Garment Technician,ISCO-08,7532,Garment and related patternmakers and cutters,p,1
+OSCA,399435,Leather Goods Maker,ISCO-08,7533,"Sewing, embroidery and related workers",p,1
+OSCA,399435,Leather Goods Maker,ISCO-08,7536,Shoemakers and related workers,p,1
+OSCA,399436,Sail Maker,ISCO-08,7533,"Sewing, embroidery and related workers",p,1
+OSCA,399437,Shoemaker,ISCO-08,7536,Shoemakers and related workers,p,1
+OSCA,399438,Upholsterer,ISCO-08,7534,Upholsterers and related workers,p,1
+OSCA,399531,Furniture Finisher,ISCO-08,7522,Cabinet-makers and related workers,p,1
+OSCA,399532,Furniture Maker,ISCO-08,7522,Cabinet-makers and related workers,p,1
+OSCA,399533,Picture Framer,ISCO-08,7522,Cabinet-makers and related workers,p,1
+,,,,,,,
+OSCA,399599,Wood Machinists and Other Wood Trades Workers nec,ISCO-08,7317,"Handicraft workers in wood, basketry and related materials",p,1
+OSCA,399931,Boat Builder and Repairer,ISCO-08,7115,Carpenters and joiners,p,1
+OSCA,399931,Boat Builder and Repairer,ISCO-08,7213,Sheet metal workers,p,1
+OSCA,399931,Boat Builder and Repairer,ISCO-08,7215,Riggers and cable splicers,p,1
+OSCA,399931,Boat Builder and Repairer,ISCO-08,8142,Plastic products machine operators,p,1
+,,,,,,,
+OSCA,399933,Fire Protection Equipment Technician,ISCO-08,3119,Physical and engineering science technicians not elsewhere classified,p,1
+OSCA,399934,Gas Network Technician,ISCO-08,7126,Plumbers and pipe fitters,p,1
+OSCA,399935,Optical Mechanic,ISCO-08,7315,"Glass makers, cutters, grinders and finishers",p,1
+OSCA,399935,Optical Mechanic,ISCO-08,7549,Craft and related workers not elsewhere classified,p,1
+OSCA,399936,Plastics Technician,ISCO-08,3119,Physical and engineering science technicians not elsewhere classified,p,1
+OSCA,399937,Railway Network Controller,ISCO-08,8312,"Railway brake, signal and switch operators",p,1
+OSCA,399938,Shipwright,ISCO-08,7115,Carpenters and joiners,p,1
+OSCA,399938,Shipwright,ISCO-08,7214,Structural metal preparers and erectors,p,1
+OSCA,399938,Shipwright,ISCO-08,7215,Riggers and cable splicers,p,1
+OSCA,399999,Technicians and Trades Workers nec,ISCO-08,7233,Agricultural and industrial machinery mechanics and repairers,p,1
+OSCA,399999,Technicians and Trades Workers nec,ISCO-08,7234,Bicycle and related workers,p,1
+OSCA,399999,Technicians and Trades Workers nec,ISCO-08,7315,"Glass makers, cutters, grinders and finishers",p,1
+OSCA,399999,Technicians and Trades Workers nec,ISCO-08,7535,"Pelt dressers, tanners and fellmongers",p,1
+OSCA,399999,Technicians and Trades Workers nec,ISCO-08,7543,Product graders and testers (excluding foods and beverages),p,1
+OSCA,399999,Technicians and Trades Workers nec,ISCO-08,7549,Craft and related workers not elsewhere classified,p,1
+OSCA,411131,Child Protection Practitioner,ISCO-08,2635,Social work and counselling professionals,p,1
+OSCA,411132,Family Violence Practitioner,ISCO-08,2635,Social work and counselling professionals,p,1
+OSCA,411231,Community Development Officer,ISCO-08,3412,Social work associate professionals,p,1
+OSCA,411232,Community Support Worker,ISCO-08,3412,Social work associate professionals,p,1
+OSCA,411331,Diversional Therapist,ISCO-08,3259,Health associate professionals not elsewhere classified,p,1
+OSCA,411332,Lifestyle Coordinator,ISCO-08,3259,Health associate professionals not elsewhere classified,p,1
+OSCA,411333,Lifestyle Officer,ISCO-08,3259,Health associate professionals not elsewhere classified,p,1
+OSCA,411431,Employment Consultant,ISCO-08,2423,Personnel and career professionals,p,1
+OSCA,411431,Employment Consultant,ISCO-08,3333,Employment agents and contractors,p,1
+OSCA,411431,Employment Consultant,ISCO-08,3339,Business service agents not elsewhere classified,p,1
+OSCA,411431,Employment Consultant,ISCO-08,3412,Social work associate professionals,p,1
+OSCA,411531,Interpreter,ISCO-08,2643,"Translators, interpreters and other linguists",p,1
+OSCA,411532,Translator,ISCO-08,2643,"Translators, interpreters and other linguists",p,1
+OSCA,411631,Community Corrections Officer,ISCO-08,2635,Social work and counselling professionals,p,1
+OSCA,411632,Family Support Worker,ISCO-08,3412,Social work associate professionals,p,1
+OSCA,411633,Financial Counsellor (Community),ISCO-08,2635,Social work and counselling professionals,p,1
+OSCA,411634,Housing Officer,ISCO-08,3412,Social work associate professionals,p,1
+OSCA,411635,Refuge Worker,ISCO-08,3412,Social work associate professionals,p,1
+OSCA,411636,Welfare Worker,ISCO-08,2635,Social work and counselling professionals,p,1
+OSCA,411731,Residential Youth Worker,ISCO-08,3412,Social work associate professionals,p,1
+OSCA,411731,Residential Youth Worker,ISCO-08,5311,Child care workers,p,1
+OSCA,411732,Youth Justice Worker,ISCO-08,3412,Social work associate professionals,p,1
+OSCA,411733,Youth Worker,ISCO-08,3412,Social work associate professionals,p,1
+OSCA,411931,Recreation Officer,ISCO-08,2635,Social work and counselling professionals,p,1
+OSCA,411932,Sports Development Officer,ISCO-08,3422,"Sports coaches, instructors and officials",p,1
+OSCA,411933,Volunteer Coordinator,ISCO-08,3412,Social work associate professionals,p,1
+OSCA,421131,Aged Care Coordinator,ISCO-08,3412,Social work associate professionals,p,1
+OSCA,421132,Aged Care Team Leader,ISCO-08,5321,Health care assistants,p,1
+OSCA,421132,Aged Care Team Leader,ISCO-08,5322,Home-based personal care workers,p,1
+OSCA,421231,Community Aged Care Support Worker,ISCO-08,5322,Home-based personal care workers,p,1
+OSCA,421331,Residential Aged Care Worker,ISCO-08,5321,Health care assistants,p,1
+OSCA,422131,Disability Services Officer,ISCO-08,3412,Social work associate professionals,p,1
+OSCA,422132,Residential Care Officer,ISCO-08,3412,Social work associate professionals,p,1
+OSCA,422231,Disability Support Worker,ISCO-08,5322,Home-based personal care workers,p,1
+OSCA,422232,Disability Team Leader,ISCO-08,5322,Home-based personal care workers,p,1
+OSCA,431131,Early Childhood Education Room Leader,ISCO-08,5311,Child care workers,p,1
+OSCA,431132,Early Childhood Educator,ISCO-08,5311,Child care workers,p,1
+OSCA,431231,Family Day Care Coordinator,ISCO-08,3412,Social work associate professionals,p,1
+OSCA,431231,Family Day Care Coordinator,ISCO-08,5311,Child care workers,p,1
+OSCA,431232,Family Day Care Educator,ISCO-08,5311,Child care workers,p,1
+OSCA,431331,Nanny,ISCO-08,5311,Child care workers,p,1
+OSCA,431431,Out of School Hours Care Educator,ISCO-08,5311,Child care workers,p,1
+OSCA,432131,Inclusion Support Assistant,ISCO-08,5312,Teachers' aides,p,1
+OSCA,432231,Teaching Assistant,ISCO-08,5312,Teachers' aides,p,1
+OSCA,432931,Aboriginal and Torres Strait Islander Education Officer,ISCO-08,5312,Teachers' aides,p,1
+OSCA,432932,Boarding Supervisor,ISCO-08,5311,Child care workers,p,1
+,,,,,,,
+,,,,,,,
+OSCA,441231,Massage Therapist,ISCO-08,3255,Physiotherapy technicians and assistants,p,1
+OSCA,441232,Myotherapist,ISCO-08,3255,Physiotherapy technicians and assistants,p,1
+OSCA,441233,Remedial Massage Therapist,ISCO-08,3255,Physiotherapy technicians and assistants,p,1
+OSCA,441331,Mental Health Worker,ISCO-08,2635,Social work and counselling professionals,p,1
+OSCA,441931,Aboriginal and Torres Strait Islander Health Practitioner,ISCO-08,3253,Community health workers,p,1
+OSCA,441932,Aboriginal and Torres Strait Islander Health Worker,ISCO-08,3253,Community health workers,p,1
+OSCA,441933,Audiometrist,ISCO-08,2266,Audiologists and speech therapists,p,1
+OSCA,442131,Allied Health Assistant,ISCO-08,3255,Physiotherapy technicians and assistants,p,1
+OSCA,442131,Allied Health Assistant,ISCO-08,3259,Health associate professionals not elsewhere classified,p,1
+OSCA,442231,Assistant in Nursing,ISCO-08,5321,Health care assistants,p,1
+OSCA,442331,Dental Assistant,ISCO-08,3251,Dental assistants and therapists,p,1
+OSCA,442331,Dental Assistant,ISCO-08,5329,Personal care workers in health services not elsewhere classified,p,1
+,,,,,,,
+OSCA,442531,Patient Care Assistant,ISCO-08,5321,Health care assistants,p,1
+OSCA,442532,Patient Services Assistant,ISCO-08,5329,Personal care workers in health services not elsewhere classified,p,1
+OSCA,442931,Patient Transport Officer,ISCO-08,8322,"Car, taxi and van drivers",p,1
+OSCA,442999,Patient and Health Care Assistants nec,ISCO-08,5169,Personal services workers not elsewhere classified,p,1
+OSCA,442999,Patient and Health Care Assistants nec,ISCO-08,5329,Personal care workers in health services not elsewhere classified,p,1
+,,,,,,,
+OSCA,451231,Emergency Services Officer,ISCO-08,5419,Protective services workers not elsewhere classified,p,1
+,,,,,,,
+OSCA,451331,General Duties Police Officer,ISCO-08,5412,Police officers,p,1
+OSCA,451931,Border Enforcement Operations Officer,ISCO-08,3351,Customs and border inspectors,p,1
+,,,,,,,
+OSCA,452231,"Alarm, Security or Surveillance Monitor",ISCO-08,5414,Security guards,p,1
+OSCA,452232,Cash In Transit Officer,ISCO-08,5414,Security guards,p,1
+OSCA,452233,Crowd Controller,ISCO-08,5414,Security guards,p,1
+OSCA,452234,Private Investigator,ISCO-08,3411,Legal and related associate professionals,p,1
+OSCA,452235,Protective Services Officer,ISCO-08,5414,Security guards,p,1
+OSCA,452236,Retail Loss Prevention Officer,ISCO-08,5414,Security guards,p,1
+OSCA,452237,Security Consultant,ISCO-08,3339,Business service agents not elsewhere classified,p,1
+OSCA,452237,Security Consultant,ISCO-08,5419,Protective services workers not elsewhere classified,p,1
+OSCA,452238,Security Officer,ISCO-08,5414,Security guards,p,1
+OSCA,452241,Security Screening Officer,ISCO-08,5414,Security guards,p,1
+OSCA,461131,Beauty Therapist,ISCO-08,5142,Beauticians and related workers,p,1
+OSCA,461132,Dermal Therapist,ISCO-08,5142,Beauticians and related workers,p,1
+OSCA,461231,Body Artist,ISCO-08,3435,Artistic and cultural associate professionals not elsewhere classified,p,1
+OSCA,461232,Make-up Artist,ISCO-08,5142,Beauticians and related workers,p,1
+OSCA,461331,Civil Celebrant,ISCO-08,5169,Personal services workers not elsewhere classified,p,1
+OSCA,461332,Funeral Director,ISCO-08,5163,Undertakers and embalmers,p,1
+OSCA,461333,Funeral Worker,ISCO-08,5163,Undertakers and embalmers,p,1
+OSCA,461431,Dog Walker,ISCO-08,5169,Personal services workers not elsewhere classified,p,1
+OSCA,461432,Domestic Animal Attendant,ISCO-08,5164,Pet groomers and animal care workers,p,1
+OSCA,461433,Pet Groomer,ISCO-08,5164,Pet groomers and animal care workers,p,1
+OSCA,461499,Domestic Animal Care Workers nec,ISCO-08,5164,Pet groomers and animal care workers,p,1
+,,,,,,,
+OSCA,461631,Gallery or Museum Guide,ISCO-08,5113,Travel guides,p,1
+OSCA,461632,Tour Guide,ISCO-08,5113,Travel guides,p,1
+OSCA,461633,Tourist Information Officer,ISCO-08,4221,Travel consultants and clerks,p,1
+OSCA,461731,Flight Attendant,ISCO-08,5111,Travel attendants and travel stewards,p,1
+OSCA,461799,Travel Attendants nec,ISCO-08,5111,Travel attendants and travel stewards,p,1
+OSCA,461831,Travel Consultant,ISCO-08,4221,Travel consultants and clerks,p,1
+OSCA,461931,Airline Customer Support Worker,ISCO-08,4221,Travel consultants and clerks,p,1
+OSCA,461932,Fashion Stylist,ISCO-08,3435,Artistic and cultural associate professionals not elsewhere classified,p,1
+OSCA,461933,First Aid Trainer,ISCO-08,5169,Personal services workers not elsewhere classified,p,1
+OSCA,461934,Hair or Beauty Salon Assistant,ISCO-08,5142,Beauticians and related workers,p,1
+OSCA,461935,Natural Remedy Consultant,ISCO-08,3230,Traditional and complementary medicine associate professionals,p,1
+OSCA,461936,Photographer's Assistant,ISCO-08,3431,Photographers,p,1
+OSCA,461936,Photographer's Assistant,ISCO-08,8132,Photographic products machine operators,p,1
+OSCA,461937,Religious Assistant,ISCO-08,3413,Religious associate professionals,p,1
+OSCA,461938,Sex Worker or Escort,ISCO-08,5169,Personal services workers not elsewhere classified,p,1
+OSCA,461941,Weight Loss Consultant,ISCO-08,5142,Beauticians and related workers,p,1
+OSCA,461999,Personal Service and Travel Workers nec,ISCO-08,5152,Domestic housekeepers,p,1
+OSCA,461999,Personal Service and Travel Workers nec,ISCO-08,5161,"Astrologers, fortune-tellers and related workers",,1
+OSCA,461999,Personal Service and Travel Workers nec,ISCO-08,5162,Companion and valets,,1
+OSCA,461999,Personal Service and Travel Workers nec,ISCO-08,5169,Personal services workers not elsewhere classified,p,1
+OSCA,462131,Fitness Instructor (General),ISCO-08,3423,Fitness and recreation instructors and program leaders,p,1
+OSCA,462231,Pilates Instructor,ISCO-08,3423,Fitness and recreation instructors and program leaders,p,1
+OSCA,462232,Yoga Teacher,ISCO-08,3423,Fitness and recreation instructors and program leaders,p,1
+OSCA,462331,Lifeguard,ISCO-08,5419,Protective services workers not elsewhere classified,p,1
+OSCA,462399,Sport and Recreation Safety Patrollers nec,ISCO-08,5419,Protective services workers not elsewhere classified,p,1
+OSCA,462431,Basketball Coach,ISCO-08,3422,"Sports coaches, instructors and officials",p,1
+OSCA,462432,Diving Instructor (Open Water),ISCO-08,3422,"Sports coaches, instructors and officials",p,1
+OSCA,462433,Football Coach,ISCO-08,3422,"Sports coaches, instructors and officials",p,1
+OSCA,462434,Gymnastics Coach or Instructor,ISCO-08,3422,"Sports coaches, instructors and officials",p,1
+OSCA,462435,Horse Riding Coach or Instructor,ISCO-08,3423,Fitness and recreation instructors and program leaders,p,1
+OSCA,462436,Martial Arts Instructor,ISCO-08,3422,"Sports coaches, instructors and officials",p,1
+OSCA,462437,Netball Coach,ISCO-08,3422,"Sports coaches, instructors and officials",p,1
+OSCA,462438,Outdoor Adventure Leader or Guide,ISCO-08,3423,Fitness and recreation instructors and program leaders,p,1
+OSCA,462441,Snowsport Instructor,ISCO-08,3422,"Sports coaches, instructors and officials",p,1
+OSCA,462442,Swimming Instructor or Coach,ISCO-08,3422,"Sports coaches, instructors and officials",p,1
+OSCA,462443,Tennis Coach,ISCO-08,3422,"Sports coaches, instructors and officials",p,1
+OSCA,462499,Sports Coaches and Outdoor Adventure Guides nec,ISCO-08,3422,"Sports coaches, instructors and officials",p,1
+OSCA,462531,Dog and Horse Racing Official,ISCO-08,3422,"Sports coaches, instructors and officials",p,1
+OSCA,462532,Sports Umpire,ISCO-08,3422,"Sports coaches, instructors and officials",p,1
+OSCA,462599,Sports Officials and Umpires nec,ISCO-08,3422,"Sports coaches, instructors and officials",p,1
+OSCA,462631,Footballer,ISCO-08,3421,Athletes and sports players,p,1
+OSCA,462632,Golfer,ISCO-08,3421,Athletes and sports players,p,1
+OSCA,462633,Jockey,ISCO-08,3421,Athletes and sports players,p,1
+OSCA,462699,Sportspersons nec,ISCO-08,3421,Athletes and sports players,p,1
+OSCA,471131,Bar Attendant,ISCO-08,5132,Bartenders,p,1
+OSCA,471231,Barista,ISCO-08,5132,Bartenders,p,1
+OSCA,471331,Cafe Worker,ISCO-08,5131,Waiters,p,1
+OSCA,471331,Cafe Worker,ISCO-08,5246,Food service counter attendants,p,1
+OSCA,471431,Gaming Attendant,ISCO-08,5230,Cashiers and ticket clerks,p,1
+OSCA,471432,Gaming Dealer or Croupier,ISCO-08,4212,"Bookmakers, croupiers and related gaming workers",p,1
+OSCA,471531,Bar Supervisor,ISCO-08,5132,Bartenders,p,1
+OSCA,471532,Cafe or Restaurant Supervisor,ISCO-08,5131,Waiters,p,1
+OSCA,471533,Front Office Supervisor (Accommodation),ISCO-08,1411,Hotel managers,p,1
+OSCA,471534,Gaming Supervisor,ISCO-08,4212,"Bookmakers, croupiers and related gaming workers",p,1
+OSCA,471535,Housekeeping Supervisor,ISCO-08,5151,"Cleaning and housekeeping supervisors in offices, hotels and other establishments",p,1
+OSCA,471631,Sommelier,ISCO-08,5131,Waiters,p,1
+OSCA,471632,Waiter,ISCO-08,5131,Waiters,p,1
+OSCA,471931,Bar Useful,ISCO-08,9112,"Cleaners and helpers in offices, hotels and other establishments",p,1
+OSCA,471932,Doorperson or Porter,ISCO-08,9621,"Messengers, package deliverers and luggage porters",p,1
+OSCA,471999,Hospitality Workers nec,ISCO-08,5169,Personal services workers not elsewhere classified,p,1
+OSCA,471999,Hospitality Workers nec,ISCO-08,9629,Elementary workers not elsewhere classified,p,1
+OSCA,511131,Contract Administrator,ISCO-08,3339,Business service agents not elsewhere classified,p,1
+OSCA,511231,Program or Project Administrator,ISCO-08,3339,Business service agents not elsewhere classified,p,1
+OSCA,521131,Conveyancer,ISCO-08,3411,Legal and related associate professionals,p,1
+OSCA,521231,Clerk of Court,ISCO-08,3411,Legal and related associate professionals,p,1
+OSCA,521232,Court Bailiff or Sheriff,ISCO-08,3411,Legal and related associate professionals,p,1
+OSCA,521233,Court Orderly,ISCO-08,3411,Legal and related associate professionals,p,1
+OSCA,521234,Law Clerk,ISCO-08,3411,Legal and related associate professionals,p,1
+OSCA,521235,Legal Secretary,ISCO-08,3342,Legal secretaries,p,1
+OSCA,521236,Trust Officer,ISCO-08,3411,Legal and related associate professionals,p,1
+OSCA,522131,Secretary (General),ISCO-08,3343,Administrative and executive secretaries,p,1
+OSCA,522131,Secretary (General),ISCO-08,4120,Secretaries (general),,1
+OSCA,522231,Executive Assistant,ISCO-08,3343,Administrative and executive secretaries,p,1
+,,,,,,,
+,,,,,,,
+OSCA,531331,Business Broker,ISCO-08,3334,Real estate agents and property managers,p,1
+,,,,,,,
+OSCA,531333,Finance Broker,ISCO-08,3311,Securities and finance dealers and brokers,p,1
+OSCA,531334,Insurance Broker,ISCO-08,3321,Insurance representatives,p,1
+OSCA,531399,Financial and Insurance Brokers nec,ISCO-08,3311,Securities and finance dealers and brokers,p,1
+OSCA,531399,Financial and Insurance Brokers nec,ISCO-08,3339,Business service agents not elsewhere classified,p,1
+OSCA,531431,Insurance Consultant,ISCO-08,3321,Insurance representatives,p,1
+OSCA,531431,Insurance Consultant,ISCO-08,4312,"Statistical, finance and insurance clerks",p,1
+OSCA,531531,Insurance Investigator,ISCO-08,3315,Valuers and loss assessors,p,1
+OSCA,531532,Insurance Loss Adjuster,ISCO-08,3315,Valuers and loss assessors,p,1
+OSCA,531533,Insurance Risk Surveyor,ISCO-08,3315,Valuers and loss assessors,p,1
+OSCA,531931,Investment Administrator,ISCO-08,4312,"Statistical, finance and insurance clerks",p,1
+OSCA,531932,Paraplanner,ISCO-08,4312,"Statistical, finance and insurance clerks",p,1
+OSCA,541131,Accounts Clerk,ISCO-08,4311,Accounting and bookkeeping clerks,p,1
+OSCA,541231,Estimator,ISCO-08,4311,Accounting and bookkeeping clerks,p,1
+OSCA,541331,Payroll Officer,ISCO-08,4313,Payroll clerks,p,1
+OSCA,542131,Bookkeeper,ISCO-08,3313,Accounting associate professionals,p,1
+OSCA,542131,Bookkeeper,ISCO-08,4311,Accounting and bookkeeping clerks,p,1
+OSCA,549131,Betting Clerk,ISCO-08,4212,"Bookmakers, croupiers and related gaming workers",p,1
+OSCA,549132,Bookmaker,ISCO-08,4212,"Bookmakers, croupiers and related gaming workers",p,1
+,,,,,,,
+,,,,,,,
+OSCA,551132,Call or Contact Centre Team Leader,ISCO-08,3341,Office supervisors,p,1
+,,,,,,,
+,,,,,,,
+OSCA,552131,Medical Receptionist,ISCO-08,3344,Medical secretaries,p,1
+OSCA,552131,Medical Receptionist,ISCO-08,4226,Receptionists (general),p,1
+OSCA,552231,Ward Clerk,ISCO-08,4229,Client information workers not elsewhere classified,p,1
+OSCA,553131,Receptionist (General),ISCO-08,4226,Receptionists (general),p,1
+,,,,,,,
+,,,,,,,
+,,,,,,,
+OSCA,561232,Machine Shorthand Reporter,ISCO-08,3343,Administrative and executive secretaries,p,1
+,,,,,,,
+OSCA,571131,Logistics Officer,ISCO-08,4323,Transport clerks,p,1
+OSCA,571231,Order Clerk,ISCO-08,4321,Stock clerks,p,1
+OSCA,571331,Procurement Officer,ISCO-08,4321,Stock clerks,p,1
+OSCA,571332,Purchasing Officer,ISCO-08,4321,Stock clerks,p,1
+OSCA,571431,Stock Clerk,ISCO-08,4321,Stock clerks,p,1
+OSCA,571531,Warehouse Administrator,ISCO-08,4321,Stock clerks,p,1
+OSCA,571931,Freight Forwarder,ISCO-08,3331,Clearing and forwarding agents,p,1
+OSCA,571932,Production Coordinator (Logistics),ISCO-08,4322,Production clerks,p,1
+OSCA,591131,Aerodrome Reporting Officer,ISCO-08,3359,Government regulatory associate professionals not elsewhere classified,p,1
+OSCA,591132,Council Ranger,ISCO-08,3257,Environmental and occupational health inspectors and associates,p,1
+OSCA,591132,Council Ranger,ISCO-08,3359,Government regulatory associate professionals not elsewhere classified,p,1
+OSCA,591132,Council Ranger,ISCO-08,5419,Protective services workers not elsewhere classified,p,1
+OSCA,591133,Electrical Asset Inspector,ISCO-08,3257,Environmental and occupational health inspectors and associates,p,1
+OSCA,591133,Electrical Asset Inspector,ISCO-08,3359,Government regulatory associate professionals not elsewhere classified,p,1
+OSCA,591134,"Invasive Pest, Weed and Disease Inspector",ISCO-08,3257,Environmental and occupational health inspectors and associates,p,1
+OSCA,591135,Meter Reader,ISCO-08,9623,Meter readers and vending-machine collectors,p,1
+OSCA,591136,Motor Vehicle Licence Examiner,ISCO-08,3354,Government licensing officials,p,1
+OSCA,591137,Parking Officer,ISCO-08,3359,Government regulatory associate professionals not elsewhere classified,p,1
+OSCA,591138,Transport Revenue Officer,ISCO-08,3354,Government licensing officials,p,1
+OSCA,591138,Transport Revenue Officer,ISCO-08,3359,Government regulatory associate professionals not elsewhere classified,p,1
+OSCA,591138,Transport Revenue Officer,ISCO-08,5112,Transport conductors,p,1
+OSCA,591141,Water Inspector,ISCO-08,3257,Environmental and occupational health inspectors and associates,p,1
+,,,,,,,
+,,,,,,,
+OSCA,591233,Visa and Citizenship Processing Officer,ISCO-08,3359,Government regulatory associate professionals not elsewhere classified,p,1
+OSCA,591999,Inspectors and Regulatory Officers nec,ISCO-08,3257,Environmental and occupational health inspectors and associates,p,1
+OSCA,591999,Inspectors and Regulatory Officers nec,ISCO-08,3359,Government regulatory associate professionals not elsewhere classified,p,1
+OSCA,591999,Inspectors and Regulatory Officers nec,ISCO-08,5419,Protective services workers not elsewhere classified,p,1
+OSCA,599131,Filing or Registry Clerk,ISCO-08,3252,Medical records and health information technicians,p,1
+OSCA,599131,Filing or Registry Clerk,ISCO-08,4415,Filing and copying clerks,,1
+,,,,,,,
+OSCA,599231,Human Resources Administration Assistant,ISCO-08,4416,Personnel clerks,p,1
+OSCA,599232,Rostering Officer,ISCO-08,4416,Personnel clerks,p,1
+OSCA,599331,Mail Clerk,ISCO-08,4412,Mail carriers and sorting clerks,p,1
+OSCA,599332,Postal Sorting Officer,ISCO-08,4412,Mail carriers and sorting clerks,p,1
+OSCA,599931,Clinical Coder,ISCO-08,3252,Medical records and health information technicians,p,1
+OSCA,599932,Customs Broker,ISCO-08,3331,Clearing and forwarding agents,p,1
+OSCA,599933,Facilities Administrator,ISCO-08,3339,Business service agents not elsewhere classified,p,1
+OSCA,599934,"Production Assistant (Audio, Screen or Live Performance)",ISCO-08,3435,Artistic and cultural associate professionals not elsewhere classified,p,1
+OSCA,599935,"Production Coordinator (Audio, Screen or Live Performance)",ISCO-08,3435,Artistic and cultural associate professionals not elsewhere classified,p,1
+OSCA,599936,Radio Dispatcher,ISCO-08,4229,Client information workers not elsewhere classified,p,1
+OSCA,599937,Strata Manager,ISCO-08,3334,Real estate agents and property managers,p,1
+,,,,,,,
+OSCA,599941,Union Organiser,ISCO-08,2423,Personnel and career professionals,p,1
+OSCA,599999,Clerical and Administrative Workers nec,ISCO-08,3313,Accounting associate professionals,p,1
+OSCA,599999,Clerical and Administrative Workers nec,ISCO-08,3314,"Statistical, mathematical and related associate professionals",,1
+OSCA,599999,Clerical and Administrative Workers nec,ISCO-08,3354,Government licensing officials,p,1
+OSCA,599999,Clerical and Administrative Workers nec,ISCO-08,4312,"Statistical, finance and insurance clerks",p,1
+OSCA,599999,Clerical and Administrative Workers nec,ISCO-08,4323,Transport clerks,p,1
+OSCA,599999,Clerical and Administrative Workers nec,ISCO-08,4413,"Coding, proof-reading and related clerks",p,1
+OSCA,599999,Clerical and Administrative Workers nec,ISCO-08,4414,Scribes and related workers,,1
+OSCA,599999,Clerical and Administrative Workers nec,ISCO-08,4419,Clerical support workers not elsewhere classified,p,1
+OSCA,611131,Checkout Operator,ISCO-08,5230,Cashiers and ticket clerks,p,1
+OSCA,619131,Marketing Assistant,ISCO-08,4419,Clerical support workers not elsewhere classified,p,1
+,,,,,,,
+,,,,,,,
+,,,,,,,
+OSCA,619135,Visual Merchandiser,ISCO-08,3432,Interior designers and decorators,p,1
+OSCA,619931,Entertainment Venue Attendant,ISCO-08,5230,Cashiers and ticket clerks,p,1
+OSCA,619931,Entertainment Venue Attendant,ISCO-08,9629,Elementary workers not elsewhere classified,p,1
+OSCA,619932,Merchandise Planner,ISCO-08,3323,Buyers,p,1
+OSCA,619933,Personal Shopper,ISCO-08,5249,Sales workers not elsewhere classified,p,1
+OSCA,619934,Reservations Agent,ISCO-08,4221,Travel consultants and clerks,p,1
+OSCA,619934,Reservations Agent,ISCO-08,5230,Cashiers and ticket clerks,p,1
+OSCA,619935,Retail Buyer,ISCO-08,3323,Buyers,p,1
+OSCA,619999,Sales Support Workers nec,ISCO-08,3323,Buyers,p,1
+OSCA,619999,Sales Support Workers nec,ISCO-08,5249,Sales workers not elsewhere classified,p,1
+OSCA,621131,Insurance Agent,ISCO-08,3321,Insurance representatives,p,1
+OSCA,621231,Sales Representative (Building and Plumbing Supplies),ISCO-08,3322,Commercial sales representatives,p,1
+OSCA,621232,Sales Representative (Business Services),ISCO-08,3322,Commercial sales representatives,p,1
+OSCA,621232,Sales Representative (Business Services),ISCO-08,3339,Business service agents not elsewhere classified,p,1
+OSCA,621233,Sales Representative (Motor Vehicle Parts and Accessories),ISCO-08,3322,Commercial sales representatives,p,1
+OSCA,621234,Sales Representative (Personal and Household Goods),ISCO-08,3322,Commercial sales representatives,p,1
+OSCA,621299,Sales Representatives nec,ISCO-08,3322,Commercial sales representatives,p,1
+OSCA,622131,Property Manager,ISCO-08,3334,Real estate agents and property managers,p,1
+OSCA,622231,Auctioneer,ISCO-08,3339,Business service agents not elsewhere classified,p,1
+OSCA,622232,Real Estate Agent,ISCO-08,3334,Real estate agents and property managers,p,1
+OSCA,622233,Real Estate Representative,ISCO-08,3334,Real estate agents and property managers,p,1
+OSCA,622234,Stock and Station Agent,ISCO-08,3339,Business service agents not elsewhere classified,p,1
+OSCA,631131,Sales Assistant (General),ISCO-08,4213,Pawnbrokers and money-lenders,,1
+OSCA,631131,Sales Assistant (General),ISCO-08,5142,Beauticians and related workers,p,1
+OSCA,631131,Sales Assistant (General),ISCO-08,5223,Shop sales assistants,p,1
+OSCA,631131,Sales Assistant (General),ISCO-08,5246,Food service counter attendants,p,1
+OSCA,631231,Community Pharmacy Sales Assistant,ISCO-08,5223,Shop sales assistants,p,1
+OSCA,631331,ICT Sales Assistant,ISCO-08,5223,Shop sales assistants,p,1
+OSCA,631431,Motor Vehicle or Caravan Salesperson,ISCO-08,5223,Shop sales assistants,p,1
+OSCA,631432,Motor Vehicle Parts Interpreter,ISCO-08,5223,Shop sales assistants,p,1
+,,,,,,,
+,,,,,,,
+,,,,,,,
+OSCA,631932,Materials Recycler,ISCO-08,9612,Refuse sorters,p,1
+OSCA,631933,Rental Salesperson,ISCO-08,5249,Sales workers not elsewhere classified,p,1
+,,,,,,,
+,,,,,,,
+,,,,,,,
+OSCA,631999,Sales Assistants and Salespersons nec,ISCO-08,5249,Sales workers not elsewhere classified,p,1
+OSCA,711131,Chauffeur,ISCO-08,8322,"Car, taxi and van drivers",p,1
+OSCA,711132,Oversize Load Pilot Escort,ISCO-08,8322,"Car, taxi and van drivers",p,1
+OSCA,711133,Rideshare Driver,ISCO-08,8322,"Car, taxi and van drivers",p,1
+OSCA,711134,Taxi Driver,ISCO-08,8322,"Car, taxi and van drivers",p,1
+OSCA,711199,Automobile Drivers nec,ISCO-08,8322,"Car, taxi and van drivers",p,1
+OSCA,711231,Bus Driver,ISCO-08,8331,Bus and tram drivers,p,1
+OSCA,711232,Charter and Tour Bus Driver,ISCO-08,8331,Bus and tram drivers,p,1
+OSCA,711233,Passenger Coach Driver,ISCO-08,8331,Bus and tram drivers,p,1
+OSCA,711331,Freight Train Driver,ISCO-08,8311,Locomotive engine drivers,p,1
+OSCA,711332,Passenger Train Driver,ISCO-08,8311,Locomotive engine drivers,p,1
+OSCA,711333,Tram Driver,ISCO-08,8331,Bus and tram drivers,p,1
+OSCA,712131,Furniture Removalist,ISCO-08,8332,Heavy truck and lorry drivers,p,1
+OSCA,712231,Delivery Person,ISCO-08,8321,Motorcycle drivers,,1
+OSCA,712231,Delivery Person,ISCO-08,8322,"Car, taxi and van drivers",p,1
+OSCA,712231,Delivery Person,ISCO-08,9331,Hand and pedal vehicle drivers,,1
+OSCA,712231,Delivery Person,ISCO-08,9621,"Messengers, package deliverers and luggage porters",p,1
+OSCA,712232,Postal Delivery Officer,ISCO-08,4412,Mail carriers and sorting clerks,p,1
+OSCA,712232,Postal Delivery Officer,ISCO-08,8322,"Car, taxi and van drivers",p,1
+OSCA,713131,Truck Driver (General),ISCO-08,8332,Heavy truck and lorry drivers,p,1
+OSCA,713132,Tow Truck Driver,ISCO-08,8332,Heavy truck and lorry drivers,p,1
+OSCA,713231,Articulated Truck Driver,ISCO-08,8332,Heavy truck and lorry drivers,p,1
+OSCA,713232,Tanker Truck Driver,ISCO-08,8332,Heavy truck and lorry drivers,p,1
+OSCA,721131,Storeperson,ISCO-08,4321,Stock clerks,p,1
+OSCA,721131,Storeperson,ISCO-08,9329,Manufacturing labourers not elsewhere classified,p,1
+OSCA,721131,Storeperson,ISCO-08,9333,Freight handlers,p,1
+OSCA,721132,Warehouse Supervisor,ISCO-08,4321,Stock clerks,p,1
+OSCA,721132,Warehouse Supervisor,ISCO-08,9329,Manufacturing labourers not elsewhere classified,p,1
+OSCA,721132,Warehouse Supervisor,ISCO-08,9333,Freight handlers,p,1
+OSCA,731131,Industrial Spray Painter,ISCO-08,7132,Spray painters and varnishers,p,1
+OSCA,731132,Sandblaster,ISCO-08,7133,Building structure cleaners,p,1
+OSCA,731132,Sandblaster,ISCO-08,8122,"Metal finishing, plating and coating machine operators",p,1
+OSCA,731231,Paper and Pulp Production Operator,ISCO-08,3139,Process control technicians not elsewhere classified,p,1
+OSCA,731231,Paper and Pulp Production Operator,ISCO-08,8143,Paper products machine operators,,1
+OSCA,731231,Paper and Pulp Production Operator,ISCO-08,8171,Pulp and papermaking plant operators,,1
+,,,,,,,
+,,,,,,,
+OSCA,731331,Plastics Fabricator or Welder,ISCO-08,8142,Plastic products machine operators,p,1
+OSCA,731332,Plastics Production Machine Operator,ISCO-08,8142,Plastic products machine operators,p,1
+OSCA,731333,Reinforced Plastic and Composite Production Worker,ISCO-08,8142,Plastic products machine operators,p,1
+,,,,,,,
+OSCA,731399,Plastics and Rubber Production Machine Operators nec,ISCO-08,8142,Plastic products machine operators,p,1
+,,,,,,,
+OSCA,731432,Textile or Footwear Production Machine Operator,ISCO-08,7535,"Pelt dressers, tanners and fellmongers",p,1
+OSCA,731432,Textile or Footwear Production Machine Operator,ISCO-08,8151,"Fibre preparing, spinning and winding machine operators",,1
+OSCA,731432,Textile or Footwear Production Machine Operator,ISCO-08,8152,Weaving and knitting machine operators,,1
+OSCA,731432,Textile or Footwear Production Machine Operator,ISCO-08,8154,"Bleaching, dyeing and fabric cleaning machine operators",,1
+OSCA,731432,Textile or Footwear Production Machine Operator,ISCO-08,8155,Fur and leather preparing machine operators,,1
+OSCA,731432,Textile or Footwear Production Machine Operator,ISCO-08,8156,Shoemaking and related machine operators,,1
+OSCA,731432,Textile or Footwear Production Machine Operator,ISCO-08,8159,"Textile, fur and leather products machine operators not elsewhere classified",,1
+,,,,,,,
+OSCA,731932,Clay Products Machine Operator,ISCO-08,8181,Glass and ceramic plant operators,p,1
+OSCA,731933,Concrete Products Machine Operator,ISCO-08,8114,"Cement, stone and other mineral products machine operators",p,1
+OSCA,731934,Crushing Machine Operator,ISCO-08,8112,Mineral and stone processing plant operators,p,1
+OSCA,731934,Crushing Machine Operator,ISCO-08,8114,"Cement, stone and other mineral products machine operators",p,1
+OSCA,731935,Glass Production Machine Operator,ISCO-08,8181,Glass and ceramic plant operators,p,1
+OSCA,731936,Photographic Print Processor,ISCO-08,5329,Personal care workers in health services not elsewhere classified,p,1
+OSCA,731936,Photographic Print Processor,ISCO-08,8132,Photographic products machine operators,p,1
+OSCA,731937,Sterilisation Technician,ISCO-08,5329,Personal care workers in health services not elsewhere classified,p,1
+OSCA,731938,Stone Processing Machine Operator,ISCO-08,8114,"Cement, stone and other mineral products machine operators",p,1
+OSCA,731999,Machine Operators nec,ISCO-08,3521,Broadcasting and audio-visual technicians,p,1
+OSCA,731999,Machine Operators nec,ISCO-08,8114,"Cement, stone and other mineral products machine operators",p,1
+OSCA,731999,Machine Operators nec,ISCO-08,8132,Photographic products machine operators,p,1
+OSCA,731999,Machine Operators nec,ISCO-08,8189,Stationary plant and machine operators not elsewhere classified,p,1
+OSCA,732131,"Crane, Hoist or Lift Operator",ISCO-08,8343,"Crane, hoist and related plant operators",p,1
+OSCA,732231,Engineering Production Worker,ISCO-08,3135,Metal production process controllers,,1
+OSCA,732231,Engineering Production Worker,ISCO-08,7212,Welders and flamecutters,p,1
+OSCA,732231,Engineering Production Worker,ISCO-08,7213,Sheet metal workers,p,1
+OSCA,732231,Engineering Production Worker,ISCO-08,7223,Metal working machine tool setters and operators,p,1
+OSCA,732231,Engineering Production Worker,ISCO-08,7224,"Metal polishers, wheel grinders and tool sharpeners",p,1
+OSCA,732231,Engineering Production Worker,ISCO-08,8121,Metal processing plant operators,,1
+OSCA,732231,Engineering Production Worker,ISCO-08,8122,"Metal finishing, plating and coating machine operators",p,1
+OSCA,732331,Miner,ISCO-08,8111,Miners and quarriers,p,1
+,,,,,,,
+OSCA,732431,Wastewater or Water Plant Operator,ISCO-08,3132,Incinerator and water treatment plant operators,p,1
+,,,,,,,
+OSCA,732932,Bulk Materials Handling Plant Operator,ISCO-08,9333,Freight handlers,p,1
+OSCA,732933,Concrete Batching Plant Operator,ISCO-08,8114,"Cement, stone and other mineral products machine operators",p,1
+OSCA,732934,Concrete Pump Operator,ISCO-08,8114,"Cement, stone and other mineral products machine operators",p,1
+OSCA,732935,Railway Signal Operator,ISCO-08,8312,"Railway brake, signal and switch operators",p,1
+OSCA,732936,Weighbridge Operator,ISCO-08,4321,Stock clerks,p,1
+OSCA,732999,Stationary Plant Operators nec,ISCO-08,3132,Incinerator and water treatment plant operators,p,1
+OSCA,732999,Stationary Plant Operators nec,ISCO-08,8112,Mineral and stone processing plant operators,p,1
+OSCA,732999,Stationary Plant Operators nec,ISCO-08,8114,"Cement, stone and other mineral products machine operators",p,1
+OSCA,732999,Stationary Plant Operators nec,ISCO-08,8189,Stationary plant and machine operators not elsewhere classified,p,1
+OSCA,741131,Agricultural and Horticultural Mobile Plant Operator,ISCO-08,8341,Mobile farm and forestry plant operators,p,1
+OSCA,741132,Logging Plant Operator,ISCO-08,6210,Forestry and related workers,p,1
+OSCA,741132,Logging Plant Operator,ISCO-08,8341,Mobile farm and forestry plant operators,p,1
+OSCA,741231,Earthmoving Plant Operator (General),ISCO-08,8342,Earthmoving and related plant operators,p,1
+OSCA,741232,Backhoe Operator,ISCO-08,8342,Earthmoving and related plant operators,p,1
+OSCA,741233,Bulldozer Operator,ISCO-08,8342,Earthmoving and related plant operators,p,1
+OSCA,741234,Excavator Operator,ISCO-08,8342,Earthmoving and related plant operators,p,1
+OSCA,741235,Grader Operator,ISCO-08,8342,Earthmoving and related plant operators,p,1
+OSCA,741236,Loader Operator,ISCO-08,8342,Earthmoving and related plant operators,p,1
+OSCA,741237,Tunnel Constructor,ISCO-08,8342,Earthmoving and related plant operators,p,1
+,,,,,,,
+OSCA,741931,Aircraft Baggage Handler and Ground Crew,ISCO-08,9333,Freight handlers,p,1
+OSCA,741932,Aircraft Refueller,ISCO-08,8332,Heavy truck and lorry drivers,p,1
+OSCA,741933,Linemarker,ISCO-08,8189,Stationary plant and machine operators not elsewhere classified,p,1
+OSCA,741934,Railway Shunter,ISCO-08,8312,"Railway brake, signal and switch operators",p,1
+OSCA,741935,Railway Track Plant Operator,ISCO-08,8342,Earthmoving and related plant operators,p,1
+OSCA,741936,Road Roller Operator,ISCO-08,8342,Earthmoving and related plant operators,p,1
+OSCA,741937,Stevedore,ISCO-08,8343,"Crane, hoist and related plant operators",p,1
+OSCA,741937,Stevedore,ISCO-08,9333,Freight handlers,p,1
+OSCA,741938,Streetsweeper Operator,ISCO-08,8342,Earthmoving and related plant operators,p,1
+OSCA,741999,Mobile Plant Operators nec,ISCO-08,8342,Earthmoving and related plant operators,p,1
+OSCA,811131,Commercial Cleaner,ISCO-08,5151,"Cleaning and housekeeping supervisors in offices, hotels and other establishments",p,1
+OSCA,811131,Commercial Cleaner,ISCO-08,7133,Building structure cleaners,p,1
+OSCA,811131,Commercial Cleaner,ISCO-08,9112,"Cleaners and helpers in offices, hotels and other establishments",p,1
+,,,,,,,
+OSCA,811331,Drycleaner,ISCO-08,8157,Laundry machine operators,p,1
+OSCA,811331,Drycleaner,ISCO-08,9121,Hand launderers and pressers,p,1
+OSCA,811332,Laundry Worker,ISCO-08,8157,Laundry machine operators,p,1
+OSCA,811332,Laundry Worker,ISCO-08,9121,Hand launderers and pressers,p,1
+OSCA,811431,Commercial Housekeeper,ISCO-08,5151,"Cleaning and housekeeping supervisors in offices, hotels and other establishments",p,1
+OSCA,811431,Commercial Housekeeper,ISCO-08,9112,"Cleaners and helpers in offices, hotels and other establishments",p,1
+OSCA,811432,Domestic Housekeeper,ISCO-08,5152,Domestic housekeepers,p,1
+,,,,,,,
+OSCA,811931,Carpet Cleaner,ISCO-08,9129,Other cleaning workers,p,1
+OSCA,811932,Roof Gutter Cleaner,ISCO-08,9129,Other cleaning workers,p,1
+,,,,,,,
+OSCA,811999,Cleaners and Laundry Workers nec,ISCO-08,7133,Building structure cleaners,p,1
+OSCA,811999,Cleaners and Laundry Workers nec,ISCO-08,9129,Other cleaning workers,p,1
+OSCA,811999,Cleaners and Laundry Workers nec,ISCO-08,9613,Sweepers and related labourers,,1
+OSCA,821131,Asbestos Removalist,ISCO-08,9313,Building construction labourers,p,1
+OSCA,821132,Builder's Labourer,ISCO-08,9313,Building construction labourers,p,1
+OSCA,821133,Concreter's Labourer,ISCO-08,9313,Building construction labourers,p,1
+OSCA,821134,Demolition Labourer,ISCO-08,9313,Building construction labourers,p,1
+OSCA,821135,Earthmoving Labourer,ISCO-08,9312,Civil engineering labourers,p,1
+OSCA,821231,Construction Rigger,ISCO-08,7215,Riggers and cable splicers,p,1
+OSCA,821232,Dogger,ISCO-08,9313,Building construction labourers,p,1
+OSCA,821331,Fencer,ISCO-08,9313,Building construction labourers,p,1
+OSCA,821431,Building Insulation Installer,ISCO-08,7124,Insulation workers,p,1
+OSCA,821432,Garage Door Installer,ISCO-08,7115,Carpenters and joiners,p,1
+OSCA,821432,Garage Door Installer,ISCO-08,9313,Building construction labourers,p,1
+OSCA,821433,Shed Builder,ISCO-08,7111,House builders,p,1
+OSCA,821434,Window Furnishing Installer,ISCO-08,7115,Carpenters and joiners,p,1
+OSCA,821434,Window Furnishing Installer,ISCO-08,9313,Building construction labourers,p,1
+OSCA,821499,Home Improvement and Insulation Installers nec,ISCO-08,7111,House builders,p,1
+OSCA,821499,Home Improvement and Insulation Installers nec,ISCO-08,7115,Carpenters and joiners,p,1
+OSCA,821499,Home Improvement and Insulation Installers nec,ISCO-08,9313,Building construction labourers,p,1
+OSCA,821531,Paving and Surfacing Labourer,ISCO-08,9312,Civil engineering labourers,p,1
+OSCA,821631,"Drainage, Sewerage and Stormwater Labourer",ISCO-08,9312,Civil engineering labourers,p,1
+OSCA,821632,Pipe Layer,ISCO-08,7126,Plumbers and pipe fitters,p,1
+OSCA,821633,Plumber's Assistant,ISCO-08,9313,Building construction labourers,p,1
+OSCA,821731,Scaffolder,ISCO-08,7119,Building frame and related trades workers not elsewhere classified,p,1
+OSCA,821732,Steel Fixer,ISCO-08,9313,Building construction labourers,p,1
+OSCA,821733,Structural Steel Erector,ISCO-08,7214,Structural metal preparers and erectors,p,1
+OSCA,821931,Driller's Offsider,ISCO-08,9311,Mining and quarrying labourers,p,1
+OSCA,821932,Lagger,ISCO-08,7124,Insulation workers,p,1
+OSCA,821933,Mining Support Worker,ISCO-08,9311,Mining and quarrying labourers,p,1
+OSCA,821934,Rail Protection Officer,ISCO-08,3257,Environmental and occupational health inspectors and associates,p,1
+OSCA,821935,Railway Track Worker,ISCO-08,9312,Civil engineering labourers,p,1
+OSCA,821936,Surveyor's Assistant,ISCO-08,9312,Civil engineering labourers,p,1
+OSCA,831131,Baking Factory Worker,ISCO-08,8160,Food and related products machine operators,p,1
+OSCA,831132,Brewery Worker,ISCO-08,8160,Food and related products machine operators,p,1
+OSCA,831133,Coffee Roaster,ISCO-08,7514,"Fruit, vegetable and related preservers",p,1
+OSCA,831133,Coffee Roaster,ISCO-08,7515,Food and beverage tasters and graders,p,1
+OSCA,831133,Coffee Roaster,ISCO-08,7516,Tobacco preparers and tobacco makers,p,1
+OSCA,831133,Coffee Roaster,ISCO-08,8160,Food and related products machine operators,p,1
+OSCA,831134,Confectionery Maker,ISCO-08,7512,"Bakers, pastry-cooks and confectionery makers",p,1
+OSCA,831134,Confectionery Maker,ISCO-08,8160,Food and related products machine operators,p,1
+OSCA,831135,Dairy Products Factory Worker,ISCO-08,7513,Dairy products makers,,1
+OSCA,831135,Dairy Products Factory Worker,ISCO-08,7514,"Fruit, vegetable and related preservers",p,1
+OSCA,831135,Dairy Products Factory Worker,ISCO-08,7515,Food and beverage tasters and graders,p,1
+OSCA,831135,Dairy Products Factory Worker,ISCO-08,7516,Tobacco preparers and tobacco makers,p,1
+OSCA,831135,Dairy Products Factory Worker,ISCO-08,8160,Food and related products machine operators,p,1
+OSCA,831136,Fruit and Vegetable Factory Worker,ISCO-08,8160,Food and related products machine operators,p,1
+OSCA,831137,Grain Mill Worker,ISCO-08,8160,Food and related products machine operators,p,1
+OSCA,831138,Sugar Mill Worker,ISCO-08,8160,Food and related products machine operators,p,1
+OSCA,831141,Winery Cellar Hand,ISCO-08,8160,Food and related products machine operators,p,1
+OSCA,831199,Food and Drink Factory Workers nec,ISCO-08,7514,"Fruit, vegetable and related preservers",p,1
+OSCA,831199,Food and Drink Factory Workers nec,ISCO-08,7515,Food and beverage tasters and graders,p,1
+OSCA,831199,Food and Drink Factory Workers nec,ISCO-08,7516,Tobacco preparers and tobacco makers,p,1
+OSCA,831199,Food and Drink Factory Workers nec,ISCO-08,8160,Food and related products machine operators,p,1
+OSCA,831231,Meat Boner and Slicer,ISCO-08,7511,"Butchers, fishmongers and related food preparers",p,1
+OSCA,831232,Slaughterer,ISCO-08,7511,"Butchers, fishmongers and related food preparers",p,1
+OSCA,831331,Meat Process Worker,ISCO-08,7511,"Butchers, fishmongers and related food preparers",p,1
+OSCA,831331,Meat Process Worker,ISCO-08,8160,Food and related products machine operators,p,1
+OSCA,831332,Poultry Process Worker,ISCO-08,7511,"Butchers, fishmongers and related food preparers",p,1
+OSCA,831332,Poultry Process Worker,ISCO-08,8160,Food and related products machine operators,p,1
+OSCA,831333,Seafood Process Worker,ISCO-08,7511,"Butchers, fishmongers and related food preparers",p,1
+OSCA,831333,Seafood Process Worker,ISCO-08,8160,Food and related products machine operators,p,1
+OSCA,832131,Packer (General),ISCO-08,8183,"Packing, bottling and labelling machine operators",p,1
+OSCA,832131,Packer (General),ISCO-08,9321,Hand packers,p,1
+OSCA,832132,Chocolate Packer,ISCO-08,8183,"Packing, bottling and labelling machine operators",p,1
+OSCA,832132,Chocolate Packer,ISCO-08,9321,Hand packers,p,1
+OSCA,832133,Fruit and Vegetable Packer,ISCO-08,8183,"Packing, bottling and labelling machine operators",p,1
+OSCA,832133,Fruit and Vegetable Packer,ISCO-08,9321,Hand packers,p,1
+OSCA,832134,Meat Packer,ISCO-08,8183,"Packing, bottling and labelling machine operators",p,1
+OSCA,832134,Meat Packer,ISCO-08,9321,Hand packers,p,1
+OSCA,832135,Seafood Packer,ISCO-08,8183,"Packing, bottling and labelling machine operators",p,1
+OSCA,832135,Seafood Packer,ISCO-08,9321,Hand packers,p,1
+OSCA,832231,Product Assembler,ISCO-08,3139,Process control technicians not elsewhere classified,p,1
+OSCA,832231,Product Assembler,ISCO-08,8211,Mechanical machinery assemblers,,1
+OSCA,832231,Product Assembler,ISCO-08,8212,Electrical and electronic equipment assemblers,,1
+OSCA,832231,Product Assembler,ISCO-08,8219,Assemblers not elsewhere classified,,1
+OSCA,839131,Cement and Concrete Plant Worker,ISCO-08,9329,Manufacturing labourers not elsewhere classified,p,1
+OSCA,839132,Chemical Plant Worker,ISCO-08,9329,Manufacturing labourers not elsewhere classified,p,1
+OSCA,839133,Fabric and Textile Factory Worker,ISCO-08,9329,Manufacturing labourers not elsewhere classified,p,1
+OSCA,839134,Glass Processing Worker,ISCO-08,9329,Manufacturing labourers not elsewhere classified,p,1
+OSCA,839135,Metal Engineering Process Worker,ISCO-08,9329,Manufacturing labourers not elsewhere classified,p,1
+OSCA,839136,Paper and Pulp Process Worker,ISCO-08,9329,Manufacturing labourers not elsewhere classified,p,1
+OSCA,839137,Plastics Factory Worker,ISCO-08,9329,Manufacturing labourers not elsewhere classified,p,1
+OSCA,839138,Recycling Worker,ISCO-08,9612,Refuse sorters,p,1
+OSCA,839141,Timber and Wood Process Worker,ISCO-08,9329,Manufacturing labourers not elsewhere classified,p,1
+OSCA,839199,Materials and Chemical Process Workers nec,ISCO-08,7535,"Pelt dressers, tanners and fellmongers",p,1
+OSCA,839199,Materials and Chemical Process Workers nec,ISCO-08,9329,Manufacturing labourers not elsewhere classified,p,1
+OSCA,839231,Product Examiner,ISCO-08,7543,Product graders and testers (excluding foods and beverages),p,1
+OSCA,839232,Product Grader,ISCO-08,7515,Food and beverage tasters and graders,p,1
+OSCA,839232,Product Grader,ISCO-08,7543,Product graders and testers (excluding foods and beverages),p,1
+OSCA,839233,Product Tester,ISCO-08,7515,Food and beverage tasters and graders,p,1
+OSCA,839233,Product Tester,ISCO-08,7543,Product graders and testers (excluding foods and beverages),p,1
+OSCA,841131,Cotton Farm Worker,ISCO-08,9211,Crop farm labourers,p,1
+OSCA,841132,Fruit Farm Worker,ISCO-08,9211,Crop farm labourers,p,1
+OSCA,841133,Fruit Picker,ISCO-08,9211,Crop farm labourers,p,1
+OSCA,841134,"Grain, Oilseed, Pulse and Pasture Farm Worker",ISCO-08,9211,Crop farm labourers,p,1
+OSCA,841135,Mushroom Picker,ISCO-08,9211,Crop farm labourers,p,1
+OSCA,841136,Nut Farm Worker,ISCO-08,9211,Crop farm labourers,p,1
+OSCA,841137,Sugar Cane Farm Worker,ISCO-08,9211,Crop farm labourers,p,1
+OSCA,841138,Vegetable Farm Worker,ISCO-08,9211,Crop farm labourers,p,1
+OSCA,841141,Vegetable Picker,ISCO-08,9211,Crop farm labourers,p,1
+OSCA,841142,Vineyard Worker,ISCO-08,9211,Crop farm labourers,p,1
+OSCA,841199,Crop Farm Workers nec,ISCO-08,9211,Crop farm labourers,p,1
+OSCA,841231,Beef Cattle Farm Worker,ISCO-08,9212,Livestock farm labourers,p,1
+OSCA,841232,Cattle and Sheep Farm Worker,ISCO-08,9212,Livestock farm labourers,p,1
+OSCA,841233,Dairy Cattle Farm Worker,ISCO-08,9212,Livestock farm labourers,p,1
+OSCA,841234,Livestock Husbandry Worker,ISCO-08,9212,Livestock farm labourers,p,1
+OSCA,841235,Piggery Farm Worker,ISCO-08,9212,Livestock farm labourers,p,1
+OSCA,841236,Poultry Farm Worker,ISCO-08,9212,Livestock farm labourers,p,1
+OSCA,841237,Sheep Farm Worker,ISCO-08,9212,Livestock farm labourers,p,1
+OSCA,841238,Stablehand,ISCO-08,9212,Livestock farm labourers,p,1
+OSCA,841241,Wool Handler,ISCO-08,9212,Livestock farm labourers,p,1
+OSCA,841299,Livestock Farm Workers nec,ISCO-08,9212,Livestock farm labourers,p,1
+,,,,,,,
+OSCA,841332,Broadacre Crop and Livestock Farm Worker,ISCO-08,9213,Mixed crop and livestock farm labourers,p,1
+OSCA,841399,Mixed Production and Aquaculture Farm Workers nec,ISCO-08,9213,Mixed crop and livestock farm labourers,p,1
+OSCA,842131,Garden Labourer,ISCO-08,9214,Garden and horticultural labourers,p,1
+OSCA,842231,Horticultural Nursery Assistant,ISCO-08,9214,Garden and horticultural labourers,p,1
+OSCA,842931,Bush Regenerator,ISCO-08,9215,Forestry labourers,p,1
+OSCA,842932,Forestry Worker,ISCO-08,6210,Forestry and related workers,p,1
+OSCA,842932,Forestry Worker,ISCO-08,9215,Forestry labourers,p,1
+OSCA,842933,Irrigation Assistant,ISCO-08,9211,Crop farm labourers,p,1
+OSCA,842933,Irrigation Assistant,ISCO-08,9214,Garden and horticultural labourers,p,1
+OSCA,842999,Garden and Forestry Workers nec,ISCO-08,6224,Hunters and trappers,,1
+OSCA,842999,Garden and Forestry Workers nec,ISCO-08,7544,Fumigators and other pest and weed controllers,p,1
+OSCA,842999,Garden and Forestry Workers nec,ISCO-08,9624,Water and firewood collectors,,1
+,,,,,,,
+OSCA,851231,Kitchenhand (General),ISCO-08,9412,Kitchen helpers,p,1
+OSCA,851232,Dishwasher,ISCO-08,9412,Kitchen helpers,p,1
+OSCA,851233,Pastrycook's Assistant,ISCO-08,9412,Kitchen helpers,p,1
+OSCA,851299,Food Preparation Assistants nec,ISCO-08,9412,Kitchen helpers,p,1
+OSCA,891131,Freight Handler (Rail or Road),ISCO-08,9333,Freight handlers,p,1
+OSCA,891132,Truck Driver's Offsider,ISCO-08,9333,Freight handlers,p,1
+,,,,,,,
+,,,,,,,
+,,,,,,,
+OSCA,899232,Fishing Hand,ISCO-08,6222,Inland and coastal waters fishery workers,p,1
+OSCA,899232,Fishing Hand,ISCO-08,6223,Deep-sea fishery workers,p,1
+,,,,,,,
+OSCA,899431,Motor Vehicle Parts and Accessories Fitter (General),ISCO-08,7231,Motor vehicle mechanics and repairers,p,1
+OSCA,899432,Autoglazier,ISCO-08,7125,Glaziers,p,1
+OSCA,899433,Mechanic's Assistant,ISCO-08,9629,Elementary workers not elsewhere classified,p,1
+OSCA,899434,Tyre Fitter,ISCO-08,7231,Motor vehicle mechanics and repairers,p,1
+OSCA,899531,Rail Guard or Conductor,ISCO-08,5112,Transport conductors,p,1
+OSCA,899532,Railways Assistant,ISCO-08,9629,Elementary workers not elsewhere classified,p,1
+OSCA,899631,Road Traffic Controller,ISCO-08,5419,Protective services workers not elsewhere classified,p,1
+OSCA,899931,Car Park Attendant,ISCO-08,9629,Elementary workers not elsewhere classified,p,1
+OSCA,899932,Crossing Supervisor,ISCO-08,5419,Protective services workers not elsewhere classified,p,1
+OSCA,899933,Electrical or Telecommunications Trades Assistant,ISCO-08,9313,Building construction labourers,p,1
+OSCA,899934,Leaflet or Newspaper Deliverer,ISCO-08,9621,"Messengers, package deliverers and luggage porters",p,1
+,,,,,,,
+OSCA,899936,Sign Installer,ISCO-08,9629,Elementary workers not elsewhere classified,p,1
+OSCA,899937,Swimming Pool or Spa Technician,ISCO-08,9129,Other cleaning workers,p,1
+OSCA,899938,Trolley Collector,ISCO-08,9629,Elementary workers not elsewhere classified,p,1
+OSCA,899941,Vending Machine Attendant,ISCO-08,9623,Meter readers and vending-machine collectors,p,1
+OSCA,899999,Labourers nec,ISCO-08,6210,Forestry and related workers,p,1
+OSCA,899999,Labourers nec,ISCO-08,9332,Drivers of animal-drawn vehicles and machinery,,1
+OSCA,899999,Labourers nec,ISCO-08,9510,Street and related service workers,,1
+OSCA,899999,Labourers nec,ISCO-08,9629,Elementary workers not elsewhere classified,p,1
+,,,,,,,
