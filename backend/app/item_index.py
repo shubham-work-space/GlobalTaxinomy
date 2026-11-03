@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import json
+import os
 from functools import lru_cache
+from pathlib import Path
 from typing import Any
 
 from .config import ROOT
@@ -18,9 +20,21 @@ def _load_json(name: str) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def _esco_labels_path() -> Path:
+    """Allow ESCO_LABELS_JSON env override (absolute or repo-relative)."""
+    raw = (os.environ.get("ESCO_LABELS_JSON") or "").strip()
+    if raw:
+        p = Path(raw)
+        return p if p.is_absolute() else ROOT / p
+    return ITEM_INDEX_DIR / "esco_labels.json"
+
+
 @lru_cache
 def esco_labels() -> dict[str, list[dict[str, Any]]]:
-    return _load_json("esco_labels.json")
+    path = _esco_labels_path()
+    if not path.is_file():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 @lru_cache

@@ -30,9 +30,55 @@ def _combined_from_tensor(data: dict, weights: dict[str, float]) -> np.ndarray:
     return (eff[:, :, np.newaxis] * scores).sum(axis=1)
 
 
+def _facet_texts_from_disk(dataset: str, occupation_id: str) -> dict[str, str] | None:
+    """Fallback when Chroma get() hits HNSW 'Error finding id' after heavy loads."""
+    import os
+    from pathlib import Path
+
+    from .config import ROOT
+
+    oid = str(occupation_id).rstrip("/")
+    if dataset == "esco":
+        uuid = oid.rsplit("/", 1)[-1]
+        raw_root = (os.environ.get("ESCO_FACET_ROOT") or "").strip()
+        facet_root = Path(raw_root) if raw_root else (ROOT / "data" / "esco")
+        if not facet_root.is_absolute():
+            facet_root = ROOT / facet_root
+        occ_dir = facet_root / uuid
+    elif dataset == "onet":
+        occ_dir = ROOT / "data" / "onet" / oid
+    else:
+        return None
+    if not occ_dir.is_dir():
+        return None
+    texts: dict[str, str] = {}
+    for facet in ("title", "description", "skills", "knowledge"):
+        path = occ_dir / f"{facet}.txt"
+        texts[facet] = path.read_text(encoding="utf-8") if path.is_file() else ""
+    return texts
+
+
 def _occupation_facets(dataset: str, occupation_id: str) -> dict[str, str]:
-    rec = chroma_store.load_occupation_embeddings(dataset, occupation_id)  # type: ignore[arg-type]
-    if not rec:
+    texts: dict[str, str] = {}
+    preferred = ""
+    try:
+        rec = chroma_store.load_occupation_embeddings(dataset, occupation_id)  # type: ignore[arg-type]
+    except Exception:
+        rec = None
+        try:
+            chroma_store.reset_chroma_client()
+            rec = chroma_store.load_occupation_embeddings(dataset, occupation_id)  # type: ignore[arg-type]
+        except Exception:
+            rec = None
+    if rec:
+        texts = dict(rec.get("facet_texts") or {})
+        preferred = str(rec.get("preferred_title") or "")
+    else:
+        disk = _facet_texts_from_disk(dataset, occupation_id)
+        if disk:
+            texts = disk
+            preferred = disk.get("title") or ""
+    if not texts:
         return {
             "title": "",
             "description": "",
@@ -41,7 +87,6 @@ def _occupation_facets(dataset: str, occupation_id: str) -> dict[str, str]:
             "preferred_title": "",
             "alternate_title": "",
         }
-    texts = rec.get("facet_texts") or {}
     alt = ""
     if dataset == "esco":
         try:
@@ -56,11 +101,11 @@ def _occupation_facets(dataset: str, occupation_id: str) -> dict[str, str]:
         except Exception:
             alt = ""
     return {
-        "title": texts.get("title") or rec.get("preferred_title") or "",
+        "title": texts.get("title") or preferred or "",
         "description": texts.get("description") or "",
         "skills": texts.get("skills") or "",
         "knowledge": texts.get("knowledge") or "",
-        "preferred_title": rec.get("preferred_title") or texts.get("title") or "",
+        "preferred_title": preferred or texts.get("title") or "",
         "alternate_title": alt,
     }
 
@@ -186,6 +231,9 @@ class RunPipelineJob:
                 direction=cfg["direction"],
                 progress=tensor_progress,
             )
+            # Parallel tensor scoring can leave the long-lived Chroma client in a
+            # bad HNSW state; reopen before per-id facet loads.
+            chroma_store.reset_chroma_client()
             await self._set_phase(
                 "calculate_similarities",
                 f"Tensor ready ({len(data['source_ids'])} sources × {len(data['target_ids'])} targets)",

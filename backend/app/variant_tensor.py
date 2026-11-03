@@ -22,7 +22,13 @@ ProgressCallback = Callable[[str, dict[str, Any]], None]
 
 
 def tensor_path(variant_name: str) -> Path:
-    return OUTPUT_DIR / f"{variant_name}_tensor.npz"
+    """Cache path; SIGNAL_TENSOR_SUFFIX (e.g. _1.1.0) isolates versioned tensors."""
+    import os
+
+    suffix = (os.environ.get("SIGNAL_TENSOR_SUFFIX") or "").strip()
+    if suffix and not suffix.startswith("_"):
+        suffix = f"_{suffix}"
+    return OUTPUT_DIR / f"{variant_name}_tensor{suffix}.npz"
 
 
 def save_signal_tensor(variant_name: str, data: dict) -> Path:

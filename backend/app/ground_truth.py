@@ -321,6 +321,8 @@ def eval_methodology_notes() -> dict[str, str]:
             "fairer comparison point."
         ),
         "version_note": (
-            "Ground truth: ESCO v1.1.0 + O*NET-SOC 2019. Embeddings: ESCO v1.2.1."
+            "Ground truth: ESCO v1.1.0 + O*NET-SOC 2019. "
+            "Embeddings default to ESCO v1.2.1; use chroma_db_1.1.0 / "
+            "ESCO_LABELS_JSON=esco_labels_1.1.0.json for aligned v1.1.0 runs."
         ),
     }

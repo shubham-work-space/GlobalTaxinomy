@@ -747,9 +747,24 @@ Paired per-source exactMatch Acc@1 on the \(N = 490\) eligible O\*NET→ESCO set
 | Ejento-2 | 0.8408 | 0.8633 | 22 | 11 | 33 | \(0.080\) |
 | Ejento-3 | 0.8408 | 0.8612 | 21 | 11 | 32 | \(0.110\) |
 
-**Interpretation.** Gating with **JEV** significantly beats embedding-only on every replicate (\(p = 5.5 \times 10^{-4}\), \(1.9 \times 10^{-4}\), \(1.9 \times 10^{-4}\); \(b \gg c\)). The same gate with **Ejento Claude** yields a smaller Acc@1 lift (+2.0–2.2 pp vs +3.9–4.3 pp for JEV) and does **not** reject equality at \(\alpha = 0.05\) (\(p \in [0.071, 0.110]\)), because Claude introduces nearly as many regressions (\(c \approx 10\)–\(11\)) as fixes relative to JEV’s \(c = 5\). The contrast supports JEV—not merely “any LLM backup”—as the accuracy driver behind a statistically reliable gated gain.
+### Alternative re-ranker vs gated choice (Claude-gated vs JEV-gated)
 
-**Suggested paper wording.** An exact McNemar test over paired per-source outcomes rejects equality of the embedding-only and JEV-gated configurations on JEV-12–14 (\(p = 5.5 \times 10^{-4}\), \(1.9 \times 10^{-4}\), \(1.9 \times 10^{-4}\)). Matched Ejento Claude replicates under the same gate do not reach significance at \(\alpha = 0.05\) (\(p = 0.071\), \(0.080\), \(0.110\)), despite modest Acc@1 gains.
+Same embeddings and gate; only the low-confidence resolver differs. Discordant cells: \(b\) = Claude-gated wrong / JEV-gated correct (**Fixed**); \(c\) = Claude-gated correct / JEV-gated wrong (**Broken**). All flips sit in the 180 resolver-routed sources.
+
+| Claude run | JEV run | Fixed \(b\) | Broken \(c\) | Discordant | Exact McNemar \(p\) |
+|------------|---------|------------:|-------------:|------------|---------------------|
+| Ejento-1 | JEV-12 | 14 | 6 | 20 | \(0.115\) |
+| Ejento-1 | JEV-13/14 | 15 | 5 | 20 | \(0.041\) |
+| Ejento-2 | JEV-12 | 16 | 8 | 24 | \(0.152\) |
+| Ejento-2 | JEV-13/14 | 17 | 7 | 24 | \(0.064\) |
+| Ejento-3 | JEV-12 | 14 | 5 | 19 | \(0.064\) |
+| **Ejento-3** | **JEV-13/14** | **15** | **4** | **19** | \(1.9 \times 10^{-2}\) |
+
+Paper Table 6 row 2 (**Fixed 15, Broken 4, \(p = 1.9 \times 10^{-2}\)**) = **Ejento-3 vs JEV-13/14**.
+
+**Interpretation.** Gating with **JEV** significantly beats embedding-only on every replicate (\(p = 5.5 \times 10^{-4}\), \(1.9 \times 10^{-4}\), \(1.9 \times 10^{-4}\); \(b \gg c\)). The same gate with **Ejento Claude** yields a smaller Acc@1 lift (+2.0–2.2 pp vs +3.9–4.3 pp for JEV) and does **not** reject equality at \(\alpha = 0.05\) (\(p \in [0.071, 0.110]\)), because Claude introduces nearly as many regressions (\(c \approx 10\)–\(11\)) as fixes relative to JEV’s \(c = 5\). Head-to-head, JEV-gated also significantly beats Claude-gated on the strongest Claude replicate (Ejento-3 vs JEV-13/14). The contrast supports JEV—not merely “any LLM backup”—as the accuracy driver behind a statistically reliable gated gain.
+
+**Suggested paper wording.** An exact McNemar test over paired per-source outcomes rejects equality of the embedding-only and JEV-gated configurations on JEV-12–14 (\(p = 5.5 \times 10^{-4}\), \(1.9 \times 10^{-4}\), \(1.9 \times 10^{-4}\)). Matched Ejento Claude replicates under the same gate do not reach significance at \(\alpha = 0.05\) (\(p = 0.071\), \(0.080\), \(0.110\)), despite modest Acc@1 gains. Comparing the two gated resolvers directly, JEV also significantly outperforms Claude on Ejento-3 vs JEV-13/14 (15 fixes / 4 regressions, \(p = 1.9 \times 10^{-2}\)).
 
 ## Incorrect Top-1 counts (JEV-14)
 
