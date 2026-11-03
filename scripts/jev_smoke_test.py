@@ -28,16 +28,34 @@ if not KEY:
 url = "https://api.typesafe.ai/v1/systemone"
 
 payload = {
-    "state": "The sky appears blue on a clear day.",
+    "state": {
+        "query": "Could a state prisoner obtain federal habeas relief based on newly discovered evidence?",
+        "candidate": """
+        Claims of newly discovered evidence do not, standing alone,
+        provide a basis for federal habeas corpus relief absent an
+        independent constitutional violation.
+        """
+    },
     "model": "jev-latest",
     "questions": {
-        "sky_blue": {
+        "relevance_score": {
             "type": "noul",
-            "instructions": "Is the sky blue?",
-        }
-    },
-}
+            "instructions": """
+            Does the candidate passage directly answer or support the query?
 
+            True if:
+            - The passage contains legal reasoning relevant to the query.
+            - The passage could reasonably be cited as support for the query.
+            - The key issue discussed in the query is addressed.
+
+            False if:
+            - The passage is only tangentially related.
+            - The passage discusses a different legal issue.
+            - The passage lacks enough information to support the query.
+            """
+        }
+    }
+}
 try:
     import truststore
 

@@ -11,9 +11,12 @@ import respx
 from backend.app.jev_resolve import (
     LABELS,
     MAX_CANDIDATES,
+    aggregate_jev_token_metrics,
+    build_jev_noul_payload,
     build_jev_payload,
     candidate_labels,
     parse_jev_choice,
+    parse_jev_noul,
     parse_jev_ranking,
     resolve_batch,
     resolve_one,
@@ -76,9 +79,9 @@ def test_build_jev_payload_matches_candidate_count():
     assert set(payload["questions"]["match"]["criteria"].keys()) == {"A", "B", "C", "D"}
     assert payload["questions"]["match"]["type"] == "choice"
     inp = payload["state"]["input"]
-    assert inp["job_title"] == "Chief Executives"
-    assert inp["alternate_title"] == "CEO; Managing Director"
-    assert "job_description" in inp
+    assert inp["title"] == "Chief Executives"
+    assert "CEO" in (inp.get("titles") or "")
+    assert "description" in inp
     instructions = payload["questions"]["match"]["instructions"]
     assert "web search" in instructions.lower() or "external" in instructions.lower()
     assert "O*NET" not in instructions
@@ -327,7 +330,7 @@ async def test_resolve_batch_survives_transport_error(tmp_path, monkeypatch):
 
     def _side_effect(request):
         payload = json.loads(request.content.decode("utf-8"))
-        title = ((payload.get("state") or {}).get("input") or {}).get("job_title") or ""
+        title = ((payload.get("state") or {}).get("input") or {}).get("title") or ""
         if title == "FAIL_TITLE":
             raise httpx.ConnectError("")
         return httpx.Response(
@@ -370,3 +373,78 @@ async def test_resolve_batch_survives_transport_error(tmp_path, monkeypatch):
     assert by_id["fail"]["final_target_id"] == "cand-a"
     assert by_id["fail"]["jev_error"]
     assert "transport" in by_id["fail"]["jev_error"]
+
+
+def test_parse_jev_noul():
+    assert parse_jev_noul({"answers": {"match": {"type": "noul", "noul": 0.82}}}) == 0.82
+    assert parse_jev_noul({"answers": {}}) is None
+
+
+def test_build_jev_noul_payload():
+    payload = build_jev_noul_payload(_sample_record(), _make_candidates(1)[0])
+    assert payload["questions"]["match"]["type"] == "noul"
+    assert "input" in payload["state"]
+    assert "candidate" in payload["state"]
+
+
+def test_aggregate_jev_token_metrics():
+    rows = [
+        {"sent_to_jev": True, "jev_input_tokens": 100, "jev_output_tokens": 10, "jev_api_calls": 1},
+        {"sent_to_jev": True, "jev_input_tokens": 200, "jev_output_tokens": 20, "jev_api_calls": 20},
+        {"sent_to_jev": False, "jev_input_tokens": 999, "jev_output_tokens": 999, "jev_api_calls": 99},
+    ]
+    m = aggregate_jev_token_metrics(rows)
+    assert m["jev_input_tokens_total"] == 300
+    assert m["jev_output_tokens_total"] == 30
+    assert m["jev_api_calls_total"] == 21
+
+
+@pytest.mark.asyncio
+@respx.mock
+async def test_resolve_one_noul_ranks_by_score(tmp_path, monkeypatch):
+    monkeypatch.setenv("JEV_API_KEY", "test-key")
+    monkeypatch.setenv("JEV_BASE_URL", "https://api.typesafe.ai")
+    from backend.app import config as cfg
+
+    cfg.get_settings.cache_clear()
+    monkeypatch.setattr(
+        "backend.app.jev_resolve.JEV_IO_ROOT",
+        tmp_path / "jev_io_pairs",
+    )
+
+    call_count = {"n": 0}
+
+    def _side_effect(request):
+        call_count["n"] += 1
+        payload = json.loads(request.content.decode("utf-8"))
+        cand = (payload.get("state") or {}).get("candidate") or {}
+        tid = cand.get("occupation_id") or cand.get("preferred_title") or ""
+        noul = 0.9 if str(tid) == "cand-c" else 0.1
+        return httpx.Response(
+            200,
+            json={
+                "answers": {"match": {"type": "noul", "noul": noul}},
+                "usage": {"input_tokens": 50, "output_tokens": 5},
+            },
+        )
+
+    respx.post("https://api.typesafe.ai/v1/systemone").mock(side_effect=_side_effect)
+
+    client = httpx.AsyncClient()
+    out = await resolve_one(
+        _sample_record(),
+        client=client,
+        jev=JevClient(),
+        io_dir=tmp_path / "run_noul",
+        row_idx=1,
+        jev_rank_mode="noul",
+    )
+    await client.aclose()
+
+    assert call_count["n"] == 4
+    assert out["final_target_id"] == "cand-c"
+    assert out["jev_api_calls"] == 4
+    assert out["jev_input_tokens"] == 200
+    assert out["jev_output_tokens"] == 20
+    summary_path = tmp_path / "run_noul" / "001_Chief Executives" / "summary.json"
+    assert summary_path.is_file()

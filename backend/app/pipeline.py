@@ -11,7 +11,8 @@ import numpy as np
 from . import chroma as chroma_store
 from .accuracy import annotate_results_with_ground_truth, compute_accuracy_metrics
 from .ground_truth import source_has_exact_match
-from .jev_resolve import resolve_batch
+from .jev_resolve import aggregate_jev_token_metrics, resolve_batch
+from .occupation_context import enrich_gated_record
 from .runs import PHASES, create_run, save_run_artifacts, update_run, validate_config
 from .variant_tensor import load_or_build_signal_tensor
 
@@ -326,6 +327,11 @@ class RunPipelineJob:
                             }
                         )
                     row["candidates"] = enriched
+                    row = enrich_gated_record(
+                        row,
+                        input_taxonomy=cfg["input_taxonomy"],
+                        output_taxonomy=cfg["output_taxonomy"],
+                    )
                     row["sent_to_jev"] = True
                     row["sent_to_llm"] = True  # compat
                     needs_llm.append(row)
@@ -358,6 +364,7 @@ class RunPipelineJob:
                 resolved = await resolve_batch(
                     needs_llm,
                     run_seq=run_seq,
+                    jev_rank_mode=str(cfg.get("jev_rank_mode") or "choice"),
                     progress=jev_progress,
                 )
                 by_source = {r["source_id"]: r for r in resolved}
@@ -376,6 +383,8 @@ class RunPipelineJob:
             metrics["output_taxonomy"] = cfg["output_taxonomy"]
             metrics["weights"] = cfg["weights"]
             metrics["threshold"] = cfg["threshold"]
+            metrics["jev_rank_mode"] = cfg.get("jev_rank_mode") or "choice"
+            metrics.update(aggregate_jev_token_metrics(results))
             await self._set_phase("calculate_accuracy", "Accuracy calculated", percent=96)
 
             # 7. Save run

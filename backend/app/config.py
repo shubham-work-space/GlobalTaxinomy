@@ -30,6 +30,10 @@ class Settings(BaseSettings):
     jev_api_key: str = ""
     jev_concurrency: int = 16
 
+    # Raw taxonomy sources for gated JEV enrichment (jev_context_v2)
+    onet_sql_dir: str = ""
+    esco_csv_dir: str = ""
+
     @property
     def embedding_deployment(self) -> str:
         return (

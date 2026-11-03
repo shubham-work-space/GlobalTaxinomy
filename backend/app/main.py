@@ -41,6 +41,7 @@ class CrosswalkBody(BaseModel):
     threshold: float = Field(DEFAULT_THRESHOLD, ge=0.01, le=0.99)
     weights: dict[str, float] | None = None
     model: str = "P"
+    jev_rank_mode: Literal["choice", "noul"] = "choice"
 
 
 class RunStartBody(BaseModel):
@@ -50,6 +51,7 @@ class RunStartBody(BaseModel):
     weights: dict[str, float] | None = None
     threshold: float = Field(0.60, ge=0.01, le=0.99)
     top_k: int = Field(20, ge=1, le=20)
+    jev_rank_mode: Literal["choice", "noul"] = "choice"
     force: bool = False
 
 
@@ -85,6 +87,7 @@ async def start_crosswalk_run(body: RunStartBody):
         "weights": body.weights or dict(DEFAULT_WEIGHTS),
         "threshold": body.threshold,
         "top_k": body.top_k,
+        "jev_rank_mode": body.jev_rank_mode,
     }
     try:
         run_store.validate_config(config)
@@ -252,6 +255,7 @@ async def crosswalk_match(body: CrosswalkBody):
             variant=(body.model or "P").strip(),
             weights=weights,
             threshold=float(body.threshold),
+            jev_rank_mode=body.jev_rank_mode,
         )
     except LookupError as exc:
         raise HTTPException(

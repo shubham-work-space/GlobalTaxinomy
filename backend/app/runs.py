@@ -18,7 +18,11 @@ from .taxonomies import (
     DEFAULT_PAIR_WEIGHTS,
     get_pair,
 )
+from .occupation_context import JEV_CONTEXT_VERSION
 from .weights import normalize_weights
+
+JEV_RANK_MODES = frozenset({"choice", "noul"})
+DEFAULT_JEV_RANK_MODE = "choice"
 
 RUNS_DIR = ROOT / "output" / "runs"
 INDEX_PATH = RUNS_DIR / "index.json"
@@ -98,6 +102,11 @@ def validate_config(config: dict[str, Any]) -> dict[str, Any]:
             f"threshold must be between {THRESHOLD_MIN} and {THRESHOLD_MAX}, got {threshold}"
         )
 
+    top_k_raw = int(config.get("top_k") or 20)
+    rank_mode = str(config.get("jev_rank_mode") or DEFAULT_JEV_RANK_MODE).strip().lower()
+    if rank_mode not in JEV_RANK_MODES:
+        raise ValueError(f"jev_rank_mode must be one of {sorted(JEV_RANK_MODES)}, got {rank_mode!r}")
+
     return {
         "model": model,
         "input_taxonomy": pair.input_taxonomy,
@@ -105,7 +114,9 @@ def validate_config(config: dict[str, Any]) -> dict[str, Any]:
         "direction": pair.direction,
         "weights": weights,
         "threshold": round(threshold, 4),
-        "top_k": int(config.get("top_k") or 20),
+        "top_k": top_k_raw,
+        "jev_rank_mode": rank_mode,
+        "jev_context_version": JEV_CONTEXT_VERSION,
     }
 
 
@@ -139,7 +150,8 @@ def run_fingerprint(config: dict[str, Any]) -> str:
         "|".join(f"{k}:{cfg['weights'][k]:.6f}" for k in sorted(cfg["weights"])),
         f"{cfg['threshold']:.4f}",
         f"top_k:{int(cfg['top_k'])}",
-        "jev_rank_v1",
+        f"jev_rank:{cfg['jev_rank_mode']}",
+        cfg.get("jev_context_version") or JEV_CONTEXT_VERSION,
         _ground_truth_version(cfg["direction"]),
         _inventory_fingerprint(),
     ]
@@ -367,4 +379,6 @@ def default_config() -> dict[str, Any]:
         "weights": dict(DEFAULT_PAIR_WEIGHTS),
         "threshold": 0.60,
         "top_k": 20,
+        "jev_rank_mode": DEFAULT_JEV_RANK_MODE,
+        "jev_context_version": JEV_CONTEXT_VERSION,
     }

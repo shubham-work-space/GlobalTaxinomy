@@ -20,6 +20,7 @@ from .config import ROOT
 from .crosswalk import Direction, resolve_direction
 from .ground_truth import annotate_matches, cardinality_context, summarize_source_ground_truth
 from .jev_resolve import RANKED_TOP_N, resolve_batch
+from .occupation_context import enrich_gated_record
 from .pipeline import _occupation_facets
 from .variant_score import score_variant_pool
 from .variants import get_variant
@@ -273,6 +274,7 @@ async def live_crosswalk(
     variant: str = "P",
     weights: dict[str, float] | None = None,
     threshold: float = DEFAULT_THRESHOLD,
+    jev_rank_mode: str = "choice",
 ) -> dict[str, Any]:
     """Live hybrid match returning Top-10 (embedding or Jev-ordered)."""
     direction_enum = Direction(direction) if not isinstance(direction, Direction) else direction
@@ -356,7 +358,19 @@ async def live_crosswalk(
         "candidates": candidates,
         "sent_to_jev": True,
     }
-    resolved_list = await resolve_batch([record], run_seq=0, concurrency=1)
+    in_tax = "onet" if direction_enum == Direction.ONET_TO_ESCO else "esco"
+    out_tax = "esco" if direction_enum == Direction.ONET_TO_ESCO else "onet"
+    record = enrich_gated_record(
+        record,
+        input_taxonomy=in_tax,
+        output_taxonomy=out_tax,
+    )
+    resolved_list = await resolve_batch(
+        [record],
+        run_seq=0,
+        concurrency=1,
+        jev_rank_mode=jev_rank_mode,
+    )
     resolved = resolved_list[0] if resolved_list else {}
     ranked_ids = list(resolved.get("jev_ranked_target_ids") or [])[:RANKED_TOP_N]
     if not ranked_ids:
@@ -386,5 +400,10 @@ async def live_crosswalk(
             "jev_error": resolved.get("jev_error"),
             "jev_match_label": resolved.get("jev_match_label"),
             "jev_confidence": resolved.get("jev_confidence"),
+            "jev_input_tokens": resolved.get("jev_input_tokens"),
+            "jev_output_tokens": resolved.get("jev_output_tokens"),
+            "jev_total_tokens": resolved.get("jev_total_tokens"),
+            "jev_api_calls": resolved.get("jev_api_calls"),
+            "jev_rank_mode": jev_rank_mode,
         },
     )

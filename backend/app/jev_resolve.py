@@ -64,47 +64,127 @@ def _safe_folder_name(title: str, row_idx: int) -> str:
 
 
 def _candidate_summary(cand: dict[str, Any]) -> str:
+    """Text summary for Choice criteria (enriched ESCO when present)."""
     title = cand.get("preferred_title") or cand.get("title") or ""
-    alt = cand.get("alternate_title") or ""
+    alt = cand.get("alternate_title") or cand.get("alternate_titles") or ""
     desc = cand.get("description") or ""
-    skills = cand.get("skills") or ""
-    knowledge = cand.get("knowledge") or ""
-    parts = [f"Job Title: {title}"]
+    parts = [f"Preferred Title: {title}"]
     if alt:
-        parts.append(f"Alternate Title: {alt}")
+        parts.append(f"Alternate Titles: {alt}")
     if desc:
-        parts.append(f"Job Description: {desc}")
-    if skills:
-        parts.append(f"Skills: {skills}")
-    if knowledge:
-        parts.append(f"Knowledge: {knowledge}")
+        parts.append(f"Description: {desc}")
+    for key, label in (
+        ("essential_skills", "Essential Skills"),
+        ("optional_skills", "Optional Skills"),
+        ("essential_knowledge", "Essential Knowledge"),
+        ("optional_knowledge", "Optional Knowledge"),
+        ("skills", "Skills"),
+        ("knowledge", "Knowledge"),
+    ):
+        val = cand.get(key)
+        if val:
+            parts.append(f"{label}: {val}")
     return " | ".join(parts)
+
+
+def _onet_input_state(record: dict[str, Any]) -> dict[str, Any]:
+    inp = record.get("input") or {}
+    return {
+        "occupation_id": inp.get("occupation_id") or record.get("source_id") or "",
+        "title": inp.get("title") or inp.get("preferred_title") or record.get("source_title") or "",
+        "description": inp.get("description") or inp.get("job_description") or "",
+        "titles": inp.get("titles") or inp.get("alternate_title") or "",
+        "tasks": inp.get("tasks") or "",
+        "abilities": inp.get("abilities") or "",
+        "work_activities": inp.get("work_activities") or "",
+        "software_skills": inp.get("software_skills") or "",
+        "essential_skills": inp.get("essential_skills") or inp.get("skills") or "",
+        "transferable_skills": inp.get("transferable_skills") or "",
+        "knowledge": inp.get("knowledge") or "",
+    }
+
+
+def _esco_candidate_state(cand: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "occupation_id": cand.get("occupation_id") or cand.get("target_id") or "",
+        "preferred_title": cand.get("preferred_title") or cand.get("title") or "",
+        "alternate_titles": cand.get("alternate_titles") or cand.get("alternate_title") or "",
+        "description": cand.get("description") or "",
+        "essential_skills": cand.get("essential_skills") or "",
+        "optional_skills": cand.get("optional_skills") or "",
+        "essential_knowledge": cand.get("essential_knowledge") or "",
+        "optional_knowledge": cand.get("optional_knowledge") or "",
+    }
+
+
+def usage_from_body(body: dict[str, Any]) -> tuple[int, int]:
+    usage = body.get("usage") if isinstance(body, dict) else None
+    if not isinstance(usage, dict):
+        return 0, 0
+    try:
+        inp = int(usage.get("input_tokens") or 0)
+    except (TypeError, ValueError):
+        inp = 0
+    try:
+        out = int(usage.get("output_tokens") or 0)
+    except (TypeError, ValueError):
+        out = 0
+    return inp, out
+
+
+def aggregate_jev_token_metrics(results: list[dict[str, Any]]) -> dict[str, Any]:
+    """Sum token usage across JEV-sent rows for run metrics."""
+    sent = [r for r in results if r.get("sent_to_jev")]
+    if not sent:
+        return {
+            "jev_input_tokens_total": 0,
+            "jev_output_tokens_total": 0,
+            "jev_total_tokens": 0,
+            "jev_api_calls_total": 0,
+            "jev_avg_input_tokens_per_gated_source": 0.0,
+            "jev_avg_total_tokens_per_gated_source": 0.0,
+        }
+    inp = sum(int(r.get("jev_input_tokens") or 0) for r in sent)
+    out = sum(int(r.get("jev_output_tokens") or 0) for r in sent)
+    calls = sum(int(r.get("jev_api_calls") or 0) for r in sent)
+    n = len(sent)
+    total = inp + out
+    return {
+        "jev_input_tokens_total": inp,
+        "jev_output_tokens_total": out,
+        "jev_total_tokens": total,
+        "jev_api_calls_total": calls,
+        "jev_avg_input_tokens_per_gated_source": round(inp / n, 2),
+        "jev_avg_total_tokens_per_gated_source": round(total / n, 2),
+    }
+
+
+def _apply_token_fields(
+    row: dict[str, Any],
+    *,
+    input_tokens: int,
+    output_tokens: int,
+    api_calls: int,
+) -> dict[str, Any]:
+    row["jev_input_tokens"] = input_tokens
+    row["jev_output_tokens"] = output_tokens
+    row["jev_total_tokens"] = input_tokens + output_tokens
+    row["jev_api_calls"] = api_calls
+    return row
 
 
 def build_jev_payload(record: dict[str, Any]) -> dict[str, Any]:
     """Build TypeSafe Jev decide payload: Choice over Top-N candidates (≤20)."""
-    inp = record.get("input") or {}
-    input_state = {
-        "job_title": inp.get("title") or inp.get("preferred_title") or record.get("source_title") or "",
-        "alternate_title": inp.get("alternate_title") or "",
-        "job_description": inp.get("description") or "",
-        "skills": inp.get("skills") or "",
-        "knowledge": inp.get("knowledge") or "",
-    }
+    input_state = _onet_input_state(record)
     candidates = list(record.get("candidates") or [])[:MAX_CANDIDATES]
     labels = candidate_labels(len(candidates))
     cand_state: dict[str, Any] = {}
     criteria: dict[str, str] = {}
     for i, label in enumerate(labels):
         cand = candidates[i] if i < len(candidates) else {}
-        cand_state[label] = {
-            "job_title": cand.get("preferred_title") or cand.get("title") or "",
-            "alternate_title": cand.get("alternate_title") or "",
-            "job_description": cand.get("description") or "",
-            "skills": cand.get("skills") or "",
-            "knowledge": cand.get("knowledge") or "",
-            "target_id": cand.get("target_id") or cand.get("occupation_id") or "",
-        }
+        state = _esco_candidate_state(cand)
+        state["target_id"] = cand.get("target_id") or cand.get("occupation_id") or ""
+        cand_state[label] = state
         criteria[label] = _candidate_summary(cand) or f"Candidate {label}"
 
     label_list = ", ".join(labels) if labels else "(none)"
@@ -118,13 +198,44 @@ def build_jev_payload(record: dict[str, Any]) -> dict[str, Any]:
             "match": {
                 "type": "choice",
                 "instructions": (
-                    "Using only the supplied Job Title, Alternate Title, Job Description, "
-                    "Skills, and Knowledge for the input occupation and each candidate, "
-                    "which candidate is the closest overall match? "
-                    "Do not use web search or any external sources. "
+                    "Using only the supplied occupation fields for the input and each "
+                    "candidate (titles, descriptions, skills, knowledge, tasks, abilities, "
+                    "work activities, and related lists), which candidate is the closest "
+                    "overall match? Do not use web search or any external sources. "
                     f"Pick exactly one of: {label_list}."
                 ),
                 "criteria": criteria,
+            }
+        },
+    }
+
+
+def build_jev_noul_payload(record: dict[str, Any], candidate: dict[str, Any]) -> dict[str, Any]:
+    """One Noul question for a single (input, candidate) pair."""
+    return {
+        "state": {
+            "input": _onet_input_state(record),
+            "candidate": _esco_candidate_state(candidate),
+        },
+        "model": "jev-latest",
+        "questions": {
+            "match": {
+                "type": "noul",
+                "instructions": (
+                    "Using only the supplied occupation fields, is this candidate an overall "
+                    "equivalent match for the input occupation for crosswalk purposes? "
+                    "Do not use web search or external sources."
+                ),
+                "criteria": {
+                    "true": (
+                        "Same or equivalent occupation based on titles, description, skills, "
+                        "knowledge, tasks, abilities, and work activities when provided."
+                    ),
+                    "false": (
+                        "Different role, only tangential overlap, or insufficient evidence "
+                        "of equivalence."
+                    ),
+                },
             }
         },
     }
@@ -190,6 +301,22 @@ def parse_jev_ranking(
     return ranked
 
 
+def parse_jev_noul(body: dict[str, Any]) -> float | None:
+    answers = body.get("answers") if isinstance(body, dict) else None
+    if not isinstance(answers, dict):
+        return None
+    match = answers.get("match")
+    if not isinstance(match, dict):
+        return None
+    val = match.get("noul")
+    if val is None:
+        return None
+    try:
+        return float(val)
+    except (TypeError, ValueError):
+        return None
+
+
 def _embedding_ranked_ids(record: dict[str, Any], *, limit: int = RANKED_TOP_N) -> list[str]:
     """Ordered target ids from embedding candidates (fallback / non-JEV path)."""
     out: list[str] = []
@@ -223,6 +350,34 @@ def save_io_pair(
             encoding="utf-8",
         )
     return folder
+
+
+def save_noul_candidate_io(
+    folder: Path,
+    label: str,
+    request_payload: dict[str, Any],
+    response_body: dict[str, Any] | str,
+) -> None:
+    folder.mkdir(parents=True, exist_ok=True)
+    (folder / f"cand_{label}_Input.json").write_text(
+        json.dumps(request_payload, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
+    if isinstance(response_body, str):
+        (folder / f"cand_{label}_Output.json").write_text(response_body, encoding="utf-8")
+    else:
+        (folder / f"cand_{label}_Output.json").write_text(
+            json.dumps(response_body, indent=2, ensure_ascii=False),
+            encoding="utf-8",
+        )
+
+
+def save_noul_summary(folder: Path, summary: dict[str, Any]) -> None:
+    folder.mkdir(parents=True, exist_ok=True)
+    (folder / "summary.json").write_text(
+        json.dumps(summary, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
 
 
 def io_dir_for_run(run_seq: int) -> Path:
@@ -361,82 +516,41 @@ def _fallback_resolved(record: dict[str, Any], error: str) -> dict[str, Any]:
         "llm_error": error,
         "jev_confidence": None,
         "jev_raw": {"_error": error},
+        "jev_input_tokens": 0,
+        "jev_output_tokens": 0,
+        "jev_total_tokens": 0,
+        "jev_api_calls": 0,
     }
 
 
-async def resolve_one(
-    record: dict[str, Any],
-    *,
-    client: httpx.AsyncClient,
-    jev: JevClient,
-    io_dir: Path,
-    row_idx: int,
-    max_retries: int = 3,
-) -> dict[str, Any]:
-    payload = build_jev_payload(record)
-    candidates = list(record.get("candidates") or [])[:MAX_CANDIDATES]
-    labels = candidate_labels(len(candidates))
-    title = (
+def _record_title(record: dict[str, Any], row_idx: int) -> str:
+    return str(
         (record.get("input") or {}).get("title")
         or record.get("source_title")
         or record.get("source_id")
         or f"row_{row_idx}"
     )
-    last_body: dict[str, Any] = {}
-    choice = ""
-    ranked_labels: list[str] = []
-    error: str | None = None
-    for _attempt in range(1, max_retries + 1):
-        body, _latency = await jev.decide(client, payload)
-        last_body = body
-        if body.get("_error"):
-            error = str(body["_error"])
-            await asyncio.sleep(0.5)
-            continue
-        choice = parse_jev_choice(body, labels)
-        ranked_labels = parse_jev_ranking(body, labels)
-        if choice in labels and ranked_labels:
-            error = None
-            break
-        error = "unparsable_choice"
-        await asyncio.sleep(0.5)
 
-    save_io_pair(io_dir, row_idx, str(title), payload, last_body)
 
-    if error or not ranked_labels:
-        return _fallback_resolved(record, error or "unparsable_choice")
-
-    label_to_cand = {labels[i]: candidates[i] for i in range(len(labels))}
-    ranked_ids: list[str] = []
-    for lab in ranked_labels:
-        cand = label_to_cand.get(lab) or {}
-        tid = cand.get("target_id") or cand.get("occupation_id")
-        if tid and tid not in ranked_ids:
-            ranked_ids.append(str(tid))
-        if len(ranked_ids) >= RANKED_TOP_N:
-            break
-
-    if not ranked_ids:
-        return _fallback_resolved(record, "empty_ranking")
-
-    top_cand = label_to_cand.get(ranked_labels[0]) or {}
-    # Prefer probability-rank #1; fall back to explicit choice if needed
-    if choice in label_to_cand:
-        chosen = label_to_cand[choice]
-        # Ensure choice is treated as rank-1 when probabilities disagree oddly
-        top_id = chosen.get("target_id") or chosen.get("occupation_id")
-        if top_id and ranked_ids and ranked_ids[0] != top_id:
-            ranked_ids = [str(top_id)] + [t for t in ranked_ids if t != top_id]
-            ranked_ids = ranked_ids[:RANKED_TOP_N]
-            top_cand = chosen
-
-    jev_target = top_cand.get("target_id") or top_cand.get("occupation_id") or ranked_ids[0]
-    jev_title = top_cand.get("preferred_title") or ""
-
-    return {
+def _build_success_result(
+    record: dict[str, Any],
+    *,
+    ranked_labels: list[str],
+    ranked_ids: list[str],
+    choice: str,
+    jev_target: Any,
+    jev_title: str,
+    error: str | None,
+    jev_confidence: Any,
+    jev_raw: dict[str, Any],
+    input_tokens: int,
+    output_tokens: int,
+    api_calls: int,
+) -> dict[str, Any]:
+    out = {
         **record,
         "sent_to_jev": True,
-        "sent_to_llm": True,  # compat alias for shared accuracy helpers
+        "sent_to_llm": True,
         "jev_match_label": choice or (ranked_labels[0] if ranked_labels else ""),
         "llm_match_label": choice or (ranked_labels[0] if ranked_labels else ""),
         "llm_primary_label": choice or (ranked_labels[0] if ranked_labels else ""),
@@ -450,17 +564,253 @@ async def resolve_one(
         "final_preferred_title": jev_title or record.get("top1_preferred_title"),
         "jev_error": error,
         "llm_error": error,
-        "jev_confidence": (
+        "jev_confidence": jev_confidence,
+        "jev_raw": jev_raw,
+    }
+    return _apply_token_fields(
+        out,
+        input_tokens=input_tokens,
+        output_tokens=output_tokens,
+        api_calls=api_calls,
+    )
+
+
+async def resolve_one_choice(
+    record: dict[str, Any],
+    *,
+    client: httpx.AsyncClient,
+    jev: JevClient,
+    io_dir: Path,
+    row_idx: int,
+    request_sem: asyncio.Semaphore | None = None,
+    max_retries: int = 3,
+) -> dict[str, Any]:
+    payload = build_jev_payload(record)
+    candidates = list(record.get("candidates") or [])[:MAX_CANDIDATES]
+    labels = candidate_labels(len(candidates))
+    title = _record_title(record, row_idx)
+    last_body: dict[str, Any] = {}
+    choice = ""
+    ranked_labels: list[str] = []
+    error: str | None = None
+    total_in, total_out = 0, 0
+    for _attempt in range(1, max_retries + 1):
+        if request_sem:
+            async with request_sem:
+                body, _latency = await jev.decide(client, payload)
+        else:
+            body, _latency = await jev.decide(client, payload)
+        last_body = body
+        inp, out = usage_from_body(body)
+        total_in += inp
+        total_out += out
+        if body.get("_error"):
+            error = str(body["_error"])
+            await asyncio.sleep(0.5)
+            continue
+        choice = parse_jev_choice(body, labels)
+        ranked_labels = parse_jev_ranking(body, labels)
+        if choice in labels and ranked_labels:
+            error = None
+            break
+        error = "unparsable_choice"
+        await asyncio.sleep(0.5)
+
+    save_io_pair(io_dir, row_idx, title, payload, last_body)
+
+    if error or not ranked_labels:
+        fb = _fallback_resolved(record, error or "unparsable_choice")
+        return _apply_token_fields(fb, input_tokens=total_in, output_tokens=total_out, api_calls=1)
+
+    label_to_cand = {labels[i]: candidates[i] for i in range(len(labels))}
+    ranked_ids: list[str] = []
+    for lab in ranked_labels:
+        cand = label_to_cand.get(lab) or {}
+        tid = cand.get("target_id") or cand.get("occupation_id")
+        if tid and tid not in ranked_ids:
+            ranked_ids.append(str(tid))
+        if len(ranked_ids) >= RANKED_TOP_N:
+            break
+
+    if not ranked_ids:
+        fb = _fallback_resolved(record, "empty_ranking")
+        return _apply_token_fields(fb, input_tokens=total_in, output_tokens=total_out, api_calls=1)
+
+    top_cand = label_to_cand.get(ranked_labels[0]) or {}
+    if choice in label_to_cand:
+        chosen = label_to_cand[choice]
+        top_id = chosen.get("target_id") or chosen.get("occupation_id")
+        if top_id and ranked_ids and ranked_ids[0] != top_id:
+            ranked_ids = [str(top_id)] + [t for t in ranked_ids if t != top_id]
+            ranked_ids = ranked_ids[:RANKED_TOP_N]
+            top_cand = chosen
+
+    jev_target = top_cand.get("target_id") or top_cand.get("occupation_id") or ranked_ids[0]
+    jev_title = top_cand.get("preferred_title") or ""
+
+    return _build_success_result(
+        record,
+        ranked_labels=ranked_labels,
+        ranked_ids=ranked_ids,
+        choice=choice,
+        jev_target=jev_target,
+        jev_title=jev_title,
+        error=error,
+        jev_confidence=(
             (last_body.get("answers") or {}).get("match", {}).get("confidence")
             if isinstance(last_body.get("answers"), dict)
             else None
         ),
-        "jev_raw": {
+        jev_raw={
             k: last_body.get(k)
             for k in ("answers", "usage", "status_code", "_error")
             if k in last_body
         },
-    }
+        input_tokens=total_in,
+        output_tokens=total_out,
+        api_calls=1,
+    )
+
+
+async def resolve_one_noul(
+    record: dict[str, Any],
+    *,
+    client: httpx.AsyncClient,
+    jev: JevClient,
+    io_dir: Path,
+    row_idx: int,
+    request_sem: asyncio.Semaphore | None = None,
+) -> dict[str, Any]:
+    candidates = list(record.get("candidates") or [])[:MAX_CANDIDATES]
+    labels = candidate_labels(len(candidates))
+    title = _record_title(record, row_idx)
+    folder = io_dir / _safe_folder_name(title, row_idx)
+    folder.mkdir(parents=True, exist_ok=True)
+
+    scored: list[tuple[str, float, dict[str, Any]]] = []
+    total_in, total_out, api_calls = 0, 0, 0
+    per_candidate: dict[str, Any] = {}
+
+    for i, label in enumerate(labels):
+        cand = candidates[i]
+        payload = build_jev_noul_payload(record, cand)
+        body: dict[str, Any] = {}
+        for _attempt in range(3):
+            if request_sem:
+                async with request_sem:
+                    body, _ = await jev.decide(client, payload)
+            else:
+                body, _ = await jev.decide(client, payload)
+            if not body.get("_error"):
+                break
+            await asyncio.sleep(0.5)
+        save_noul_candidate_io(folder, label, payload, body)
+        inp, out = usage_from_body(body)
+        total_in += inp
+        total_out += out
+        api_calls += 1
+        noul = parse_jev_noul(body)
+        score = noul if noul is not None else -1.0
+        scored.append((label, score, body))
+        per_candidate[label] = {
+            "noul": noul,
+            "target_id": cand.get("target_id") or cand.get("occupation_id"),
+            "usage": body.get("usage"),
+            "error": body.get("_error"),
+        }
+
+    scored.sort(key=lambda x: (-x[1], labels.index(x[0])))
+    ranked_labels = [lab for lab, _, _ in scored if lab in labels]
+    if not ranked_labels:
+        ranked_labels = list(labels)
+
+    label_to_cand = {labels[i]: candidates[i] for i in range(len(labels))}
+    ranked_ids: list[str] = []
+    for lab in ranked_labels:
+        cand = label_to_cand.get(lab) or {}
+        tid = cand.get("target_id") or cand.get("occupation_id")
+        if tid and tid not in ranked_ids:
+            ranked_ids.append(str(tid))
+        if len(ranked_ids) >= RANKED_TOP_N:
+            break
+
+    if not ranked_ids:
+        fb = _fallback_resolved(record, "empty_noul_ranking")
+        save_noul_summary(
+            folder,
+            {
+                "ranked_target_ids": fb.get("jev_ranked_target_ids"),
+                "per_candidate": per_candidate,
+                "jev_input_tokens": total_in,
+                "jev_output_tokens": total_out,
+                "jev_api_calls": api_calls,
+            },
+        )
+        return _apply_token_fields(fb, input_tokens=total_in, output_tokens=total_out, api_calls=api_calls)
+
+    top_cand = label_to_cand.get(ranked_labels[0]) or {}
+    top_noul = scored[0][1] if scored else None
+    jev_target = top_cand.get("target_id") or top_cand.get("occupation_id") or ranked_ids[0]
+    jev_title = top_cand.get("preferred_title") or ""
+
+    save_noul_summary(
+        folder,
+        {
+            "ranked_labels": ranked_labels[:RANKED_TOP_N],
+            "ranked_target_ids": ranked_ids,
+            "per_candidate": per_candidate,
+            "jev_input_tokens": total_in,
+            "jev_output_tokens": total_out,
+            "jev_api_calls": api_calls,
+        },
+    )
+
+    return _build_success_result(
+        record,
+        ranked_labels=ranked_labels,
+        ranked_ids=ranked_ids,
+        choice=ranked_labels[0],
+        jev_target=jev_target,
+        jev_title=jev_title,
+        error=None,
+        jev_confidence=top_noul if top_noul is not None and top_noul >= 0 else None,
+        jev_raw={"mode": "noul", "per_candidate": per_candidate},
+        input_tokens=total_in,
+        output_tokens=total_out,
+        api_calls=api_calls,
+    )
+
+
+async def resolve_one(
+    record: dict[str, Any],
+    *,
+    client: httpx.AsyncClient,
+    jev: JevClient,
+    io_dir: Path,
+    row_idx: int,
+    jev_rank_mode: str = "choice",
+    request_sem: asyncio.Semaphore | None = None,
+    max_retries: int = 3,
+) -> dict[str, Any]:
+    mode = (jev_rank_mode or "choice").strip().lower()
+    if mode == "noul":
+        return await resolve_one_noul(
+            record,
+            client=client,
+            jev=jev,
+            io_dir=io_dir,
+            row_idx=row_idx,
+            request_sem=request_sem,
+        )
+    return await resolve_one_choice(
+        record,
+        client=client,
+        jev=jev,
+        io_dir=io_dir,
+        row_idx=row_idx,
+        request_sem=request_sem,
+        max_retries=max_retries,
+    )
 
 
 async def resolve_batch(
@@ -468,6 +818,7 @@ async def resolve_batch(
     *,
     run_seq: int,
     concurrency: int | None = None,
+    jev_rank_mode: str = "choice",
     progress: Any | None = None,
 ) -> list[dict[str, Any]]:
     """Resolve low-confidence records via Jev in parallel; write I/O under jev_io_pairs/run_N."""
@@ -477,12 +828,13 @@ async def resolve_batch(
     conc = max(1, int(concurrency if concurrency is not None else (settings.jev_concurrency or 16)))
     jev = JevClient()
     io_dir = io_dir_for_run(run_seq)
-    sem = asyncio.Semaphore(conc)
+    record_sem = asyncio.Semaphore(conc)
+    request_sem = asyncio.Semaphore(conc)
     progress_lock = asyncio.Lock()
     results: list[dict[str, Any] | None] = [None] * len(records)
     done = 0
+    mode = (jev_rank_mode or "choice").strip().lower()
 
-    # Allow true parallel in-flight POSTs up to concurrency.
     limits = httpx.Limits(max_connections=conc, max_keepalive_connections=conc)
     timeout = httpx.Timeout(120.0, connect=30.0)
 
@@ -494,7 +846,7 @@ async def resolve_batch(
 
         async def _one(i: int, rec: dict[str, Any]) -> None:
             nonlocal done
-            async with sem:
+            async with record_sem:
                 try:
                     resolved = await resolve_one(
                         rec,
@@ -502,22 +854,27 @@ async def resolve_batch(
                         jev=jev,
                         io_dir=io_dir,
                         row_idx=i + 1,
+                        jev_rank_mode=mode,
+                        request_sem=request_sem,
                     )
                 except Exception as exc:  # noqa: BLE001 — keep sibling tasks running
                     resolved = _fallback_resolved(rec, _exc_message(exc))
                     try:
-                        save_io_pair(
-                            io_dir,
-                            i + 1,
-                            str(
-                                (rec.get("input") or {}).get("title")
-                                or rec.get("source_title")
-                                or rec.get("source_id")
-                                or f"row_{i + 1}"
-                            ),
-                            build_jev_payload(rec),
-                            {"_error": resolved["jev_error"]},
-                        )
+                        title = _record_title(rec, i + 1)
+                        if mode == "noul":
+                            folder = io_dir / _safe_folder_name(title, i + 1)
+                            save_noul_summary(
+                                folder,
+                                {"_error": resolved["jev_error"], "mode": "noul"},
+                            )
+                        else:
+                            save_io_pair(
+                                io_dir,
+                                i + 1,
+                                title,
+                                build_jev_payload(rec),
+                                {"_error": resolved["jev_error"]},
+                            )
                     except Exception:
                         pass
                 results[i] = resolved
